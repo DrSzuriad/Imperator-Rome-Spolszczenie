@@ -1,0 +1,3 @@
+﻿l_english:
+ num_of_loans_tooltip: "\t\t\t\t\t\t\t\t[SCOPE.sCountry('actor').GetName|Y] has fewer than #Y 3#! loans."
+ rule_pop_greater_than_target_loyalty: "\t\t\t\t\t\t\t\tRuler Popularity is greater than the loyalty of [SCOPE.sChar('target').GetName]."

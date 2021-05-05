@@ -1,0 +1,3 @@
+﻿l_english:
+ DATE_AD_YEAR: "$YEAR$ CE"
+ DATE_BC_YEAR: "$YEAR$ BCE"

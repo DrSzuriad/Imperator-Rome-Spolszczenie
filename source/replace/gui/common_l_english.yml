@@ -1,0 +1,8 @@
+﻿l_english:
+ CLOSE:0 "#T Close#!"
+ BACK:0 "Back"
+ TOP_BAR_VERSION:2 "Exe Git Version: $BuildRevision$ \n$VersionNumber$ ($VersionName$)\nMP Checksum: $MPChecksum$\n$RandomLogInfo$ $BuildRevisionTime$"
+ TOP_BAR_VERSION_LIVE:1 "Version: $VersionNumber$ ($VersionName$) \n MP Checksum: $MPChecksum$"
+ OK_BUTTON:0 "Ok"
+ CANCEL_BUTTON:0 "Cancel"
+ 
