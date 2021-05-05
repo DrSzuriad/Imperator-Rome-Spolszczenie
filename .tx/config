@@ -1,0 +1,1423 @@
+[main]
+host = https://www.transifex.com
+
+[imperator-rome-spolszczenie.languages]
+file_filter = pliki/<lang>/languages.yml
+minimum_perc = 0
+source_file = pliki/en/languages.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_date_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/cw_date_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/cw_date_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_localize_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/cw_localize_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/cw_localize_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_settings_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/cw_settings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/cw_settings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_settings_warnings_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/cw_settings_warnings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/cw_settings_warnings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_tools_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/cw_tools_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/cw_tools_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.languages_cw]
+file_filter = pliki/<lang>/replace/clausewitz/localization/languages.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/languages.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cw_text_utils_l_english]
+file_filter = pliki/<lang>/replace/clausewitz/localization/text_utils/cw_text_utils_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/clausewitz/localization/text_utils/cw_text_utils_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.common_l_english]
+file_filter = pliki/<lang>/replace/gui/common_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/gui/common_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.frontend_l_english]
+file_filter = pliki/<lang>/replace/gui/frontend_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/gui/frontend_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.map_l_english]
+file_filter = pliki/<lang>/replace/gui/map_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/gui/map_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.loadsave_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/loadsave_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/loadsave_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.achievements_l_english_jo]
+file_filter = pliki/<lang>/replace/jomini/localization/achievements/achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/achievements/achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.credits_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/credits/credits_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/credits/credits_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.frontend_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/frontend/frontend_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/frontend/frontend_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.date_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/date_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/date_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.errors_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/errors_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/errors_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.formatting_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/formatting_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/formatting_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.jomini_graphics_settings_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/jomini_graphics_settings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/jomini_graphics_settings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.notifications_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/notifications_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/notifications_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.pops_gui_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/pops/pops_gui_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/pops/pops_gui_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.settings_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/settings/settings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/settings/settings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.social_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/social/social_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/social/social_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.coat_of_arms_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/coat_of_arms/coat_of_arms_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/coat_of_arms/coat_of_arms_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.map_editor_gui_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/map_editor/map_editor_gui_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/map_editor/map_editor_gui_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.multiplayer_gui_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/multiplayer_gui/multiplayer_gui_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/multiplayer_gui/multiplayer_gui_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.script_system_l_english]
+file_filter = pliki/<lang>/replace/jomini/localization/jomini/script_system/script_system_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/jomini/localization/jomini/script_system/script_system_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.load_tips_l_english]
+file_filter = pliki/<lang>/replace/load_tips/load_tips_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/load_tips/load_tips_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.achievements_l_english]
+file_filter = pliki/<lang>/replace/english/achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.advice_l_english]
+file_filter = pliki/<lang>/replace/english/advice_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/advice_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.alerts_l_english]
+file_filter = pliki/<lang>/replace/english/alerts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/alerts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.ambitions_l_english]
+file_filter = pliki/<lang>/replace/english/ambitions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/ambitions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.antigonid_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/antigonid_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/antigonid_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.antigonid_missions_l_english]
+file_filter = pliki/<lang>/replace/english/antigonid_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/antigonid_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.assassinate_l_english]
+file_filter = pliki/<lang>/replace/english/assassinate_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/assassinate_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.athenian_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/athenian_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/athenian_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.athenian_missions_l_english]
+file_filter = pliki/<lang>/replace/english/athenian_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/athenian_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.befriend_events_l_english]
+file_filter = pliki/<lang>/replace/english/befriend_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/befriend_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.carthaginian_mission_events_l_english]
+file_filter = pliki/<lang>/replace/english/carthaginian_mission_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/carthaginian_mission_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.carthaginian_mission_l_english]
+file_filter = pliki/<lang>/replace/english/carthaginian_mission_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/carthaginian_mission_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.character_interactions_l_english]
+file_filter = pliki/<lang>/replace/english/character_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/character_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.character_names_l_english]
+file_filter = pliki/<lang>/replace/english/character_names_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/character_names_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.character_view_l_english]
+file_filter = pliki/<lang>/replace/english/character_view_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/character_view_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.civil_war_l_english]
+file_filter = pliki/<lang>/replace/english/civil_war_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/civil_war_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.core_l_english]
+file_filter = pliki/<lang>/replace/english/core_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/core_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.countries_l_english]
+file_filter = pliki/<lang>/replace/english/countries_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/countries_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.country_diplomacy_l_english]
+file_filter = pliki/<lang>/replace/english/country_diplomacy_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/country_diplomacy_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.credits_l_english]
+file_filter = pliki/<lang>/replace/english/credits_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/credits_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.crisis_l_english]
+file_filter = pliki/<lang>/replace/english/crisis_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/crisis_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.cultures_l_english]
+file_filter = pliki/<lang>/replace/english/cultures_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/cultures_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.custom_loc_l_english]
+file_filter = pliki/<lang>/replace/english/custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dde_alexander_body_l_english]
+file_filter = pliki/<lang>/replace/english/dde_alexander_body_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dde_alexander_body_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dde_events_l_english]
+file_filter = pliki/<lang>/replace/english/dde_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dde_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.death_reasons_l_english]
+file_filter = pliki/<lang>/replace/english/death_reasons_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/death_reasons_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.debug_l_english]
+file_filter = pliki/<lang>/replace/english/debug_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/debug_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.decisions_l_english]
+file_filter = pliki/<lang>/replace/english/decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.declare_war_l_english]
+file_filter = pliki/<lang>/replace/english/declare_war_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/declare_war_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dhe_dde_pyrrhus_events_l_english]
+file_filter = pliki/<lang>/replace/english/dhe_dde_pyrrhus_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dhe_dde_pyrrhus_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dhe_events_l_english]
+file_filter = pliki/<lang>/replace/english/dhe_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dhe_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dhe_judea_events_l_english]
+file_filter = pliki/<lang>/replace/english/dhe_judea_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dhe_judea_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dhe_macedon_l_english]
+file_filter = pliki/<lang>/replace/english/dhe_macedon_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dhe_macedon_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dhe_rome_events_l_english]
+file_filter = pliki/<lang>/replace/english/dhe_rome_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dhe_rome_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dip_friends_rivals_events_l_english]
+file_filter = pliki/<lang>/replace/english/dip_friends_rivals_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dip_friends_rivals_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.diplomacy_l_english]
+file_filter = pliki/<lang>/replace/english/diplomacy_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/diplomacy_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.diplomatic_status_l_english]
+file_filter = pliki/<lang>/replace/english/diplomatic_status_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/diplomatic_status_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.distinctions_l_english]
+file_filter = pliki/<lang>/replace/english/distinctions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/distinctions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.dlc_l_english]
+file_filter = pliki/<lang>/replace/english/dlc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/dlc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.economic_policies_l_english]
+file_filter = pliki/<lang>/replace/english/economic_policies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/economic_policies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.editor_l_english]
+file_filter = pliki/<lang>/replace/english/editor_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/editor_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.effects_l_english]
+file_filter = pliki/<lang>/replace/english/effects_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/effects_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.egypt_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/egypt_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/egypt_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.egypt_missions_l_english]
+file_filter = pliki/<lang>/replace/english/egypt_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/egypt_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.end_game_view_l_english]
+file_filter = pliki/<lang>/replace/english/end_game_view_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/end_game_view_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.epirus_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/epirus_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/epirus_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.epirus_missions_l_english]
+file_filter = pliki/<lang>/replace/english/epirus_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/epirus_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.espionage_l_english]
+file_filter = pliki/<lang>/replace/english/espionage_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/espionage_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.event_l_english]
+file_filter = pliki/<lang>/replace/english/event_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/event_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.extratext_l_english]
+file_filter = pliki/<lang>/replace/english/extratext_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/extratext_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.flavor_events_l_english]
+file_filter = pliki/<lang>/replace/english/flavor_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/flavor_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.game_concepts_l_english]
+file_filter = pliki/<lang>/replace/english/game_concepts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/game_concepts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.game_configuration_l_english]
+file_filter = pliki/<lang>/replace/english/game_configuration_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/game_configuration_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.games_l_english]
+file_filter = pliki/<lang>/replace/english/games_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/games_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.general_tooltips_l_english]
+file_filter = pliki/<lang>/replace/english/general_tooltips_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/general_tooltips_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.generic_custom_loc_strings_l_english]
+file_filter = pliki/<lang>/replace/english/generic_custom_loc_strings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/generic_custom_loc_strings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.generic_missions_l_english]
+file_filter = pliki/<lang>/replace/english/generic_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/generic_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.gladiator_l_english]
+file_filter = pliki/<lang>/replace/english/gladiator_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/gladiator_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.god_names_l_english]
+file_filter = pliki/<lang>/replace/english/god_names_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/god_names_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.governments_l_english]
+file_filter = pliki/<lang>/replace/english/governments_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/governments_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.governor_policies_l_english]
+file_filter = pliki/<lang>/replace/english/governor_policies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/governor_policies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.great_works_effects_l_english]
+file_filter = pliki/<lang>/replace/english/great_works_effects_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/great_works_effects_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.great_works_events_l_english]
+file_filter = pliki/<lang>/replace/english/great_works_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/great_works_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.great_works_l_english]
+file_filter = pliki/<lang>/replace/english/great_works_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/great_works_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.great_works_modifiers_l_english]
+file_filter = pliki/<lang>/replace/english/great_works_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/great_works_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.greek_mission_events_l_english]
+file_filter = pliki/<lang>/replace/english/greek_mission_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/greek_mission_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.greek_missions_l_english]
+file_filter = pliki/<lang>/replace/english/greek_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/greek_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.heritage_l_english]
+file_filter = pliki/<lang>/replace/english/heritage_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/heritage_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.hints_l_english]
+file_filter = pliki/<lang>/replace/english/hints_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/hints_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.ideas_l_english]
+file_filter = pliki/<lang>/replace/english/ideas_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/ideas_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.interface_l_english]
+file_filter = pliki/<lang>/replace/english/interface_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/interface_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.inventions_l_english]
+file_filter = pliki/<lang>/replace/english/inventions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/inventions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.keynames_l_english]
+file_filter = pliki/<lang>/replace/english/keynames_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/keynames_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.laws_l_english]
+file_filter = pliki/<lang>/replace/english/laws_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/laws_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.ledger_l_english]
+file_filter = pliki/<lang>/replace/english/ledger_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/ledger_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.legion_history_l_english]
+file_filter = pliki/<lang>/replace/english/legion_history_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/legion_history_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.legions_l_english]
+file_filter = pliki/<lang>/replace/english/legions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/legions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.loans_l_english]
+file_filter = pliki/<lang>/replace/english/loans_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/loans_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.loyalty_l_english]
+file_filter = pliki/<lang>/replace/english/loyalty_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/loyalty_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.macedon_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/macedon_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/macedon_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.macedon_missions_l_english]
+file_filter = pliki/<lang>/replace/english/macedon_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/macedon_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.macro_builder_l_english]
+file_filter = pliki/<lang>/replace/english/macro_builder_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/macro_builder_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.macroregions_l_english]
+file_filter = pliki/<lang>/replace/english/macroregions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/macroregions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.map_tooltips_l_english]
+file_filter = pliki/<lang>/replace/english/map_tooltips_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/map_tooltips_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.mercenaries_l_english]
+file_filter = pliki/<lang>/replace/english/mercenaries_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/mercenaries_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.messages_l_english]
+file_filter = pliki/<lang>/replace/english/messages_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/messages_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.military_traditions_l_english]
+file_filter = pliki/<lang>/replace/english/military_traditions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/military_traditions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.minimap_l_english]
+file_filter = pliki/<lang>/replace/english/minimap_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/minimap_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.missions_l_english]
+file_filter = pliki/<lang>/replace/english/missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.modifiers_l_english]
+file_filter = pliki/<lang>/replace/english/modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.monarchy_events_l_english]
+file_filter = pliki/<lang>/replace/english/monarchy_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/monarchy_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.multiplayer_l_english]
+file_filter = pliki/<lang>/replace/english/multiplayer_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/multiplayer_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.nation_formation_l_english]
+file_filter = pliki/<lang>/replace/english/nation_formation_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/nation_formation_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.newtexts_l_english]
+file_filter = pliki/<lang>/replace/english/newtexts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/newtexts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.nicknames_l_english]
+file_filter = pliki/<lang>/replace/english/nicknames_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/nicknames_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.offer_peace_l_english]
+file_filter = pliki/<lang>/replace/english/offer_peace_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/offer_peace_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.offices_l_english]
+file_filter = pliki/<lang>/replace/english/offices_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/offices_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.oldeffects_l_english]
+file_filter = pliki/<lang>/replace/english/oldeffects_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/oldeffects_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.oldtriggers_l_english]
+file_filter = pliki/<lang>/replace/english/oldtriggers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/oldtriggers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.omens_l_english]
+file_filter = pliki/<lang>/replace/english/omens_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/omens_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.opinions_l_english]
+file_filter = pliki/<lang>/replace/english/opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.outliner_l_english]
+file_filter = pliki/<lang>/replace/english/outliner_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/outliner_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.party_events_l_english]
+file_filter = pliki/<lang>/replace/english/party_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/party_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.pirate_events_l_english]
+file_filter = pliki/<lang>/replace/english/pirate_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/pirate_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.politics_l_english]
+file_filter = pliki/<lang>/replace/english/politics_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/politics_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.provincenames_l_english]
+file_filter = pliki/<lang>/replace/english/provincenames_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/provincenames_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.provincial_events_l_english]
+file_filter = pliki/<lang>/replace/english/provincial_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/provincial_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.regionnames_l_english]
+file_filter = pliki/<lang>/replace/english/regionnames_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/regionnames_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.rel_flavor_l_english]
+file_filter = pliki/<lang>/replace/english/rel_flavor_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/rel_flavor_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.republic_l_english]
+file_filter = pliki/<lang>/replace/english/republic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/republic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.roman_missions_events_2_l_english]
+file_filter = pliki/<lang>/replace/english/roman_missions_events_2_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/roman_missions_events_2_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.roman_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/roman_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/roman_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.roman_missions_l_english]
+file_filter = pliki/<lang>/replace/english/roman_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/roman_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.scripted_guis_l_english]
+file_filter = pliki/<lang>/replace/english/scripted_guis_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/scripted_guis_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.senate_approval_character_interactions_l_english]
+file_filter = pliki/<lang>/replace/english/senate_approval_character_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/senate_approval_character_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.senate_objective_events_l_english]
+file_filter = pliki/<lang>/replace/english/senate_objective_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/senate_objective_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.senate_objectives_l_english]
+file_filter = pliki/<lang>/replace/english/senate_objectives_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/senate_objectives_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.senate_objectives_roman_l_english]
+file_filter = pliki/<lang>/replace/english/senate_objectives_roman_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/senate_objectives_roman_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.settings_l_english]
+file_filter = pliki/<lang>/replace/english/settings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/settings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.spartan_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/spartan_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/spartan_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.spartan_missions_l_english]
+file_filter = pliki/<lang>/replace/english/spartan_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/spartan_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.startup_l_english]
+file_filter = pliki/<lang>/replace/english/startup_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/startup_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.steam_l_english]
+file_filter = pliki/<lang>/replace/english/steam_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/steam_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.stonehenge_l_english]
+file_filter = pliki/<lang>/replace/english/stonehenge_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/stonehenge_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.subject_types_l_english]
+file_filter = pliki/<lang>/replace/english/subject_types_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/subject_types_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.succession_crisis_l_english]
+file_filter = pliki/<lang>/replace/english/succession_crisis_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/succession_crisis_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.syracuse_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/syracuse_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/syracuse_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.syracuse_missions_l_english]
+file_filter = pliki/<lang>/replace/english/syracuse_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/syracuse_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.technology_l_english]
+file_filter = pliki/<lang>/replace/english/technology_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/technology_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.terrains_l_english]
+file_filter = pliki/<lang>/replace/english/terrains_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/terrains_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.test_l_english]
+file_filter = pliki/<lang>/replace/english/test_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/test_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.text_l_english]
+file_filter = pliki/<lang>/replace/english/text_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/text_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.thracian_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/thracian_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/thracian_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.thracian_missions_l_english]
+file_filter = pliki/<lang>/replace/english/thracian_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/thracian_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.tooltip_structs_l_english]
+file_filter = pliki/<lang>/replace/english/tooltip_structs_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/tooltip_structs_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.traits_l_english]
+file_filter = pliki/<lang>/replace/english/traits_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/traits_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.treasures_l_english]
+file_filter = pliki/<lang>/replace/english/treasures_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/treasures_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.trial_l_english]
+file_filter = pliki/<lang>/replace/english/trial_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/trial_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.tribal_flavor_l_english]
+file_filter = pliki/<lang>/replace/english/tribal_flavor_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/tribal_flavor_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.tribal_reform_l_english]
+file_filter = pliki/<lang>/replace/english/tribal_reform_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/tribal_reform_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.triggers_l_english]
+file_filter = pliki/<lang>/replace/english/triggers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/triggers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.tutorial_l_english]
+file_filter = pliki/<lang>/replace/english/tutorial_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/tutorial_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.unit_abilities_l_english]
+file_filter = pliki/<lang>/replace/english/unit_abilities_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/unit_abilities_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.units_l_english]
+file_filter = pliki/<lang>/replace/english/units_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/units_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.units2_l_english]
+file_filter = pliki/<lang>/replace/english/units2_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/units2_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.war_council_l_english]
+file_filter = pliki/<lang>/replace/english/war_council_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/war_council_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.war_overview_l_english]
+file_filter = pliki/<lang>/replace/english/war_overview_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/war_overview_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.warfare_events_l_english]
+file_filter = pliki/<lang>/replace/english/warfare_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/warfare_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.wonders_l_english]
+file_filter = pliki/<lang>/replace/english/wonders_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/wonders_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_arabic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_arabic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_arabic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_armazic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_armazic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_armazic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_bon_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_bon_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_bon_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_buddhism_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_buddhism_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_buddhism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_canaanite_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_canaanite_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_canaanite_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_chaldean_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_chaldean_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_chaldean_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_cybelene_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_cybelene_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_cybelene_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_druidic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_druidic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_druidic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_hellenic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_hellenic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_hellenic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_heptadic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_heptadic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_heptadic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_hinduism_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_hinduism_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_hinduism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_iberic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_iberic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_iberic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_jainism_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_jainism_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_jainism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_judaism_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_judaism_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_judaism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_kemetic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_kemetic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_kemetic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_khaldic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_khaldic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_khaldic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_matrist_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_matrist_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_matrist_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_megalithic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_megalithic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_megalithic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_ritualist_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_ritualist_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_ritualist_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_tuistic_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_tuistic_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_tuistic_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_zalmoxian_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_zalmoxian_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_zalmoxian_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.deities_zoroastrianism_l_english]
+file_filter = pliki/<lang>/replace/english/deities/deities_zoroastrianism_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/deities_zoroastrianism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.flavor_events_deities_l_english]
+file_filter = pliki/<lang>/replace/english/deities/flavor_events_deities_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/deities/flavor_events_deities_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.diadochi_missions_l_english]
+file_filter = pliki/<lang>/replace/english/missions/diadochi_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/missions/diadochi_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.seleukid_missions_events_l_english]
+file_filter = pliki/<lang>/replace/english/missions/seleukid_missions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/missions/seleukid_missions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.seleukid_missions_l_english]
+file_filter = pliki/<lang>/replace/english/missions/seleukid_missions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/missions/seleukid_missions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
