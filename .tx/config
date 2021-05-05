@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[imperator-rome-spolszczenie.languages]
+[imperator-rome-spolszczenie.languages_gl]
 file_filter = pliki/<lang>/languages.yml
 minimum_perc = 0
 source_file = pliki/en/languages.yml
@@ -64,7 +64,7 @@ source_file = pliki/en/replace/gui/common_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
-[imperator-rome-spolszczenie.frontend_l_english]
+[imperator-rome-spolszczenie.frontend_l_english_gui]
 file_filter = pliki/<lang>/replace/gui/frontend_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/replace/gui/frontend_l_english.yml
@@ -148,7 +148,7 @@ source_file = pliki/en/replace/jomini/localization/pops/pops_gui_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
-[imperator-rome-spolszczenie.settings_l_english]
+[imperator-rome-spolszczenie.settings_l_english_jom]
 file_filter = pliki/<lang>/replace/jomini/localization/settings/settings_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/replace/jomini/localization/settings/settings_l_english.yml
@@ -330,7 +330,7 @@ source_file = pliki/en/replace/english/country_diplomacy_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
-[imperator-rome-spolszczenie.credits_l_english]
+[imperator-rome-spolszczenie.credits_l_english_eng]
 file_filter = pliki/<lang>/replace/english/credits_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/replace/english/credits_l_english.yml
@@ -929,6 +929,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/replace/english/politics_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/replace/english/politics_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[imperator-rome-spolszczenie.power_base_events_l_english]
+file_filter = pliki/<lang>/replace/english/power_base_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/replace/english/power_base_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
