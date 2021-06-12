@@ -1,4 +1,4 @@
 ﻿l_english:
- AND: ""
- AND_LIST: ""
- COMMA: ""
+ AND: " i "
+ AND_LIST: ", i "
+ COMMA: ", "

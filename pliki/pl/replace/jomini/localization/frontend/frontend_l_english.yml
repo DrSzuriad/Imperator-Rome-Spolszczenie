@@ -1,5 +1,5 @@
 ﻿l_english:
- JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: ""
- JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: ""
- JOMINI_MSGRDK_NO_PERMISSION_TITLE: ""
- JOMINI_MSGRDK_NO_UGC_TEXT: ""
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "Wystąpił problem"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "Nie mogliśmy zalogować cię do twojego konta Microsoft. Niektóre funkcje gry mogą być niedostępne."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "Błąd uprawnień konta"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "Nie masz uprawnień dostępu do treści generowanych przez użytkowników. Mody zostaną wyłączone."

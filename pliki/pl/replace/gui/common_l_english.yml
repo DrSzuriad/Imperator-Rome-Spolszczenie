@@ -1,7 +1,7 @@
 ﻿l_english:
- CLOSE: ""
- BACK: ""
- TOP_BAR_VERSION: ""
- TOP_BAR_VERSION_LIVE: ""
- OK_BUTTON: ""
- CANCEL_BUTTON: ""
+ CLOSE: "#T Zamknij#!"
+ BACK: "Cofnij"
+ TOP_BAR_VERSION: "Wersja Exe Git: $BuildRevision$ \n$VersionNumber$ ($VersionName$)\nMP Suma kontrolna: $MPChecksum$\n$RandomLogInfo$ $BuildRevisionTime$"
+ TOP_BAR_VERSION_LIVE: "Wersja: $VersionNumber$ ($VersionName$) \n Suma kontrolna trybu wieloosobowego: $MPChecksum$"
+ OK_BUTTON: "Ok"
+ CANCEL_BUTTON: "Anuluj"

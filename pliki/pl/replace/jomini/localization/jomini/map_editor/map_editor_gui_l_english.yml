@@ -1,3 +1,3 @@
 ﻿l_english:
- TOOLS_ANSWER_YES: ""
- TOOLS_ANSWER_NO: ""
+ TOOLS_ANSWER_YES: "#G Tak#"
+ TOOLS_ANSWER_NO: "#R Nie#"

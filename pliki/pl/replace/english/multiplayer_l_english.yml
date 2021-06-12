@@ -1,5 +1,5 @@
 ﻿l_english:
- RANDOM_COUNT: ""
- RANDOM_SEED: ""
- GAMESTATE_CHECKSUM: ""
- LIVING_CHARACTERS: ""
+ RANDOM_COUNT: "Losowy hrabia"
+ RANDOM_SEED: "Losowe ziarno"
+ GAMESTATE_CHECKSUM: "Suma kontrolna"
+ LIVING_CHARACTERS: "Żyjące postacie"

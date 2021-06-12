@@ -1,3 +1,3 @@
 ﻿l_english:
- DATE_AD_YEAR: ""
- DATE_BC_YEAR: ""
+ DATE_AD_YEAR: "$YEAR$ n.e."
+ DATE_BC_YEAR: "$YEAR$ p.n.e."

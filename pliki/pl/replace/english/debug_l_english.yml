@@ -1,5 +1,5 @@
 ﻿l_english:
- Johan_event.1.t: ""
- Johan_event.1.d: ""
- Johan_event.1.a: ""
- animated_text_effect: ""
+ Johan_event.1.t: "Testowe wydarzenie Johana"
+ Johan_event.1.d: "[ROOT.Char.GetName] ma [ROOT.Char.GetAge] lat i żyje w kraju [ROOT.Char.GetCountry.GetName]"
+ Johan_event.1.a: "Alea Iacta Est!"
+ animated_text_effect: "[ROOT.GetProvince.GetName] jest NUUUUUUDNA"
