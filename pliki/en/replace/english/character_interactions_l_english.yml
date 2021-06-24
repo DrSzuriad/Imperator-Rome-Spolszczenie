@@ -1,607 +1,653 @@
 ﻿l_english:
- appoint_dictator: "Appoint Dictator"
- appoint_dictator_past: "Appointed Dictator"
- appoint_dictator_act: "Appoint Dictator"
- appoint_dictator_act_past: "Appointed Dictator"
- appoint_dictator_effect_tooltip: "Emergency powers are granted to [actor.GetRulerTitle|Y] [target.GetName|Y] until you are next at peace. The [SCOPE.sC('actor').Custom('get_court_type')] will vote in your favor for most actions and a temporary extension will be added to your [SCOPE.sC('actor').GetRulerTitle|Y]'s current term."
- ca_convert_religion: "Force Conversion"
- ca_convert_religion_past: "Forced Conversion"
- ca_convert_religion_act: "Force Conversion"
- ca_convert_religion_act_past: "Forced Conversion"
- ca_convert_religion_tooltip_republic: "The severity of the #Y Recently Converted#! modifier will depend on the #Y Zeal#! skill of your [GetOffice('office_pontifex').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], versus that of the target."
- ca_convert_religion_tooltip_monarchy: "The severity of the #Y Recently Converted#! modifier will depend on the #Y Zeal#! skill of your [GetOffice('office_high_priest_monarchy').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], versus that of the target."
- ca_convert_religion_tooltip_tribal: "The severity of the #Y Recently Converted#! modifier will depend on the #Y Zeal#! skill of your [GetOffice('office_high_priest').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], versus that of the target."
- adopt_to_family: "Adopt"
- adopt_to_family_past: "$CHAR$ was adopted into the Royal Family."
- adopt_to_family_act: "Adopt $CHAR$ into the Royal Family."
- adopt_to_family_act_past: "$CHAR$ was adopted into the Royal Family of $COUNTRY$"
- adoption_explanation_tooltip: "By accepting [SCOPE.sChar('target').GetName|Y] into our ancient #Y Family#! we are reducing its #Y Prestige#! and standing among the other Families in our country.\n\n"
- bastard_adoption_tooltip: "Since [SCOPE.sChar('target').GetPraenomen] is the [SCOPE.sChar('target').GetDaughterSon|Y] of [SCOPE.sC('actor').GetRuler.GetPraenomen], the cost for Adoption is reduced.\n\n"
- sibling_adoption_tooltip: "Since [SCOPE.sChar('target').GetPraenomen] is the [SCOPE.sChar('target').GetSisterBrother|Y] of [SCOPE.sC('actor').GetRuler.GetPraenomen], the cost for Adoption is reduced.\n\n"
- friend_adoption_tooltip: "Since [SCOPE.sChar('target').GetPraenomen] is a #Y Friend#! of [SCOPE.sC('actor').GetRuler.GetPraenomen], the cost for Adoption is reduced.\n\n"
- lover_adoption_tooltip: "Since [SCOPE.sChar('target'.GetPraenomen] has children outside of wedlock with [SCOPE.sC('actor').GetRuler.GetPraenomen], the cost for Adopting [SCOPE.sChar('target'.GetHerHim] is greatly increased.\n\n"
- adoption_explanation_event_tooltip: "By accepting [THIS.GetCharacter.GetName|Y] into our ancient #Y Family#! we are reducing its #Y Prestige#! and standing among the other Families in our country.\n\n"
- bastard_adoption_event_tooltip: "Since [THIS.GetCharacter.GetName|Y] is the [THIS.GetCharacter.GetDaughterSon|Y] of [GetRootScope.GetCharacter.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- sibling_adoption_event_tooltip: "Since [THIS.GetCharacter.GetName|Y] is the [THIS.GetCharacter.GetSisterBrother|Y] of [GetRootScope.GetCharacter.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- friend_adoption_event_tooltip: "Since [THIS.GetCharacter.GetName|Y] is a close friend of [GetRootScope.GetCharacter.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- lover_adoption_event_tooltip: "Since [THIS.GetCharacter.GetName|Y] has children outside of wedlock with [GetRootScope.GetCharacter.GetName|Y] the Prestige cost for Adopting [THIS.GetCharacter.GetHerHim] is greatly increased.\n\n"
- adoption_explanation_from_ruler_tooltip: "These effects will be milder when adopting Friends, Children, or Siblings of the [actor.GetRulerTitle|Y], and harsher when adopting extra-marital relations"
- adoption_prestige_tt: "Adopting into our #Y Family#! will #R reduce#! its Prestige @prestige!"
- adoption_legitimacy_tt: "[actor.GetName] will also #R lose#! Legitimacy @legitimacy!"
- bastard_adoption_from_ruler_tooltip: "Since [SCOPE.sChar('target').GetName|Y] is the [SCOPE.sChar('target').GetDaughterSon|Y] of [SCOPE.sC('actor').GetRuler.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- sibling_adoption_from_ruler_tooltip: "Since [SCOPE.sChar('target').GetName|Y] is the [SCOPE.sChar('target').GetSisterBrother|Y] of [SCOPE.sC('actor').GetRuler.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- friend_adoption_from_ruler_tooltip: "Since [SCOPE.sChar('target').GetName|Y] is a close friend of [SCOPE.sC('actor').GetRuler.GetName|Y] the Prestige cost for Adoption is reduced.\n\n"
- lover_adoption_from_ruler_tooltip: "Since [SCOPE.sChar('target').GetName|Y] has children outside of wedlock with [SCOPE.sC('actor').GetRuler.GetName|Y] the Prestige cost for Adopting [SCOPE.sChar('target').GetHerHim] is greatly increased.\n\n"
- adoption: "Arrange Adoption"
- adoption_past: "Arranged an adoption"
- adoption_act: "$CHAR$ will adopt a new family member"
- adoption_select_title: "Adoption to the family of $CHAR$"
- adoption_act_past: "$CHAR$ adopted [SCOPE.sChar('recipient').GetName]."
- seize_property: "Proscribe"
- seize_property_past: "Proscribed $CHAR$"
- seize_property_act: "Proscribe $CHAR$"
- seize_property_act_past: "$COUNTRY$ issued Proscription on $CHAR$"
- seize_property_relatives_tooltip: "Every family member of #Y [SCOPE.sChar('target').GetName]#! will lose #Y 20#! Loyalty."
- family_fallen_from_grace: "The '[target.GetFamily.GetName|Y]' will #R cease#! to be considered a Great Family, any Family Holdings will be seized, and every former Member ([SCOPE.ScriptValue('seize_property_svalue')|Y0]) will lose #R 40#! Loyalty@loyalty_icon!for #Y  240 months#!"
- family_holdings_gone_tt: "All '[target.GetFamily.GetName|Y]' Family Holdings will be confiscated."
- was_once_great: "Fallen from Grace"
- desc_was_once_great: "This character was once a member of one of the great families of the nation, but as that family fell from grace they lost most of both their influence and power. To some extent the memory of what once was is still haunting them all."
- unappoint_dictator: "Return Dictatorship"
- unappoint_dictator_effect_tooltip: "Your [SCOPE.sC('actor').GetRulerTitle|Y] will be forced to return Dictatorial powers to the [actor.Custom('get_court_type')]"
- unappoint_dictator_act: "Return powers to the senate"
- unappoint_dictator_act_past: "Returned powers to the senate"
- not_giving_up_power: "You cannot return dictatorial powers, as this character has refused to return them."
- not_dictator_any_more: "@trigger_no! A new leader is in power."
- dictator_leaves_tt: "Powers surrendered:"
- stop_seeking_treatment: "Stop Seeking Treatment"
- stop_seeking_treatment_past: "Stopped seeking treatment for an ailment."
- stop_seeking_treatment_act: "Stop seeking treatment for an ailment."
- stop_seeking_treatment_act_past: "Stopped seeking treatment for an ailment."
- hold_triumph: "Hold Triumph"
- hold_triumph_past: "Triumph Held!"
- hold_triumph_act: "Hold a triumph for $CHAR$"
- hold_triumph_act_past: "$COUNTRY$ held a glorious and extravagant triumph for $CHAR$."
- TRIUMPH_RECENTLY_HELD: "[SCOPE.sCountry('actor').GetName|Y] recently held a Triumph and can not hold another until [SCOPE.sCountry('actor').GetVariableExpiry('triumph_recently_held')|Y].\n"
- triumph_l_tt: "[target.GetName] will #Y lose their command#!, gain #G 20#! Loyalty@loyalty_icon!for #Y 120 months#!, and gain #G 25#! Popularity @popularity_icon!"
- bribe_character: "Bribe"
- bribe_character_past: "Character Bribed!"
- bribe_character_act: "Bribe $CHAR$ to become more loyal"
- bribe_character_act_past: "$COUNTRY$ made sure that $CHAR$ is far more loyal."
- BRIBED_RECENTLY: "[SCOPE.sChar('target').GetName] was recently convinced, and will refuse further involvement until [SCOPE.sChar('target').GetVariableExpiry('ca_character_bribed')|Y]\n"
- bribe_actor_tt: "[actor.GetRuler.GetName] will pay #R 100#!@gold! of [actor.GetRuler.GetHerHis] personal wealth and gain #R 1#! Corruption @corruption_icon!"
- bribe_target_tt: "[target.GetName] will gain #G 100#!@gold!, #G 15#! Loyalty@loyalty_icon!for #Y 48 months#!, and #R 5#! Corruption @corruption_icon!"
- arrange_marriage: "Arrange Marriage"
- arrange_marriage_past: "Arranged a marriage"
- arrange_marriage_act: "Find a spouse for $CHAR$"
- arrange_marriage_select_title: "Arrange Marriage for $CHAR$"
- arrange_marriage_act_past: "$CHAR$ became married to [SCOPE.sChar('recipient').GetName]."
- arrange_marriage_tt: "[target.GetPraenomen] will marry a chosen suitor from [actor.GetName]"
- arrange_marriage_consort_tt: "The Consort will contribute skills higher than those of their spouse to the government in Monarchies"
- SELECT_TARGET: "Select"
- marry_ruler: "Arrange Marriage with Ruler"
- marry_ruler_past: "Married Ruler!"
- marry_ruler_act: "Marriage!"
- marry_ruler_act_past: "$CHAR$ became married to [SCOPE.sCountry('actor').GetRuler.GetName]."
- inspire_disloyalty: "Inspire Disloyalty"
- inspire_disloyalty_past: "Character more Disloyal!"
- inspire_disloyalty_act: "Inspire $CHAR$ to become less loyal"
- inspire_disloyalty_act_past: "$COUNTRY$ made sure that $CHAR$ is a bit less loyal."
- not_already_inspiring: "You can only inspire disloyalty in #Y 1#! character at a time."
- recruit: "Recruit"
- recruit_past: "Character recruited!"
- recruit_act: "Recruit $CHAR$ to join our service instead!"
- recruit_act_past: "$COUNTRY$ recruited $CHAR$ to their service."
- recruit_allow_tt: "Is not married to a ruler or an important [target.GetEmployer.GetAdjective] character."
- recruit_general: "Woo General"
- recruit_general_past: "General wooed!"
- recruit_general_act: "Woo $CHAR$ to join our service instead!"
- recruit_general_act_past: "$COUNTRY$ wooed $CHAR$ to their service."
- recruit_general_tt: "[target.GetName] and [target.GetHerHis] [legion|E] will defect to us."
- secude_governor: "Entice Governor"
- secude_governor_past: "Governor Enticed!"
- secude_governor_act: "Entice $CHAR$ to Defect"
- secude_governor_act_past: "$COUNTRY$ enticed $CHAR$ to defect!"
- seduce_governor_tooltip: "An offer is sent to #Y [SCOPE.sChar('target').GetName]#!!"
- smear_character: "Smear Reputation"
- smear_character_past: "Character Smeared"
- smear_character_past_failed: "Character Impeccable!"
- smear_character_act: "Smear the reputation of $CHAR$"
- smear_character_act_past: "$COUNTRY$ achieved to smear the character of $CHAR$."
- ca_character_loan: "Demand Loan"
- ca_character_loan_past: "Demanded a loan."
- ca_character_loan_act: "Demand money from $CHAR$"
- ca_character_loan_act_past: "$COUNTRY$ demanded money from $CHAR$"
- ca_character_loan_repay: "Repay Loan"
- ca_character_loan_repay_past: "Repaid a loan."
- ca_character_loan_repay_act: "Repay money to $CHAR$"
- ca_character_loan_repay_act_past: "$COUNTRY$ repaid money to $CHAR$"
- banish_char: "Banish"
- banish_char_past: "Character Banished!"
- banish_char_act: "Banish $CHAR$"
- banish_char_act_past: "$COUNTRY$ banished $CHAR$!"
- banish_effect_tt: "[SCOPE.sChar('target').GetName] will be banished to a chosen country."
- banish_char_select_title: "Select a Banishment Target"
- sacrifice_prisoner: "Sacrifice"
- sacrifice_prisoner_past: "Character Sacrificed!"
- sacrifice_prisoner_act: "Sacrifice $CHAR$"
- sacrifice_prisoner_act_past: "$COUNTRY$ sacrificed $CHAR$"
- sacrifice_tooltip: "#Y Centralization#! @centralization! loss is a tenth of the target's #Y Martial#! @military_icon!"
- execute_character: "Execute"
- execute_character_past: "Character Executed!"
- execute_character_act: "Execute $CHAR$"
- execute_character_act_past: "$COUNTRY$ executed $CHAR$."
- support_primary_heir: "Demand Support for Heir"
- support_primary_heir_past: "$CHAR$ was encouraged to support the Primary Heir!"
- support_primary_heir_act: "Encourage $CHAR$ to support the Primary Heir!"
- support_primary_heir_act_past: "$CHAR$ now clearly sees who the heir is for $COUNTRY$."
- free_hands: "Give Free Hands"
- free_hands_past: "Governor given free hands!"
- free_hands_act: "Give $CHAR$ free hands"
- free_hands_act_past: "Look the other way, while $CHAR$ makes the most of their position."
- free_hands_tooltip: "You will be unable to revoke this character's #Y Free Hands#! until #Y 2#! years have passed, and doing so will cost #R 15#! Loyalty@loyalty_icon!"
- free_hands_cooldown_tooltip: "You cannot revoke #Y Free Hands#! until at least #Y 2#! years have passed."
- tie_hands: "Revoke Free Hands"
- tie_hands_past: "Revoked Free Hands"
- tie_hands_act: "Revoke Free Hands"
- tie_hands_act_past: "Revoked Free Hands"
- tie_hands_tooltip: "If this character loses their job, or is removed from office with Free Hands active, it will be removed, and they will lose #R 20#! Loyalty."
- ransom_prisoner: "Ransom Prisoner"
- ransom_prisoner_past: "Character ransomed from prison!"
- ransom_prisoner_act: "Ransom $CHAR$ from foreign prison"
- ransom_prisoner_act_past: "$COUNTRY$ ransomed $CHAR$ from foreign prison"
- ransom_prisoner_tooltip: "Open up negotiations to ransom #Y [SCOPE.sChar('target').GetName]#! from capture."
- release_prisoner: "Release Prisoner"
- release_prisoner_past: "Character released from prison!"
- release_prisoner_act: "Release $CHAR$ from prison"
- release_prisoner_act_past: "$COUNTRY$ released $CHAR$ from prison."
- release_prisoner_tooltip: "If [target.GetName] is from [actor.GetName], or their home country no longer exists, they will stay here."
- imprison: "Imprison"
- imprison_past: "Character Imprisoned"
- imprison_act: "Imprison $CHAR$"
- imprison_act_past: "$CHAR$ has been imprisoned."
- imprison_party_leader_tooltip: "Imprisoning a #Y Party Leader#! or #Y Family Head#! will destabilize your nation!"
- assassinate: "Foreign Assassination"
- assassinate_past: "Planned foreign assassination!"
- assassinate_act: "Attempt to assassinate a foreign character"
- assassinate_act_past: "$COUNTRY$ has begun planning to assassinate $CHAR$!"
- assassinate_scheme: "Scheme: Assassinate"
- assassinate_scheme_past: "Planned assassination"
- assassinate_scheme_act: "Attempt to assassinate a rival of $CHAR$"
- assassinate_scheme_act_past: "$CHAR$ attempted to assassinate a rival"
- assassinate_scheme_select_title: "Select Target"
- employer_is_target_employer_tt: "[SCOPE.sC('actor').GetRuler.GetName] has at least one #Y Friend#! in #Y [SCOPE.sChar('target').GetEmployer.GetName]#! (must not be a #Y Close Relative#! of [target.GetName], #Y Master of the Guard#!, or #Y Bodyguard#!)."
- assassinate_attempt_effect_tooltip: "Our agents will begin plotting to assassinate #Y [SCOPE.sChar('target').GetName]#!!"
- only_one_assassination: "You may only plan one assassination at a time."
- assassinate_internal_rival_tt: "[target.GetName] has at least one Rival in [actor.GetName]."
- assassinate_internal_scheme_tt: "[target.GetName] is not currently planning an assassination."
- scheme_assassinate_tt: "[actor.GetRuler.GetPraenomen] will attempt to assassinate a chosen Rival."
- assassinate_scheme_other: "Assassinate Rival"
- assassinate_scheme_other_past: "Planned the assassination of $CHAR$"
- assassinate_scheme_other_act: "Attempt to assassinate $CHAR$"
- assassinate_scheme_other_act_past: "Attempted to assassinate $CHAR$"
- scheme_assassinate_other_tt: "[actor.GetRuler.GetPraenomen] will attempt to assassinate [target.GetPraenomen]"
- assassinate_own_ruler: "Murder Dictator"
- assassinate_own_ruler_past: "Dictator murdered"
- assassinate_own_ruler_past_failed: "Dictator avoided murder!"
- assassinate_own_ruler_act: "Attempt to murder our own dictator"
- assassinate_own_ruler_act_past: "$COUNTRY$ has murdered their own dictator."
- imprison_republic_trial: "Accuse of Crime"
- imprison_republic_trial_act: "Accuse of Crime"
- BASE_CHANCE_CI: "Base: $VAL|+=$"
- CI_CHANCE_FINESSE: "$CHAR|Y$ Finesse: $VAL|+=$"
- WE: "We"
- CHAR_INTERACTION_SETUP: "When we have performed a character interaction."
- CHAR_INTERACTION_HEADER: ""
- CHAR_INTERACTION_1: "$TITLE$"
- CHAR_INTERACTION_2: "$DESC$"
- CHAR_INTERACTION_3: ""
- CHAR_INTERACTION_4: "$EFECT$"
- CHAR_INTERACTION_5: ""
- CHAR_INTERACTION_6: ""
- CHAR_INTERACTION_LOG: "$DESC$"
- CHAR_INTERACTION_BTN1: "OK"
- CHAR_INTERACTION_BTN2: "OK"
- CHAR_INTERACTION_BTN3: "Go to"
- CHAR_INTERACTION_MAP: ""
- CHAR_INTERACTION_ON_US_SETUP: "When another nation performs a character interaction on our of our characters."
- CHAR_INTERACTION_ON_US_HEADER: ""
- CHAR_INTERACTION_ON_US_1: "$TITLE$"
- CHAR_INTERACTION_ON_US_2: "$DESC$"
- CHAR_INTERACTION_ON_US_3: ""
- CHAR_INTERACTION_ON_US_4: "$EFECT$"
- CHAR_INTERACTION_ON_US_5: "$DETAILS$"
- CHAR_INTERACTION_ON_US_6: "$FAMILY$"
- CHAR_INTERACTION_ON_US_LOG: "$DESC$"
- CHAR_INTERACTION_ON_US_BTN1: "OK"
- CHAR_INTERACTION_ON_US_BTN2: "OK"
- CHAR_INTERACTION_ON_US_BTN3: "Go to"
- CHAR_INTERACTION_ON_US_MAP: ""
- based_on_character_wealth_tooltip: "The cost of this interaction is based on the wealth of the target character."
- get_treatable_disease_tooltip: "[target.GetName] will begin #Y $scheme_seek_treatment$#! for [target.GetHerHis] #Y [SCOPE.sChar('target').Custom('get_treatable_disease')]#!."
- seek_treatment: "Scheme: Seek Treatment"
- seek_treatment_past: "Sought treatment for an ailment."
- seek_treatment_act: "Purchase treatment for $CHAR$."
- seek_treatment_act_past: "We sought treatment for $CHAR$."
- hold_games: "Hold Games"
- hold_games_act: "Hold Games for the People"
- hold_games_past: "Held Games"
- hold_games_act_past: "$COUNTRY$ has held games."
- GAMES_RECENTLY_HELD: "@trigger_no![SCOPE.sCountry('actor').GetName|Y] recently arranged Games and can not hold more of them until [SCOPE.sCountry('actor').GetVariableExpiry('games_recently_held')|Y]\n"
- hold_games_scheme_select_title: "$hold_games$"
- grant_citizenship: "Grant Citizenship Status"
- grant_citizenship_act: "Grant citizenship status to $CHAR$."
- grant_citizenship_past: "Granted citizenship status to $CHAR$."
- grant_citizenship_act_past: "Granted citizenship status to $CHAR$."
- royal_marriage_acceptance_tooltip_base: "        #Y 20#! Minimum Value"
- royal_marriage_acceptance_tooltip_legitimacy: "        #R +[SCOPE.ScriptValue('royal_marriage_acceptance_vs_legitimacy')]#! [SCOPE.sC('actor').GetAdjective] Legitimacy (#Y [SCOPE.ScriptValue('royal_marriage_acceptance_our_legitimacy')]#!) vs [SCOPE.sChar('target').GetEmployer.GetAdjective] Legitimacy (#Y [SCOPE.ScriptValue('royal_marriage_acceptance_their_legitimacy')]#!)"
- royal_marriage_acceptance_tooltip_larger: "        #R +20#! [SCOPE.sChar('target').GetEmployer.GetName] is mightier than us"
- has_valid_marriage_candidate_female: "#Y [SCOPE.sC('actor').GetName]#! has an unmarried adult female dynasty member."
- has_valid_marriage_candidate_male: "#Y [SCOPE.sC('actor').GetName]#! has an unmarried adult male dynasty member."
- royal_marriage_tooltip_candidate_a: "Propose a marriage between #Y [SCOPE.sChar('royal_marriage_candidate').GetName]#! and #Y [SCOPE.sChar('target').GetName]#!."
- royal_marriage_tooltip_candidate_b: "Propose a marriage between #Y [SCOPE.sChar('royal_marriage_candidate_2').GetName]#! and #Y [SCOPE.sChar('target').GetName]#!."
- royal_marriage_tooltip_candidate_c: "Propose a marriage between #Y [SCOPE.sChar('royal_marriage_candidate_3').GetName]#! and #Y [SCOPE.sChar('target').GetName]#!."
- royal_marriage.1.t: "A Royal Union"
- royal_marriage.1.desc: "In the interests of future cooperation, we should decide which of our royal line we might offer in marriage to [SCOPE.sChar('target').GetName] of the royal house of [SCOPE.sChar('target').GetEmployer.GetName]."
- royal_marriage.1.a: "[SCOPE.sChar('royal_marriage_candidate').GetPraenomen] is a clear choice."
- royal_marriage.1.b: "Send [SCOPE.sChar('royal_marriage_candidate_2').GetPraenomen]."
- royal_marriage.1.c: "Suggest [SCOPE.sChar('royal_marriage_candidate_3').GetPraenomen]."
- royal_marriage.1.d: "Perhaps this is unwise."
- female_moves_to_tooltip: "#Y [SCOPE.sChar('female_marriage_candidate').GetName]#! will move to #Y [SCOPE.sChar('male_marriage_candidate').GetEmployer.GetName]#! to be with her husband."
- royal_marriage.2.t: "Marriage Proposal"
- royal_marriage.2.desc: "The royal house of [SCOPE.sC('proposer_country').GetName] sends an interesting request. They suggest that a strategic marriage between [SCOPE.sChar('recipient').GetName] and [SCOPE.sChar('target').GetName] might go a long way towards improving our diplomatic relations.\n\nNeedless to say, this comes with some risk; the integrity of our royal line is paramount, yet the opportunities this may bring are not to be discarded so lightly."
- royal_marriage.2.a: "Let us make merry!"
- royal_marriage.2.b: "A terrible plan."
- royal_marriage.2.c: "This is simply not viable."
- royal_marriage.3.t: "Marriage Declined"
- royal_marriage.3.desc: "Due to reasons beyond their control, the [SCOPE.sC('receiver_country').GetAdjective] court cannot approve our marriage request."
- royal_marriage.3.a: "Disappointing."
- royal_marriage.4.t: "Marriage Refused"
- royal_marriage.4.desc: "The ungrateful curs in [SCOPE.sC('receiver_country').GetName] have refused our generous offer to be wedded to our royal house.\n\nOur people shall remember this outrage!"
- royal_marriage.4.a: "Disappointing."
- royal_marriage.5.t: "Marriage Approved!"
- royal_marriage.5.desc: "The [SCOPE.sC('receiver_country').GetAdjective] house have graciously accepted our offer of royal marriage. [SCOPE.sChar('female_marriage_candidate').GetName] has traveled to [SCOPE.sChar('male_marriage_candidate').GetEmployer.GetName] in order to meet her betrothed, [SCOPE.sChar('male_marriage_candidate').GetName].\n\nMay our two nations prosper as a result of this mutual display of affection."
- royal_marriage.5.a: "Splendid!"
- current_marriage_proposal: "You must not be in a current marriage negotiation."
- female_shall_move_tooltip: "The female subject in a marriage will always move to her husband's country.\n\nChildren will marry when both parties are over the age of #Y 16#!. Their prospective betrothal will also end if either character moves country or seeks a spouse by other means."
- propose_marriage: "Royal Marriage"
- propose_marriage_act: "Arrange a marriage between a member of our dynasty and $CHAR$."
- propose_marriage_past: "Arranged a royal marriage with $CHAR$."
- propose_marriage_act_past: "Arranged a royal marriage between [SCOPE.sChar('recipient').GetName] and $CHAR$."
- propose_marriage_select_title: "$propose_marriage_act$"
- betrothed_no_tt: "Is not betrothed to another country's ruling dynasty. ([target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetEmployer.GetName])"
- betrothed_broken_tt: "[target.GetPraenomen] will no longer be considered for a Royal Marriage with [target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetName] of [target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetEmployer.GetName]"
- friend_progress_small: "Your Ruler will make a #Y Small#! amount of progress towards befriending [SCOPE.sChar('friend_target').GetName]."
- friend_progress_moderate: "Your Ruler will make a #Y Moderate#! amount of progress towards befriending [SCOPE.sChar('friend_target').GetName]."
- friend_progress_large: "Your Ruler will make a #Y Large#! amount of progress towards befriending [SCOPE.sChar('friend_target').GetName]."
- currently_befriending_tooltip: "Already befriending a character"
- defriend: "Remove Friend"
- defriend_act: "Remove friendship with $CHAR$."
- defriend_act_past: "Removed friendship with $CHAR$."
- defriend_past: "Removed friendship with $CHAR$."
- befriend: "Make Friends"
- befriend_act: "Attempt to make friends with $CHAR$."
- befriend_act_past: "Attempted to make friends with $CHAR$."
- befriend_past: "Attempted to make friends with $CHAR$."
- stop_inspire_disloyalty: "Stop Inspiring Disloyalty"
- stop_inspire_disloyalty_act: "Stop inspiring disloyalty"
- stop_inspire_disloyalty_past: "Stopped inspiring disloyalty"
- stop_inspire_disloyalty_act_past: "Stopped inspiring disloyalty"
- stop_inspiring_disloyalty_tooltip: "You will stop inspiring disloyalty in foreign characters."
- adjacent_provinces_enticed: "[provinces|E] adjacent to our country with less than #Y 50#! Province Loyalty@loyalty_icon!governed by [target.GetName] will be annexed."
- province_claims_enticed: "#Y [SCOPE.sChar('target').GetEmployer.GetName]#! will gain #Y Claims#! on all Provinces transferred."
- inspire_cooldown_tooltip: "You cannot revoke #Y Inspire Disloyalty#! until at least #Y 2#! years have passed."
- inspire_cooldown_action_tooltip: "You will be unable to revoke #Y Inspire Disloyalty#! until at least #Y 2#! years have passed."
- already_inspiring_tooltip: "Already inspiring disloyalty in a foreign character!"
- rival_ruler: "Make Rival"
- rival_ruler_act: "Make $CHAR$ a rival"
- rival_ruler_past: "Made $CHAR$ a rival"
- rival_ruler_act_past: "Made $CHAR$ a rival"
- succession_crisis_make_mercenary: "Entice to Become Mercenary"
- succession_crisis_make_mercenary_act: "Entice $CHAR$ to become a mercenary"
- succession_crisis_make_mercenary_act_past: "Enticed $CHAR$ to become a mercenary"
- succession_crisis_make_mercenary_past: "Enticed $CHAR$ to become a mercenary"
- deserters_already_encouraged_tooltip: "@trigger_no! You can only use Encourage Deserters on a successor once every #Y 5#! years.\n"
- unit_is_destroyed_tooltip: "A random subunit from the army of #Y [SCOPE.sChar('target').GetName]#! deserts."
- succession_crisis_encourage_deserters: "Encourage Deserters"
- succession_crisis_encourage_deserters_act: "Encourage Deserters"
- succession_crisis_encourage_deserters_past: "$COUNTRY$ encouraged armies to desert from $CHAR$"
- succession_crisis_encourage_deserters_act_past: "$COUNTRY$ encouraged armies to desert from $CHAR$"
- recently_supported_sc_tooltip: "A pretender can only be supported once every #Y 2#! years."
- support_foreign_successor: "Intervene in Crisis"
- support_foreign_successor_act: "Support $CHAR$ in their efforts to overthrow their ruler"
- support_foreign_successor_past: "Supported the Pretender $CHAR$"
- support_foreign_successor_act_past: "Supported $CHAR$ in their efforts to overthrow their ruler."
- coup_on_return_tooltip: "If you hire #Y [SCOPE.sChar('target').GetName]#! once they have become a mercenary, they are likely to attempt to seize the throne once again."
- seize_successor_assets: "Seize Assets"
- seize_successor_assets_act: "Seize the assets of $CHAR$, while they are not present to protect them"
- seize_successor_assets_past: "$COUNTRY$ seized the assets of $CHAR$"
- seize_successor_assets_act_past: "$COUNTRY$ seized the assets of $CHAR$"
- derival_ruler: "Remove Rival"
- derival_ruler_act: "Remove $CHAR$ as a rival"
- derival_ruler_past: "$COUNTRY$ removed $CHAR$ as a rival"
- derival_ruler_act_past: "$COUNTRY$ removed $CHAR$ as a rival"
- stop_inspire_disloyalty_ruler: "End Inspiring Foreign Disloyalty"
- stop_inspire_disloyalty_ruler_act: "Cease inspiring foreign parties."
- stop_inspire_disloyalty_ruler_past: "Ceased inspiring foreign parties."
- stop_inspire_disloyalty_ruler_act_past: "$COUNTRY$ inspiring foreign parties."
- flog: "Flog"
- flog_act: "Flog $CHAR$"
- flog_past: "$COUNTRY$ flogged $CHAR$"
- flog_act_past: "$COUNTRY$ flogged $CHAR$"
- rivals_gain_loyalty_flogging: "#Y All Rivals of [SCOPE.sChar('target').GetName]:#!"
- grant_clan_autonomy: "Grant Clan Autonomy"
- grant_clan_autonomy_act: "Grant $CHAR$ total autonomy"
- grant_clan_autonomy_act_past: "Granted $CHAR$ total autonomy"
- grant_clan_autonomy_past: "$COUNTRY$ granted $CHAR$ total autonomy"
- clan_chief_secedes: "#Y [SCOPE.sChar('target').GetName]#! will leave to lead this country.\nIf [SCOPE.sChar('target').GetSheHe] has any family members in #Y [SCOPE.sC('actor').GetName]#!, they will also leave with [SCOPE.sChar('target').GetHerHim]."
- becomes_a_tributary_tt: "\nThey will become our #Y Tributary#!."
- every_remaining_chief_tt: "\n\nEvery remaining #Y Clan Chief#!:"
- insulted_clan_chief: "Insulted Clan Chief"
- desc_insulted_clan_chief: "This clan chief is feeling particularly aggrieved over our exaltation of a peer."
- exalted_clan_chief: "Exalted Clan Chief"
- desc_exalted_clan_chief: "This clan chief is feeling magnanimous after being honored us."
- exalt_clan_chief: "Exalt Clan Chief"
- exalt_clan_chief_act: "Exalt $CHAR$"
- exalt_clan_chief_act_past: "Exalted $CHAR$"
- exalt_clan_chief_past: "Exalted $CHAR$"
- every_other_clan_chief: "\nEvery other #Y Clan Chief#! ([SCOPE.ScriptValue('exalt_chief_count')|0R]) loses #R 10#! Loyalty@loyalty_icon!for #Y 60 months#! and #R 0.02#! Monthly Popularity @popularity_icon! for #Y 60 months#!"
- no_other_clan_chief_modifier_tt: "@trigger_no! No #Y Clan Chief#! has the #Y Exalted Clan Chief#! modifier."
- exalt_tt: "[target.GetName] gains #G 20#! Loyalty@loyalty_icon!for #Y 120 months#! and #G +0.5#! Monthly Popularity @popularity_icon! for #Y 60 months#!"
- grant_laurels: "Grant Capitulatory Honors"
- grant_laurels_act: "Grant capitulatory honors to $CHAR$"
- grant_laurels_past: "Granted capitulatory honors to $CHAR$"
- grant_laurels_act_past: "$COUNTRY$ granted capitulatory honors to $CHAR$"
- laurels_already_granted_tt: "Have already capitulated to this character"
- may_gain_nickname: "[target.GetSheHe|U] may gain a #Y Nickname#!."
- may_gain_cognomen: "[target.GetSheHe|U] may gain a #Y Cognomen#!."
- laurels_effect_tt: "[target.GetName] will gain #G 60#! Loyalty@loyalty_icon! for #Y 120 months#!, #G 20#! Prominence @prominence_icon!, and #G 20#! Popularity @popularity_icon!"
- tutor_heir: "Tutor Child"
- tutor_heir_act: "Choose a new ambition for a royal child"
- tutor_heir_act_past: "Chose a new ambition for the royal offspring"
- tutor_heir_past: "Chose a new ambition for the royal offspring"
- tutor_heir_select_title: "Choose a Candidate to Tutor"
- tutor_tt: "Direct the [GetOffice('office_royal_tutor').GetCulturalName(SCOPE.sChar('actor').GetCountry)] in the education of a member of the ruling family"
- tutored_already_tt: "Has not been the target of Tutor in the last 180 days"
- tutor_child: "Tutor"
- tutor_child_act: "Choose a new ambition for $CHAR$"
- tutor_child_act_past: "hose a new ambition for $CHAR$"
- tutor_child_past: "Chose a new ambition for $CHAR$"
- child_of_appropriate_age_tt: "Is between the ages of #Y 12#! and #Y 16#!."
- tutor_exists_tt: "[actor.GetName] has a [GetOffice('office_royal_tutor').GetCulturalName(SCOPE.sChar('actor').GetCountry)]."
- every_applicable_family_member_tt: "Every '[target.GetFamily.GetName|Y]' Family Member eligible for Office ([SCOPE.ScriptValue('stipends_char_count_svalue')|Y0]) gains #R +50.0%#! Monthly Wages, #G +2.0#! @gold! per month, and #G 20#! Loyalty@loyalty_icon!for #Y 60 months#!"
- grant_stipends: "Grant Stipends"
- grant_stipends_act: "Grant stipends to the family of $CHAR$"
- grant_stipends_act_past: "$COUNTRY$ granted stipends to the family of $CHAR$"
- grant_stipends_past: "Granted stipends to the family of $CHAR$"
- gladiatorial_debut: "Arrange Gladiatorial Debut"
- gladiatorial_debut_act: "Arrange a gladiatorial debut"
- gladiatorial_debut_past: "Arranged a gladiatorial debut"
- gladiatorial_debut_act_past: "Arranged a gladiatorial debut"
- gladiator_outcome_tooltip: "[SCOPE.sC('actor').GetRuler.GetName] will gain Popularity @popularity_icon! based on the outcome of the match.\nThe winner of the fight will be #Y Released#! from prison."
- gladiatorial_debut_select_title: "Select an Opponent"
- republic_reward_veterans: "Reward Veterans"
- republic_reward_veterans_act: "Pay off veterans loyal to $CHAR$"
- republic_reward_veterans_act_past: "$COUNTRY$ bought off veterans loyal to $CHAR$"
- republic_reward_veterans_past: "Bought off veterans loyal to $CHAR$"
- unit_is_bought_off_tooltip: "Up to #Y 4#! Cohorts or Veterans loyal to [target.GetName] will lose their Personal Loyalty or disappear, #R reducing#! [target.GetHerHis] #Y Power Base#!@power_base!."
- REWARDED_VETERANS_RECENTLY: "@trigger_no! Veterans loyal to [SCOPE.sChar('target').GetName] have been paid off recently, and we will be unable to convince others until [SCOPE.sChar('target').GetVariableExpiry('republic_reward_veterans_cooldown')|Y]\n"
- has_loyal_cohorts_or_veterans_tt: "Must have at least 1 #Y Loyal Veteran#! or #Y Loyal Cohort#!."
- merc_buyoff: "Buy Off Mercenary"
- merc_buyoff_act: "Attempt to buy off $CHAR$"
- merc_buyoff_past: "Attempted to Buy Off $CHAR$"
- merc_buyoff_act_past: "Attempted to Buy Off $CHAR$"
- merc_buyoff_effect_tooltip: "An offer will be made to [SCOPE.sChar('target').GetName]. If their current employer refuses to match the offer, they will switch to our side!"
- merc_buyoff_effect_tooltip_sg: "An offer will be made to [SCOPE.GetRootScope.GetCharacter.GetName]. If their current employer refuses to match the offer, they will switch to our side!"
- merc_joined_us_tt: "[SCOPE.sChar('target').GetName] has joined us, with their band of mercenaries!"
- merc_employed_tt: "[target.GetName] is in the employ of a country."
- eligible_merc_buyoff_tt: "Mercenary unit is not in combat."
- warfare.3.t: "A Better Offer"
- warfare.3.desc: "The mercenaries we have hired, led by [SCOPE.sChar('target').GetName], have approached us claiming that the fiends in [SCOPE.sC('actor').GetName] have offered them a sizable sum to switch their allegiance.\n\nThey have shrewdly offered us a chance to match the offer, hoping to profit doubly from this underhanded deal."
- warfare.3.a: "Very well..."
- warfare.3.b: "Never!"
- warfare.4.t: "Offer Refused"
- warfare.4.desc: "The Mercenary band led by [SCOPE.sChar('target').GetName] has callously refused our offer of superior employment!\n\nIt seems that they received a better offer from the [SCOPE.sChar('target').GetEmployer.GetAdjective] villains."
- warfare.4.a: "Curses!"
- warfare.5.t: "Mercenary Buyout Successful!"
- warfare.5.desc: "The band of Mercenaries led by [SCOPE.sChar('target').GetName], has accepted our benevolent offer of employment. The villains in [SCOPE.sC('counter_target').GetName] apparently refused to consider matching our generous offer."
- warfare.5.a: "That is their loss!"
- merc_1_year_buyoff_tt: "A Mercenary cannot be enticed more than once a year."
- create_mercenary_may_return_some_day_tt: "[SCOPE.sChar('target').GetName] will leave @[actor.GetFlag]! [actor.GetName] to become a mercenary. [target.GetSheHe|U] will return when [SCOPE.sChar('target').GetSheHe] feels that [SCOPE.sChar('target').GetSheHe] has nothing left to learn."
- create_mercenary: "Send Adventuring"
- create_mercenary_act: "Send $CHAR$ adventuring in foreign lands"
- create_mercenary_past: "Sent $CHAR$ adventuring in foreign lands"
- create_mercenary_act_past: "Sent $CHAR$ adventuring in foreign lands"
- estimated_chance_to_assassinate_tooltip_monarchy: "Chance of success #R decreases#! with the @military_icon! skill of the [target.GetEmployer.GetAdjective] #Y Master of the Guard#! (Current: [SCOPE.ScriptValue('get_master_of_guard_martial_svalue')|0Y])."
- estimated_chance_to_assassinate_tooltip_tribal: "Chance of success #R decreases#! with the @military_icon! skill of the [target.GetEmployer.GetAdjective] #Y Bodyguard#! (Current: [SCOPE.ScriptValue('get_master_of_guard_martial_svalue')|0Y])."
- grant_holding: "Grant Holding"
- grant_holding_act: "Grant a holding to $CHAR$"
- grant_holding_past: "Granted a holding to $CHAR$"
- grant_holding_act_past: "$COUNTRY$ granted a Holding to $CHAR$"
- grant_holding_effect_tooltip: "The '[target.GetFamily.GetName|Y]' Family will be granted a Holding of our choice."
- grant_holding_select_title: "Select a Holding"
- office_trial: "Bring to Trial"
- office_trial_act: "Attempt to imprison $CHAR$"
- office_trial_past: "Attempted to imprison $CHAR$, relieving them of office"
- office_trial_act_past: "$COUNTRY$ attempted to imprison $CHAR$, relieving them of office"
- office_trial_success_chance: "You currently have a [SCOPE.sChar('target').Custom('get_trial_success_chance_summary')] chance of success. (#Y [SCOPE.ScriptValue('get_trial_success_chance')|/0]%#!)"
- office_trial_success_chance_echain: "You currently have a [SCOPE.sChar('target').Custom('get_trial_success_chance_summary_echain')] chance of success. [SCOPE.ScriptValue('get_trial_success_chance')]"
- office_trial_success_can_improve: "Choices made during a trial will affect the ultimate chance.\n\n"
- chance_below_20: "#R very low#!"
- chance_20_40: "#R low#!"
- chance_40_60: "#Y standard#!"
- chance_60_80: "#G high#!"
- chance_above_80: "#G very high#!"
- chances_reduced_by: "Chance #R reduced#! by [SCOPE.sChar('target').GetHerHis] Power Base@power_base! (#R [SCOPE.ScriptValue('get_trial_powerbase')|/0]#!)"
- chances_increased_by: "Chance #G increased#! by [SCOPE.sChar('target').GetHerHis] Corruption @corruption_icon!(#G [SCOPE.ScriptValue('get_trial_corruption')|/0]#!)"
- easier_to_prosecute_tt: "No Right of Appeal: #Y [SCOPE.sChar('target').GetName]#! is not of our #Y Primary Culture#!, increasing the chances of conviction.\n\n"
- pick_influence_ambition: "Scheme: Influence"
- pick_influence_ambition_act: "$CHAR$ will begin garnering political influence"
- pick_influence_ambition_past: "$CHAR$ began garnering political influence."
- pick_influence_ambition_act_past: "$CHAR$ began garnering political influence"
- pick_influence_ambition_select_title: "$pick_influence_ambition$"
- auto_influence_toggle: "Toggle Automatic Influence"
- auto_influence_toggle_act: "$CHAR$ will automatically influence their own choice of target."
- auto_influence_toggle_past: "Allowed $CHAR$ to automatically influence their own choice of target."
- auto_influence_toggle_act_past: "Allowed $CHAR$ to automatically influence their own choice of target."
- influence_potential_rewards_tt: "[target.GetName] will lose #R -0.1#! Popularity @popularity_icon! each month"
- until_scheme_ends_tt: "Until the Scheme ends:"
- scheme_ruler_invest_has_tt: "Has the Siphon Funds ambition active."
- scheme_ruler_invest_potential_rewards_tt: "[target.GetName] will gain #G 10#! @gold! and #R 0.05#! @corruption_icon! each month until the Scheme ends."
- ruler_invest_ambition: "Scheme: Siphon Funds"
- ruler_invest_ambition_act: "$CHAR$ will siphon funds from the national treasury to their own pocket"
- ruler_invest_ambition_past: "$CHAR$ siphoned funds from the national treasury"
- ruler_invest_ambition_act_past: "$CHAR$ started siphoning funds from the national treasury"
- legitimacy_ambition_effect_tt: "[target.GetName] will lose #R -4#! @gold! each month until the Scheme ends, when [actor.GetName] will gain #Y 5#! Legitimacy @legitimacy!"
- legitimacy_bloodline_tt: "[target.GetPraenomen] may also gain a Greek #Y Bloodline#! trait"
- prove_legitimacy: "Scheme: Prove Legitimacy"
- prove_legitimacy_act: "$CHAR$ will begin delving into the ancestry of their bloodline"
- prove_legitimacy_act_past: "$CHAR$ began delving into the ancestry of their bloodline"
- prove_legitimacy_past: "$CHAR$ began delving into the ancestry of their bloodline"
- gain_random_diadochi_bloodline_trait: "Discover a connection to a Greek #Y Bloodline#!!"
- gained_diadochi_bloodline_trait: "[SCOPE.GetRootScope.GetCharacter.GetName] and has gained a #Y Bloodline#! trait."
- gained_diadochi_bloodline_trait_children: "[SCOPE.GetRootScope.GetCharacter.GetName] and [SCOPE.GetRootScope.GetCharacter.GetHerHis] progeny have gained a #Y Bloodline#! trait."
- hold_games_scheme: "Scheme: Sponsor Games"
- hold_games_scheme_act: "Sponsor Games"
- hold_games_scheme_past: "Sponsored Games"
- hold_games_scheme_act_past: "Sponsored Games"
- hold_games_scheme_ci_tooltip: "For the duration of this scheme [SCOPE.sChar('target').GetSheHe] will lose #R 5#! @gold! and gain #Y 0.5#! @popularity_icon! each month and a chosen Territory will receive #G +10%#! Local Population Happiness."
- recent_trial_cannot_tt: "@trigger_no! You cannot attempt a trial again until [SCOPE.sChar('target').GetVariableExpiry('recent_trial_cooldown_var')|Y]"
- governor_grant_nickname: "Grant Regional Cognomen"
- governor_grant_nickname_act: "Grant a Cognomen"
- governor_grant_nickname_past: "Granted a Cognomen"
- governor_grant_nickname_act_past: "Granted a Cognomen"
- impose_corruption_sanctions: "Impose Sanctions"
- impose_corruption_sanctions_act: "Impose corruption sanctions on $CHAR$"
- impose_corruption_sanctions_past: "Imposed corruption sanctions on $CHAR$"
- impose_corruption_sanctions_act_past: "Imposed Corruption Sanctions on $CHAR$"
- impose_corruption_sanctions_tt_1: "[target.GetName] loses [SCOPE.ScriptValue('impose_fine_corruption_svalue')|G0] Corruption @corruption_icon! and #R 20#! Loyalty@loyalty_icon!for #Y 60 months#!"
- impose_corruption_sanctions_tt_2: "[target.GetName] loses [SCOPE.ScriptValue('impose_fine_corruption_svalue')|G0] Corruption @corruption_icon!"
- royal_marriage.6.t: "[ROOT.GetCountry.Custom('proposal_type')]"
- got_indecent_proposal: "An Unlikely Proposal"
- got_decent_proposal: "A Suitable Match"
- random_marriage_proposal_1: "Blustering with excitement, [SCOPE.sChar('suitor').GetPraenomen] summoned [SCOPE.sChar('suitor').GetHerHis] domestic aide. After far too long alone, [SCOPE.sChar('suitor').GetSheHe] decided to extend an offer of marriage to the [SCOPE.sChar('love_target').Custom('get_beautifulness')] [SCOPE.sChar('love_target').Custom('get_age_adjective')] [SCOPE.sChar('love_target').GetPraenomen], of the [SCOPE.sChar('love_target').GetFamilyDisplayAdjective] dynasty."
- random_marriage_proposal_2: "After careful deliberation, assessment of potential spouses, and a great deal of research into various bloodlines and heritages, [SCOPE.sChar('suitor').GetPraenomen] summoned [SCOPE.sChar('suitor').GetHerHis] aides, and issued an offer of marriage to [SCOPE.sChar('love_target').GetPraenomen] of the [SCOPE.sChar('love_target').GetFamilyDisplayAdjective] dynasty."
- random_marriage_proposal_3: "While [SCOPE.sChar('suitor').GetPraenomen] has enjoyed life immensely as a [SCOPE.sChar('suitor').GetWomanMan] of leisure, [SCOPE.sChar('suitor').GetSheHe] summoned an envoy this very morning to deliver a proposal of marriage to the [SCOPE.sChar('love_target').Custom('get_beautifulness')] [SCOPE.sChar('love_target').Custom('get_age_adjective')] [SCOPE.sChar('love_target').GetPraenomen], hoping to produce heirs to further legitimize the [SCOPE.sChar('suitor').GetFamilyDisplayAdjective] dynasty."
- hof_disapproves_loyalty_desc: "\n\nUnfortunately, the envoy reports, the head of the [SCOPE.sChar('love_target').GetFamilyDisplayAdjective] dynasty, [SCOPE.sChar('negotiator').GetName], is a vocal critic of our rule, and has made it clear that [SCOPE.sChar('negotiator').GetSheHe] will not allow this union under any circumstances.\n\nWe suspect this may just be a keen negotiating position, although we will have to offer a great deal more than we had hoped, if we are to win the heart of the [SCOPE.sChar('love_target').Custom('get_beautifulness')] [SCOPE.sChar('love_target').GetPraenomen]."
- hof_disapproves_age_desc: "\n\nWith regret, our envoy brings news that the head of the house [SCOPE.sChar('love_target').GetFamilyDisplayAdjective], [SCOPE.sChar('negotiator').GetName], has stepped in to raise issues with this proposal, citing the great gap in age between [SCOPE.sChar('suitor').GetPraenomen] and the [SCOPE.sChar('love_target').Custom('get_age_adjective')], [SCOPE.sChar('love_target').GetPraenomen].\n\nClearly, [SCOPE.sChar('negotiator').GetSheHe] is merely attempting to get more out of us for the dowry... perhaps negotiation is the only way to win love for [SCOPE.sChar('suitor').GetPraenomen]."
- self_disapproves_loyalty_desc: "\n\nThe envoy who delivered the proposal, however, reports that he barely made it out alive after [SCOPE.sChar('love_target').GetPraenomen] flew into a great rage, hurling a [ROOT.GetCountry.Custom('get_arena_death_implement_glad')] with great accuracy, and nearly decapitating him. It seems that [SCOPE.sChar('love_target').GetPraenomen] considers our suggestions with great contempt. We may need to sweeten the deal by increasing the size of the dowry."
- self_disapproves_age_desc: "\n\nThe envoy reports that the proposal, whilst flattering, evoked a great deal of amusement from [SCOPE.sChar('love_target').GetPraenomen] and [SCOPE.sChar('love_target').GetHerHis] companions, who made no effort to conceal their contempt regarding the advanced age of [SCOPE.sChar('suitor').GetPraenomen].\n\nWe may have to consider yielding a sizable dowry if [SCOPE.sChar('suitor').GetPraenomen] is to find love at such a distant gap of age and experience."
- self_approves_desc: "\n\nThe envoy reports that the [SCOPE.sChar('love_target').Custom('get_age_adjective')] [SCOPE.sChar('love_target').GetPraenomen] almost swooned after receiving the news. It may be that [SCOPE.sChar('suitor').GetPraenomen] and [SCOPE.sChar('love_target').GetPraenomen] are an ideal match."
- hof_approves_desc: "\n\nDespite the appearance of [SCOPE.sChar('negotiator').GetPraenomen], head of the [SCOPE.sChar('negotiator').GetFamilyDisplayAdjective] family, it seems that all concerns were salved by the [SCOPE.sChar('suitor').Custom('love_object')] that [SCOPE.sChar('suitor').GetPraenomen] had offered up in support of [SCOPE.sChar('suitor').GetHerHis] proposal."
- get_maiden_nn: "young maiden"
- get_master_nn: "young master"
- get_woman_nn: "young woman"
- get_man_nn: "young man"
- get_woman_of_age_nn: "older woman"
- get_gentleman_nn: "older gentleman"
- get_beautifulness_beautiful: "beautiful"
- get_beautifulness_pulchritudinous: "pulchritudinous"
- get_beautifulness_stunning: "stunning"
- get_beautifulness_fabulous: "fabulous"
- get_beautifulness_hideously_maimed: "hideously_maimed"
- get_beautifulness_leprous: "leprous"
- get_beautifulness_charmless: "charmless"
- get_beautifulness_pious: "pious"
- get_beautifulness_fair: "fair"
- get_beautifulness_charming: "charming"
- get_beautifulness_splendid: "splendid"
- get_beautifulness_attractive: "attractive"
- get_beautifulness_expert_martial: "brawny"
- got_poetry: "beautifully penned love-poetry"
- got_flowers: "gargantuan array of floral decorations"
- got_mournful_wailings: "mournful background wailings"
- got_splendid_gifts: "splendid gifts"
- got_fine_clothes: "fine clothes"
- got_wondrous_garments: "wondrous garments"
- got_offers_of_friendship: "promises of eternal fidelity"
- disloyalty_exclusive_marriage: "This option is #Y exclusive#! due to the disloyalty of the negotiating party."
- unable_to_propose_to_for_5_years: "You will be unable to select #Y [SCOPE.sChar('love_target').GetPraenomen]#! for Arrange Marriage for #Y 5#! years."
- royal_marriage.6.a: "Splendid! Let us arrange the festivities!"
- royal_marriage.6.b: "Cunning. We do have some gold to spare."
- royal_marriage.6.c: "A hard bargain, but worth every penny."
- royal_marriage.6.d: "We shall have to look elsewhere for love..."
- sell_into_slavery: "Sell into Slavery"
- sell_into_slavery_act: "Sell $CHAR$ into slavery"
- sell_into_slavery_act_past: "Sold $CHAR$ into slavery"
- sell_into_slavery_past: "Sold $CHAR$ into slavery"
- based_on_stats_slave: "[actor.GetName] gains [SCOPE.ScriptValue('sell_slavery_income')|2G] @gold! from skills of [target.GetPraenomen]"
- sold_every_family_member_tt: "Every other '[target.GetFamily.GetName|Y]' Family Member ([SCOPE.ScriptValue('sell_into_slavery_count_svalue')|Y0]) loses #R 10#! Loyalty@loyalty_icon!"
- sold_every_family_head_tt: "Every other '[target.GetFamily.GetName|Y]' Family Member ([SCOPE.ScriptValue('sell_into_slavery_count_svalue')|Y0]) loses #R 30#! Loyalty@loyalty_icon!for #Y 120 months#!"
- slavery_sell_tt: "[target.GetName] will #R disappear#! forever."
- dislikes_selling_family_slavery_tt: "Great Family shamed:"
- revoke_holding: "Revoke Holding"
- revoke_holding_past: "Revoked Holding"
- revoke_holding_act: "$CHAR$ will revoke a family holding"
- revoke_holding_act_past: "Revoked Holding"
- revoke_holding_effect_tooltip: "Revoke a Holding that does not have a Family Estate"
- revoke_holding_select_title: "Select Holding to Revoke:"
- orator_bribe_character: "Persuade"
- orator_bribe_character_past: "Character Persuaded!"
- orator_bribe_character_act: "Persuade $CHAR$ to become more loyal"
- orator_bribe_character_act_past: "$COUNTRY$ persuaded $CHAR$ to become far more loyal."
- orator_bribe_reason: "This replaces #Y Bribe#! as your ruler has the #Y Orator#! or #Y Silver Tongued#! traits.\n\n"
- ostracize_effect_tt: "[SCOPE.sChar('target').GetName|Y] will be banished to a random nearby country who will lose #R 25#! Opinion of us."
- ostracize_char: "Ostracize"
- ostracize_char_past: "Character Ostracized!"
- ostracize_char_act: "Ostracize $CHAR$"
- ostracize_char_act_past: "$COUNTRY$ ostracized $CHAR$!"
- due_to_half_power_base: "#R Tyranny Cost#! is equal to half the target's Power Base.\n\n"
- FROM_TYRANNY_PARTY_OSTRA: "Country: From Tyranny"
- ostracize_char_impact: "Ostracism"
- mg_ostra: "Rumors of Ostracism"
- mg_ostra_oops: "Ostracized Royalty"
- OSTRACISM_RECENTLY_HELD: "[SCOPE.sCountry('actor').GetName|Y] recently ostracized a character, and can not ostracize another until [SCOPE.sCountry('actor').GetVariableExpiry('ostracism_recently_held')|Y].\n"
- ostracize_tt: "[actor.GetName] loses #R 5#! Stability @stability! and [SCOPE.ScriptValue('ostracize_tyranny_svalue')|R0] Tyranny @tyranny!"
- mg_syracuse_merc_recruit: "Elect New Leader"
- mg_syracuse_merc_recruit_past: "Elected New Leader"
- mg_syracuse_merc_recruit_act: "Elect $CHAR$ as new leader"
- mg_syracuse_merc_recruit_act_past: "Elected New Leader"
- must_have_adjacent_disloyal_state: "At least one Province ruled by this governor, and adjacent to our border, must have less than #Y 50#! Province Loyalty."
- marriage_internal_scheme_tt: "[target.GetName] is not already trying to arrange a political marriage."
- seek_spouse_interaction: "Scheme: Seek Spouse"
- seek_spouse_interaction_act: "Marry $CHAR$ into a Great Family"
- seek_spouse_interaction_past: "Arranged Political Marriage"
- seek_spouse_interaction_act_past: "Arranged Political Marriage"
- marriage_internal_unmarried_tt: "[target.GetName] must be unmarried."
- scheme_seek_a_spouse_tooltip: "A suitable spouse for [target.GetName] will be found from the extended relations of a chosen #Y Family#!. Their #Y Family Head#! may have demands or #R reject#! the request.\n[target.GetName] will lose #R -2.5#! @gold! each month until the Scheme ends."
- seek_spouse_interaction_select_title: "Select Head of Family to Approach:"
- scheme.21.t: "A New Political Marriage?"
- not_state_culture: "[target.GetName] is not of our #Y Primary Culture#!.\nTo adopt [target.GetHerHim] we need to enact the #Y Ease Restrictions on Citizenship#! cultural decision for the [target.GetEmployer.GetPrimaryCulture.GetName] culture."
- BRIBE_RULERWEALTH_TT: "[SCOPE.sCountry('actor').GetRuler.GetName|Y] must have #Y 100#! @gold! in [SCOPE.sCountry('actor').GetRuler.GetHerHis] personal coffers."
- PROVE_LEGITIMACY_RULERWEALTH_TT: "[SCOPE.sCountry('actor').GetRuler.GetName|Y] must have #Y 300#! @gold! in [SCOPE.sCountry('actor').GetRuler.GetHerHis] personal coffers."
- SEEK_TREATMENT_RULERWEALTH_TT: "[SCOPE.sCountry('actor').GetRuler.GetName|Y] must have #Y 200#! @gold! in [SCOPE.sCountry('actor').GetRuler.GetHerHis] personal coffers."
- GOVERNOR_OR_LEGION_COMMANDER_TT: "[target.GetName] is a [legate|E] or [governor|E]."
- char_espionage: "Attempt Espionage"
- char_espionage_act: "Send $CHAR$ to attempt to gain access to detailed information on a target country"
- char_espionage_past: "Sent $CHAR$ on an espionage mission."
- char_espionage_act_past: "Sent $CHAR$ on an espionage mission."
- char_espionage_select_title: "Select Espionage Target"
- char_espionage_return: "Recall From Espionage"
- char_espionage_return_act: "Recall $CHAR$ from their espionage duties"
- char_espionage_return_past: "Recalled $CHAR$ from espionage duties"
- char_espionage_return_act_past: "Recalled $CHAR$ from espionage duties"
- get_ambition_blank: ""
- get_ambition_old: "abandon '[ROOT.GetCharacter.GetAmbitionName|Y]' and "
- loyalty_pretender_support_ci: "Foreign Support for Claimant"
- pretender_support_ci_tt: "If this pretender becomes involved in a Civil War, we will be asked to contribute to their struggle."
- warfare.12.t: "Pretender Sparks War"
- warfare.12.desc: "[SCOPE.sChar('supported_target').GetName], a claimant to the [SCOPE.sChar('supported_target').GetEmployer.GetAdjective] throne whom we have been funneling covert funds to, has sparked a war for the throne.\n\nThe beleaguered revolt has sent requests for aid to our envoys, hoping that we might further advance their cause."
- warfare.12.a: "Send them soldiers."
- warfare.12.b: "Direct intervention seems prudent."
- warfare.12.c: "More aid? Alas..."
- SHOW_THEIR_CHARACTERS: "#T Show Characters in Country#!"
- support_successor: "Support Pretender"
- support_successor_act: "Send financial aid to a foreign pretender"
- support_successor_past: "Sent financial aid to $CHAR$"
- support_successor_act_past: "Sent financial aid to $CHAR$"
- PRETENDER_TOOLTIP: "This character is a pretender to the throne!"
- RESET_CVIEW: "Reset characters view to show our characters."
- warfare.12.d: "Our constancy shall surely be rewarded."
- if_small_enough_subject_tt: "#G If their nation survives the civil war and is of a lower rank than us, they may become our subject#!"
- warfare.14.t: "A Kingdom Restored"
- warfare.14.desc: "The grateful [SCOPE.sC('puppet_kingdom').GetAdjective] Kingdom how lies in safe hands under the rule of [SCOPE.sC('puppet_kingdom').GetRuler.GetName].\n\nGrateful for our aid, and weary of war, their envoys send platitudes of gold and riches, hoping that we might take our leave. With their lands in flames, they would be hard-pressed to refuse more aggressive overtures, however..."
- warfare.14.a: "You shall serve us now, [SCOPE.sC('puppet_kingdom').GetRuler.GetPraenomen]."
- warfare.14.b: "Let them be."
- warfare.15.t: "A Kingdom Divided"
- warfare.15.desc: "At long last, the [SCOPE.sC('puppet_kingdom').GetAdjective] civil war has been won. Despite our diplomatic wrangling, their ungrateful ruler has insisted on the immediate withdrawal of our men from their lands.\n\nTo sweeten the deal, they insist on a share of the riches from the protracted conquest."
- warfare.15.b: "Well, it's better than nothing."
+ #
+ appoint_dictator:0 "Wyznacz dyktatora"
+ appoint_dictator_past:0 "Wyznaczono dyktatora"
+ appoint_dictator_act:0 "Wyznacz dyktatora"
+ appoint_dictator_act_past:0 "Wyznaczono dyktatora"
+ appoint_dictator_effect_tooltip:1 "[actor.GetRulerTitle|Y] [target.GetName|Y] zyska nadzwyczajne uprawnienia, dopóki nie nastanie pokój. Dyktatura oznacza, że [SCOPE.sC('actor').Custom('get_court_type')] poprze większość twoich działań a okres tymczasowego przedłużenia władzy zostanie dodany do bieżącej kadencji, którą posiada [SCOPE.sC('actor').GetRulerTitle|Y]."
+ #
+ ca_convert_religion:0 "Wymuś nawrócenie"
+ ca_convert_religion_past:0 "Wymuszono nawrócenie"
+ ca_convert_religion_act:0 "Wymuś nawrócenie"
+ ca_convert_religion_act_past:0 "Wymuszono nawrócenie"
+ ca_convert_religion_tooltip_republic:0 "Siła modyfikatora #Y niedawno nawrócony#! zależy od #Y gorliwości#! twojego [GetOffice('office_pontifex').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], w porównaniu z celem."
+ ca_convert_religion_tooltip_monarchy:0 "Siła modyfikatora #Y niedawno nawrócony#! zależy od #Y gorliwości#! twojego [GetOffice('office_high_priest_monarchy').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], w porównaniu z celem."
+ ca_convert_religion_tooltip_tribal:0 "Siła modyfikatora #Y niedawno nawrócony#! zależy od #Y gorliwości#! twojego [GetOffice('office_high_priest').GetCulturalName(SCOPE.sChar('target').GetCharacter.GetCountry)], w porównaniu z celem."
+ #
+ adopt_to_family:0 "Adoptuj"
+ adopt_to_family_past:0 "$CHAR$ został zaadoptowany przez rodzinę królewską."
+ adopt_to_family_act:0 "Adoptuj $CHAR$ przez rodzinę królewską."
+ adopt_to_family_act_past:0 "$CHAR$ został(a) zaadoptowany/a przez rodzinę królewską kraju $COUNTRY$"
+ adoption_explanation_tooltip:0 "Jeśli [SCOPE.sChar('target').GetName|Y] stanie się częścią naszej starożytnej #Y rodziny#! zmniejszymy nasz #Y prestiż#! i reputację pośród innych rodzin w naszym kraju.\n\n"
+ bastard_adoption_tooltip:0 "Jako że [SCOPE.sChar('target').GetPraenomen] to [SCOPE.sChar('target').GetDaughterSon|Y] postaci [SCOPE.sC('actor').GetRuler.GetPraenomen], koszt adopcji jest zmniejszony.\n\n"
+ sibling_adoption_tooltip:2 "Jako że [SCOPE.sChar('target').GetPraenomen] to [SCOPE.sChar('target').GetSisterBrother|Y] postaci [SCOPE.sC('actor').GetRuler.GetPraenomen], koszt adopcji jest zmniejszony.\n\n"
+ friend_adoption_tooltip:1 "Jako że [SCOPE.sChar('target').GetPraenomen] to #Y przyjaciel#! postaci [SCOPE.sC('actor').GetRuler.GetPraenomen], koszt adopcji jest zmniejszony.\n\n"
+ lover_adoption_tooltip:0 "Jako że [SCOPE.sChar('target').GetPraenomen] ma dzieci pozamałżeńskie z postacią [SCOPE.sC('actor').GetRuler.GetPraenomen], koszt [Select_CString(target.IsFemale, 'jej', 'jego' )] adopcji jest znacznie zwiększony.\n\n"
+ adoption_explanation_event_tooltip:0 "Jeśli [THIS.GetCharacter.GetName|Y] stanie się częścią naszej starożytnej #Y rodziny#! zmniejszymy nasz #Y prestiż#! i reputację pośród innych rodzin w naszym kraju.\n\n"
+ bastard_adoption_event_tooltip:1 "Jako że [THIS.GetCharacter.GetName|Y] to [THIS.GetCharacter.GetDaughterSon|Y] postaci [GetRootScope.GetCharacter.GetName|Y], koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ sibling_adoption_event_tooltip:1 "Jako że [THIS.GetCharacter.GetName|Y] to [THIS.GetCharacter.GetSisterBrother|Y] postaci [GetRootScope.GetCharacter.GetName|Y], koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ friend_adoption_event_tooltip:1 "Jako że [THIS.GetCharacter.GetName|Y] to bliski przyjaciel postaci [GetRootScope.GetCharacter.GetName|Y], koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ lover_adoption_event_tooltip:1 "Jako że [THIS.GetCharacter.GetName|Y] ma dzieci pozamałżeńskie z postacią [GetRootScope.GetCharacter.GetName|Y], koszt prestiżu za [Select_CString(THIS.IsFemale, 'jej', 'jego' )] adopcję jest znacznie zwiększony.\n\n"
+ adoption_explanation_from_ruler_tooltip:1 "Efekty te będą łagodniejsze w przypadku adopcji przyjaciół, dzieci lub rodzeństwa postaci, którą jest [actor.GetRulerTitle|Y], a surowsze w przypadku adopcji związków pozamałżeńskich."
+ adoption_prestige_tt:0 "Przyjęcie tej postaci do naszej #Y rodziny#! #R zmniejszy#! jej prestiż @prestige!"
+ adoption_legitimacy_tt:0 "[actor.GetName] #R straci#! również legitymizację @legitimacy!" 
+ bastard_adoption_from_ruler_tooltip:0 "Jako że [SCOPE.sChar('target').GetName|Y] to [SCOPE.sChar('target').GetDaughterSon|Y] postaci [SCOPE.sC('actor').GetRuler.GetName|Y] koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ sibling_adoption_from_ruler_tooltip:1 "Jako że [SCOPE.sChar('target').GetName|Y] to [SCOPE.sChar('target').GetSisterBrother|Y] postaci [SCOPE.sC('actor').GetRuler.GetName|Y] koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ friend_adoption_from_ruler_tooltip:0 "Jako że [SCOPE.sChar('target').GetName|Y] to bliski przyjaciel postaci [SCOPE.sC('actor').GetRuler.GetName|Y] koszt prestiżu za adopcję jest zmniejszony.\n\n"
+ lover_adoption_from_ruler_tooltip:0 "Jako że [SCOPE.sChar('target').GetName|Y] ma dzieci pozamałżeńskie z postacią [SCOPE.sC('actor').GetRuler.GetName|Y], koszt [Select_CString(target.IsFemale, 'jej', 'jego' )] adopcji jest znacznie zwiększony.\n\n"
+ #
+ adoption:0 "Zorganizuj adopcję"
+ adoption_past:0 "Zorganizowano adopcję"
+ adoption_act:0 "$CHAR$ zaadoptuje nowego członka rodziny"
+ adoption_select_title:0 "Adopcja przez rodzinę $CHAR$"
+ adoption_act_past:0 "Rodzina $CHAR$ zaadoptowała [SCOPE.sChar('recipient').GetName]."
+ #
+ seize_property:1 "Wyjmij spod prawa"
+ seize_property_past:2 "Wyjęto spod prawa $CHAR$"
+ seize_property_act:2 "Wyjmij spod prawa $CHAR$"
+ seize_property_act_past:1 "Kraj $COUNTRY$ wyjął spod prawa $CHAR$"
+ seize_property_relatives_tooltip:1 "Każdy członek rodziny #Y [SCOPE.sChar('target').GetName]#! utraci #Y 20#! lojalności."
+ family_fallen_from_grace:1 "Rodzina '[target.GetFamily.GetName|Y]' #R przestanie#! być uważana za wielką rodzinę, wszystkie posiadłości rodziny zostaną przejęte, każdy były jej członek ([SCOPE.ScriptValue('seize_property_svalue')|Y0]) straci #R 40#! lojalności@loyalty_icon!na okres #Y 240 miesięcy#!."
+ family_holdings_gone_tt:1 "Wszystkie posiadłości rodziny '[target.GetFamily.GetName|Y]' zostaną skonfiskowane przez państwo."
+ #every_family_character_tt:0 "\nEvery #Y [SCOPE.sChar('target').GetFamilyDisplayName] Family Member#! will lose #R 50#! Loyalty for 20 years."
+ was_once_great:0 "W niełasce"
+ desc_was_once_great:0 "Ta postać była kiedyś członkiem jednej z wielkich rodzin kraju, ale gdy rodzina ta popadła w niełaskę, straciła większość zarówno wpływów, jak i władzy. Do pewnego stopnia prześladują ich wspomnienia z przeszłości."
+ #
+ unappoint_dictator:0 "Zwróć dyktaturę"
+ unappoint_dictator_effect_tooltip:1 "[Select_CString(actor.IsFemale, 'Twoja', 'Twój' )][SCOPE.sC('actor').GetRulerTitle|Y] [Select_CString(actor.IsFemale, 'zostanie zmuszona', 'zostanie zmuszony' )] do zwrócenia władzy dyktatorskiej [actor.Custom('get_court_type_pl_CEL')]."
+ unappoint_dictator_act:1 "Zwróć władzę senatowi"
+ unappoint_dictator_act_past:1 "Zwrócono władzę senatowi"
+ not_giving_up_power:0 "Nie możesz zwrócić władzy dyktatorskiej, ponieważ postać ta odmówiła jej zwrotu."
+ not_dictator_any_more:1 "@trigger_no! Nowy lider u władzy."
+ dictator_leaves_tt:0 "Zrzeczenie się władzy dyktatorskiej:"
+ #
+ stop_seeking_treatment:0 "Zaprzestań szukania leczenia"
+ stop_seeking_treatment_past:0 "Zaprzestano szukania leczenia dolegliwości."
+ stop_seeking_treatment_act:0 "Zaprzestań szukania leczenia dolegliwości."
+ stop_seeking_treatment_act_past:0 "Zaprzestano szukania leczenia dolegliwości."
+ #
+ hold_triumph:0 "Zorganizuj triumf"
+ hold_triumph_past:0 "Zorganizowano triumf!"
+ hold_triumph_act:0 "Zorganizuj triumf dla $CHAR$"
+ hold_triumph_act_past:0 "W kraju $COUNTRY$ zorganizowano chwalebny i ekstrawagancki triumf dla $CHAR$."
+ TRIUMPH_RECENTLY_HELD:1 "[SCOPE.sCountry('actor').GetName|Y] niedawno [Select_CString(actor.IsFemale, 'otrzymała', 'otrzymał' )] triumf i nie może otrzymać kolejnego do [SCOPE.sCountry('actor').GetVariableExpiry('triumph_recently_held')|Y].\n"
+ triumph_l_tt:1 "[target.GetName] #Y straci dowództwo#! oraz zyska #G 20#! lojalności@loyalty_icon!na #Y 120 miesięcy#! i #G 25#! popularności @popularity_icon!" 
+ #
+ bribe_character:0 "Przekup"
+ bribe_character_past:0 "Postać przekupiona!"
+ bribe_character_act:0 "Przekup $CHAR$, aby zwiększyć lojalność tej osoby"
+ bribe_character_act_past:0 "Kraj $COUNTRY$ sprawił, że $CHAR$ jest o wiele bardziej lojalny(a)."
+ BRIBED_RECENTLY:2 "[SCOPE.sChar('target').GetName] [Select_CString(target.IsFemale, 'została', 'został' )] niedawno [Select_CString(target.IsFemale, 'przekupiona', 'przekupiony' )] i odmówi dalszego zaangażowania do [SCOPE.sChar('target').GetVariableExpiry('ca_character_bribed')|Y]\n"
+ bribe_actor_tt:0 "[actor.GetRuler.GetName] zapłaci #R 100#!@gold! ze swojego osobistego majątku i zyska #R 1#! korupcji @corruption_icon!"
+ bribe_target_tt:0 "[target.GetName] zyska #G 100#!@gold!, #G 15#! lojalności@loyalty_icon!na #Y 48 miesięcy#! i #R 5#! korupcji @corruption_icon!"
+ #
+ arrange_marriage:0 "Zaaranżuj mariaż"
+ arrange_marriage_past:0 "Zaaranżowano mariaż"
+ arrange_marriage_act:0 "Znajdź małżonka/ę dla $CHAR$"
+ arrange_marriage_select_title:0 "Zaaranżuj mariaż dla $CHAR$"
+ arrange_marriage_act_past:0 "$CHAR$ zawarł(a) mariaż z [SCOPE.sChar('recipient').GetName]."
+ arrange_marriage_tt:0 "[target.GetPraenomen] poślubi wybranego kandydata z [actor.GetName]"
+ arrange_marriage_consort_tt:0 "W monarchiach współmałżonek przyczynia się do zwiększenia tych umiejętności rządu, które ma wyższe niż władca-współmałżonek."
+ SELECT_TARGET:0 "Wybierz"
+ #
+ marry_ruler:0 "Zaaranżuj mariaż z władcą"
+ marry_ruler_past:0 "Mariaż władcy!"
+ marry_ruler_act:0 "Mariaż!"
+ marry_ruler_act_past:0 "$CHAR$ zawarł(a) mariaż z [SCOPE.sCountry('actor').GetRuler.GetName]."
+ #
+ inspire_disloyalty:0 "Zachęcaj do nielojalności"
+ inspire_disloyalty_past:0 "Postać stałą się bardziej nielojalna!"
+ inspire_disloyalty_act:0 "Zachęć $CHAR$ do być mniej lojalnym"
+ inspire_disloyalty_act_past:0 "Kraj $COUNTRY$ sprawił, że $CHAR$ jest nieco mniej lojalny(a)."
+ not_already_inspiring:0 "Możesz tylko zachęcać do nielojalności tylko #Y 1#! postać na raz."
+ #
+ recruit:0 "Zrekrutuj"
+ recruit_past:0 "Postać zrekrutowana!"
+ recruit_act:0 "Zrekrutuj $CHAR$ do służby nam!"
+ recruit_act_past:0 "Kraj $COUNTRY$ zrekrutował $CHAR$ do służby im."
+ recruit_allow_tt:0 "Nie jest w związku małżeńskim z władcą ani ważną postacią [target.GetEmployer.GetAdjective]."
+ #
+ recruit_general:1 "Pozyskaj generała"
+ recruit_general_past:1 "Generał pozyskany!"
+ recruit_general_act:1 "Pozyskaj $CHAR$ do służby nam!"
+ recruit_general_act_past:1 "Kraj $COUNTRY$ pozyskał $CHAR$ do służby im."
+ recruit_general_tt:0 "[target.GetName] oraz [target.GetHerHis] [legion|El] przejdą na naszą stronę." 
+ #
+ secude_governor:0 "Przekonaj gubernatora"
+ secude_governor_past:0 "Gubernator przekonany!"
+ secude_governor_act:1 "Przekonaj $CHAR$ do błędu"
+ secude_governor_act_past:1 "Kraj $COUNTRY$ przekonał $CHAR$ do błędu!"
+ seduce_governor_tooltip:0 "Oferta została wysłana do #Y [SCOPE.sChar('target').GetName]#!!"
+ #
+ smear_character:0 "Sabotuj reputację"
+ smear_character_past:0 "Postać oczerniona"
+ smear_character_past_failed:0 "Nieskazitelna postać!"
+ smear_character_act:0 "Sabotuj reputację $CHAR$"
+ smear_character_act_past:0 "Kraj $COUNTRY$ z powodzeniem sabotuje reputację $CHAR$."
+ #
+ ca_character_loan:0 "Zażądaj pożyczki"
+ ca_character_loan_past:0 "Zażądano pożyczki."
+ ca_character_loan_act:0 "Zażądaj pieniędzy od $CHAR$"
+ ca_character_loan_act_past:0 "Kraj $COUNTRY$ zażądał pieniędzy od $CHAR$"
+ #
+ ca_character_loan_repay:0 "Spłać pożyczkę"
+ ca_character_loan_repay_past:0 "Spłacono pożyczkę."
+ ca_character_loan_repay_act:0 "Spłać pożyczkę od $CHAR$"
+ ca_character_loan_repay_act_past:0 "Kraj $COUNTRY$ spłacił pożyczkę od $CHAR$"
+ #
+ banish_char:0 "Wygnaj"
+ banish_char_past:0 "Postać wygnana!"
+ banish_char_act:0 "Wygnaj $CHAR$"
+ banish_char_act_past:0 "Kraj $COUNTRY$ wygnał $CHAR$!"
+ banish_effect_tt:0 "[SCOPE.sChar('target').GetName] zostanie [Select_CString(target.IsFemale, 'wygnana', 'wygnany' )] do wybranego kraju."
+ banish_char_select_title:0 "Wybierz cel wygnania"
+ #
+ sacrifice_prisoner:0 "Złóż w ofierze"
+ sacrifice_prisoner_past:0 "Postać złożona w ofierze!"
+ sacrifice_prisoner_act:0 "Złóż w ofierze $CHAR$"
+ sacrifice_prisoner_act_past:0 "Kraj $COUNTRY$ złożył w ofierze $CHAR$"
+ sacrifice_tooltip:2 "Utracona #Y centralizacja#! @centralization! stanowi dziesiątą część #Y wojowniczości#! @military_icon! postaci."
+ #
+ execute_character:0 "Strać"
+ execute_character_past:0 "Postać stracona!"
+ execute_character_act:0 "Strać $CHAR$"
+ execute_character_act_past:0 "Kraj $COUNTRY$ stracił $CHAR$."
+ #
+ support_primary_heir:1 "Zażądaj poparcia dla następcy"
+ support_primary_heir_past:0 "$CHAR$ został(a) zachęcony/a do poparcia głównego następcy!"
+ support_primary_heir_act:0 "Zachęć $CHAR$ do poparcia głównego następcy!"
+ support_primary_heir_act_past:1 "$CHAR$ teraz wyraźnie widzi, kto jest następcą tronu kraju $COUNTRY$."
+ #
+ free_hands:0 "Daj wolną rękę"
+ free_hands_past:0 "Gubernator otrzymał wolną rękę!"
+ free_hands_act:0 "Daj $CHAR$ wolną rękę"
+ free_hands_act_past:1 "Patrz w inną stronę, podczas gdy $CHAR$ w pełni wykorzystuje swoją pozycję."
+ free_hands_tooltip:3 "Nie będzie można cofnąć #Y wolnej ręki#! udzielonej tej postaci przez #Y 2#! lata, a później będzie to kosztować #R 15#! lojalności@loyalty_icon!"
+ free_hands_cooldown_tooltip:0 "Nie możesz cofnąć #Y wolnej ręki#!, dopóki nie miną #Y 2#! lata od jej przyznania."
+ #
+ tie_hands:0 "Cofnij wolną rękę"
+ tie_hands_past:0 "Cofnięto wolną rękę"
+ tie_hands_act:0 "Cofnij wolną rękę"
+ tie_hands_act_past:0 "Cofnięto wolną rękę"
+ tie_hands_tooltip:0 "Jeśli ta postać straci pracę lub zostanie usunięta z urzędu z aktywną wolną ręką, zostanie usunięta i straci #R 20#! lojalności."
+ #
+ ransom_prisoner:0 "Wykup więźnia"
+ ransom_prisoner_past:0 "Postać wykupiona z więzienia!"
+ ransom_prisoner_act:0 "Wykup $CHAR$ z obcego więzienia"
+ ransom_prisoner_act_past:0 "Kraj $COUNTRY$ wykupił $CHAR$ z obcego więzienia"
+ ransom_prisoner_tooltip:0 "Rozpocznij negocjacje dotyczące wykupienia #Y [SCOPE.sChar('target').GetName]#! z niewoli."
+ #
+ release_prisoner:0 "Uwolnij więźnia"
+ release_prisoner_past:0 "Postać uwolniona z więzienia!"
+ release_prisoner_act:0 "Uwolnij $CHAR$ z więzienia"
+ release_prisoner_act_past:0 "Kraj $COUNTRY$ uwolnił $CHAR$ z więzienia."
+ release_prisoner_tooltip:2 "Jeśli [target.GetName] jest z [actor.GetName] lub ojczyzna tej postaci nie istnieje, zostanie tutaj."
+ #
+ imprison:0 "Uwięź"
+ imprison_past:0 "Postać uwięziona"
+ imprison_act:1 "Uwięź $CHAR$"
+ imprison_act_past:1 "Uwięziono $CHAR$."
+ imprison_party_leader_tooltip:1 "Uwięzienie #Y przywódcy frakcji#! lub #Y głowy rodziny#! zdestabilizuje twój kraj!"
+ #
+ assassinate:2 "Zaplanuj zagraniczne morderstwo" #ZMIANA
+ assassinate_past:2 "Zaplanowano zagraniczne morderstwo!"
+ assassinate_act:1 "Próba zamordowania zagranicznej postaci"
+ assassinate_act_past:2 "Kraj $COUNTRY$ zaczął planować morderstwo $CHAR$!"
+ assassinate_scheme:1 "Plan: Morderstwo"
+ assassinate_scheme_past:1 "Zaplanowane morderstwo"
+ assassinate_scheme_act:1 "Próba zamordowania rywala postaci $CHAR$"
+ assassinate_scheme_act_past:1 "$CHAR$ podejmuje próbę zamordowania rywala"
+ assassinate_scheme_select_title:0 "Wybierz cel"
+ employer_is_target_employer_tt:3 "[SCOPE.sC('actor').GetRuler.GetName] ma co najmniej jednego #Y przyjaciela#! w #Y [SCOPE.sChar('target').GetEmployer.GetName]#! (nie może być #Y bliskim krewnym#! postaci [target.GetName], #Y dowódcą straży#! lub #Y strażnikiem przybocznym#!."
+ assassinate_attempt_effect_tooltip:0 "Nasi agenci zaczną planować morderstwo #Y [SCOPE.sChar('target').GetName]#!!"
+ only_one_assassination:0 "Możesz zaplanować tylko jedno morderstwo na raz."
+ assassinate_internal_rival_tt:0 "[target.GetName] ma co najmniej jednego rywala w [actor.GetName]."
+ assassinate_internal_scheme_tt:0 "[target.GetName] nie planuje obecnie morderstwa."
+ scheme_assassinate_tt:0 "[actor.GetRuler.GetPraenomen] podejmie próbę zamordowania wybranego rywala."
+ #
+ assassinate_scheme_other:0 "Zamorduj rywala"
+ assassinate_scheme_other_past:0 "Zaplanowano zamordowanie postaci $CHAR$"
+ assassinate_scheme_other_act:0 "Próba zamordowania postaci $CHAR$"
+ assassinate_scheme_other_act_past:0 "Podjęto próbę zamordowania postaci $CHAR$"
+ scheme_assassinate_other_tt:0 "[actor.GetRuler.GetPraenomen] podejmie próbę zamordowania postaci [target.GetPraenomen]"
+ #
+ assassinate_own_ruler:1 "Zamorduj dyktatora"
+ assassinate_own_ruler_past:1 "Dyktator zamordowany"
+ assassinate_own_ruler_past_failed:1 "Dyktator uniknął zamordowania!"
+ assassinate_own_ruler_act:1 "Próba zamordowania naszego dyktatora"
+ assassinate_own_ruler_act_past:1 "W kraju $COUNTRY$ zamordowano własnego dyktatora."
+ #
+ imprison_republic_trial:0 "Oskarż o przestępstwo"
+ imprison_republic_trial_act:0 "Oskarż o przestępstwo"
+ #
+ BASE_CHANCE_CI:0 "Podstawa: $VAL|+=$"
+ CI_CHANCE_FINESSE:0 "Finezja $CHAR|Y$: $VAL|+=$"
+ WE:0 "My"
+ CHAR_INTERACTION_SETUP:0 "Kiedy dokonamy interakcji z postaciami."
+ CHAR_INTERACTION_HEADER:0 ""
+ CHAR_INTERACTION_1:1 "$TITLE$"
+ CHAR_INTERACTION_2:0 "$DESC$"
+ CHAR_INTERACTION_3:0 ""
+ CHAR_INTERACTION_4:0 "$EFECT$"
+ CHAR_INTERACTION_5:0 ""
+ CHAR_INTERACTION_6:0 ""
+ CHAR_INTERACTION_LOG:0 "$DESC$"
+ CHAR_INTERACTION_BTN1:0 "OK"
+ CHAR_INTERACTION_BTN2:0 "OK"
+ CHAR_INTERACTION_BTN3:0 "Idź do"
+ CHAR_INTERACTION_MAP:0 ""
+ CHAR_INTERACTION_ON_US_SETUP:0 "Kiedy inny kraj dokonuje interakcji postaci z naszymi postaciami."
+ CHAR_INTERACTION_ON_US_HEADER:0 ""
+ CHAR_INTERACTION_ON_US_1:2 "$TITLE$"
+ CHAR_INTERACTION_ON_US_2:0 "$DESC$"
+ CHAR_INTERACTION_ON_US_3:0 ""
+ CHAR_INTERACTION_ON_US_4:0 "$EFECT$"
+ CHAR_INTERACTION_ON_US_5:1 "$DETAILS$"
+ CHAR_INTERACTION_ON_US_6:1 "$FAMILY$"
+ CHAR_INTERACTION_ON_US_LOG:0 "$DESC$"
+ CHAR_INTERACTION_ON_US_BTN1:0 "OK"
+ CHAR_INTERACTION_ON_US_BTN2:0 "OK"
+ CHAR_INTERACTION_ON_US_BTN3:0 "Idź do"
+ CHAR_INTERACTION_ON_US_MAP:0 ""
+ #
+ based_on_character_wealth_tooltip:0 "Koszt tej interakcji zależy od bogactwa postaci docelowej."
+ get_treatable_disease_tooltip:1 "[target.GetName] rozpocznie starania, aby #Y $scheme_seek_treatment$#! dla swojej choroby - #Y [SCOPE.sChar('target').Custom('get_treatable_disease')]#!."
+ seek_treatment:1 "Plan: Znalezienie leczenia"
+ seek_treatment_past:0 "Szukano leczenia dolegliwości."
+ seek_treatment_act:1 "Szukaj leczenia dla $CHAR$."
+ seek_treatment_act_past:0 "Szukano leczenia dla $CHAR$."
+ #
+ hold_games:0 "Zorganizuj igrzyska"
+ hold_games_act:0 "Zorganizuj igrzyska dla ludu"
+ hold_games_past:0 "Zorganizowano igrzyska"
+ hold_games_act_past:0 "Kraj $COUNTRY$ zorganizował igrzyska."
+ GAMES_RECENTLY_HELD:1 "@trigger_no![SCOPE.sCountry('actor').GetName|Y] zorganizował ostatnio igrzyska i nie może zorganizować ich więcej do [SCOPE.sCountry('actor').GetVariableExpiry('games_recently_held')|Y]\n"
+ hold_games_scheme_select_title:0 "$hold_games$"
+ #grant_citizenship
+ grant_citizenship:0 "Przyznaj obywatelstwo"
+ grant_citizenship_act:0 "Przyznaj obywatelstwo $CHAR$."
+ grant_citizenship_past:0 "Przyznano obywatelstwo $CHAR$."
+ grant_citizenship_act_past:0 "Przyznano obywatelstwo $CHAR$."
+ #
+ royal_marriage_acceptance_tooltip_base:0 "        Minimalna wartość: #Y 20#!"
+ royal_marriage_acceptance_tooltip_legitimacy:0 "        #R +[SCOPE.ScriptValue('royal_marriage_acceptance_vs_legitimacy')]#! [SCOPE.sC('actor').GetAdjective] legitymizacja (#Y [SCOPE.ScriptValue('royal_marriage_acceptance_our_legitimacy')]#!) w porównaniu z [SCOPE.sChar('target').GetEmployer.GetAdjective] legitymizacją (#Y [SCOPE.ScriptValue('royal_marriage_acceptance_their_legitimacy')]#!)"
+ royal_marriage_acceptance_tooltip_larger:0 "        #R +20#! [SCOPE.sChar('target').GetEmployer.GetName] jest potężniejszy od nas"
+ has_valid_marriage_candidate_female:1 "#Y [SCOPE.sC('actor').GetName]#! ma niezamężną, dorosłą kobietę będącą członkiem dynastii."
+ has_valid_marriage_candidate_male:1 "#Y [SCOPE.sC('actor').GetName]#! ma niezamężnego, dorosłego, męskiego członka dynastii."
+ royal_marriage_tooltip_candidate_a:0 "Propozycja mariażu między #Y [SCOPE.sChar('royal_marriage_candidate').GetName]#! a #Y [SCOPE.sChar('target').GetName]#!."
+ royal_marriage_tooltip_candidate_b:0 "Propozycja mariażu między #Y [SCOPE.sChar('royal_marriage_candidate_2').GetName]#! a #Y [SCOPE.sChar('target').GetName]#!."
+ royal_marriage_tooltip_candidate_c:0 "Propozycja mariażu między #Y [SCOPE.sChar('royal_marriage_candidate_3').GetName]#! a #Y [SCOPE.sChar('target').GetName]#!."
+ royal_marriage.1.t:0 "Królewski mariaż"
+ royal_marriage.1.desc:0 "W interesie przyszłej współpracy powinniśmy zdecydować, kto z naszego królewskiego rodu mógłby być kandydatem do mariażu z [SCOPE.sChar('target').GetName] z królewskiego rodu [SCOPE.sChar('target').GetEmployer.GetName]."
+ royal_marriage.1.a:0 "[SCOPE.sChar('royal_marriage_candidate').GetPraenomen] jest oczywistym wyborem."
+ royal_marriage.1.b:0 "Wyślij [SCOPE.sChar('royal_marriage_candidate_2').GetPraenomen]."
+ royal_marriage.1.c:0 "Zasugeruj [SCOPE.sChar('royal_marriage_candidate_3').GetPraenomen]."
+ royal_marriage.1.d:0 "Być może jest to nierozsądne."
+ female_moves_to_tooltip:1 "#Y [SCOPE.sChar('female_marriage_candidate').GetName]#! przeniesie się do #Y [SCOPE.sChar('male_marriage_candidate').GetEmployer.GetName]#!, aby być ze swoim mężem."
+ royal_marriage.2.t:0 "Propozycja mariażu"
+ royal_marriage.2.desc:1 "Rodzina królewska [SCOPE.sC('proposer_country').GetAdjective] wysyła ciekawą ofertę. Sugerują, że strategiczny mariaż między [SCOPE.sChar('recipient').GetName] a [SCOPE.sChar('target').GetName] może znacznie przyczynić się do poprawy naszych stosunków dyplomatycznych.\n\nNie trzeba dodawać, że wiąże się to z pewnym ryzykiem; integralność naszego królewskiego rodu jest sprawą najwyższej wagi, jednak możliwości, jakie może ono przynieść, nie powinny być odrzucane tak pochopnie."
+ royal_marriage.2.a:0 "Radujmy się wszyscy!"
+ royal_marriage.2.b:0 "Okropny plan."
+ royal_marriage.2.c:0 "To po prostu nie jest wykonalne."
+ royal_marriage.3.t:0 "Mariaż odrzucony"
+ royal_marriage.3.desc:0 "Z niezależnych od nich przyczyn, dwór [SCOPE.sC('receiver_country').GetAdjective] nie może zatwierdzić naszej prośby o mariaż."
+ royal_marriage.3.a:0 "Rozczarowujące."
+ royal_marriage.4.t:0 "Odmowa mariażu"
+ royal_marriage.4.desc:0 "Niewdzięczne kundle z [SCOPE.sC('receiver_country').GetAdjective] odrzuciły naszą hojną ofertę ślubu z naszym królewskim rodem.\n\nNasz lud zapamięta tę zniewagę!"
+ royal_marriage.4.a:0 "Rozczarowujące."
+ royal_marriage.5.t:0 "Mariaż zaakceptowany!"
+ royal_marriage.5.desc:1 "Ród [SCOPE.sC('receiver_country').GetAdjective] łaskawie przyjął naszą ofertę królewskiego mariażu. [SCOPE.sChar('female_marriage_candidate').GetName] wyjechała do [SCOPE.sChar('male_marriage_candidate').GetEmployer.GetName] aby spotkać się z narzeczonym, [SCOPE.sChar('male_marriage_candidate').GetName].\n\nNiech nasze narody prosperują dzięki wzajemnemu okazywaniu uczuć."
+ royal_marriage.5.a:0 "Wspaniale!"
+ current_marriage_proposal:2 "Nie możesz brać udziału w bieżących negocjacjach małżeńskich."
+ female_shall_move_tooltip:1 "Kobieta, która wychodzi za mąż, zawsze przenosi się do kraju męża.\n\nDzieci pobiorą się, gdy obie osoby przekroczą wiek #Y 16#! lat. Ich przyszłe zaręczyny zakończą się również, gdy jedna z postaci przeprowadzi się za granicę lub będzie szukać małżonka w inny sposób."
+ propose_marriage:2 "Zaaranżuj królewski mariaż" #ZMIANA
+ propose_marriage_act:2 "Zaaranżuj małżeństwo między członkiem naszej dynastii a $CHAR$."
+ propose_marriage_past:1 "Zaaranżowano królewski mariaż z $CHAR$."
+ propose_marriage_act_past:2 "Zaaranżowano królewski mariaż pomiędzy [SCOPE.sChar('recipient').GetName] i $CHAR$."
+ propose_marriage_select_title:0 "$propose_marriage_act$"
+ betrothed_no_tt:0 "Nie jest zaręczona/y z członkiem dynastii panującej w innym kraju. ([target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetEmployer.GetName])"
+ betrothed_broken_tt:0 "[target.GetPraenomen] nie będzie już rozpatrywana/y przy zawieraniu królewskiego mariażu z postacią [target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetName] z [target.MakeScope.GetVariable('betrothed_flag').GetCharacter.GetEmployer.GetName]"
+ #
+ friend_progress_small:0 "Twój władca poczyni #Y mały#! postęp w zaprzyjaźnianiu się z [SCOPE.sChar('friend_target').GetName]."
+ friend_progress_moderate:0 "Twój władca poczyni #Y umiarkowany#! postęp w zaprzyjaźnianiu się z [SCOPE.sChar('friend_target').GetName]."
+ friend_progress_large:0 "Twój władca poczyni #Y wielki#! postęp w zaprzyjaźnianiu się z [SCOPE.sChar('friend_target').GetName]."
+ currently_befriending_tooltip:0 "Już zaprzyjaźnia się z postacią"
+ defriend:0 "Zakończ przyjaźń"
+ defriend_act:0 "Zakończ przyjaźń z $CHAR$."
+ defriend_act_past:0 "Zakończono przyjaźń z $CHAR$."
+ defriend_past:0 "Zakończono przyjaźń z $CHAR$."
+ befriend:0 "Zaprzyjaźnij się"
+ befriend_act:0 "Spróbuj się zaprzyjaźnić z $CHAR$."
+ befriend_act_past:0 "Spróbowano zaprzyjaźnić się z $CHAR$."
+ befriend_past:0 "Spróbowano zaprzyjaźnić się z $CHAR$."
+ #
+ stop_inspire_disloyalty:0 "Zaprzestań zachęcania do nielojalności"
+ stop_inspire_disloyalty_act:0 "Zaprzestań zachęcania do nielojalności"
+ stop_inspire_disloyalty_past:0 "Zaprzestano zachęcania do nielojalności"
+ stop_inspire_disloyalty_act_past:0 "Zaprzestano zachęcania do nielojalności"
+ stop_inspiring_disloyalty_tooltip:0 "Przestaniesz zachęcać do nielojalności obce postaci."
+ adjacent_provinces_enticed:1 "[provinces|E] przylegające do naszego kraju, których lojalność jest niższa niż #Y 50#! @loyalty_icon!, zarządzane przez #Y [target.GetName]#! zostaną anektowane."
+ province_claims_enticed:0 "#Y [SCOPE.sChar('target').GetEmployer.GetName]#! zyska #Y roszczenia#! do wszystkich przekazanych prowincji."
+ inspire_cooldown_tooltip:0 "Nie możesz zaprzestać #Y zachęcania do nielojalności #! dopóki nie minęły #Y 2#! lata."
+ inspire_cooldown_action_tooltip:0 "Nie będzie można zaprzestać #Y zachęcania do nielojalności#! dopóki nie miną #Y 2#! lata."
+ already_inspiring_tooltip:0 "Już zachęcasz do nielojalności obcą postać!"
+ #
+ rival_ruler:0 "Uczyń rywalem"
+ rival_ruler_act:0 "Uczyń $CHAR$ rywalem"
+ rival_ruler_past:0 "Uczyniono $CHAR$ rywalem"
+ rival_ruler_act_past:0 "Uczyniono $CHAR$ rywalem"
+ #
+ succession_crisis_make_mercenary:0 "Zachęć do zostania najemnikiem"
+ succession_crisis_make_mercenary_act:0 "Zachęć $CHAR$ do zostania najemnikiem"
+ succession_crisis_make_mercenary_act_past:0 "Zachęcono $CHAR$ do zostania najemnikiem"
+ succession_crisis_make_mercenary_past:0 "Zachęcono $CHAR$ do zostania najemnikiem"
+ #
+ deserters_already_encouraged_tooltip:0 "@trigger_no! Opcji "zachęcaj do dezercji" możesz użyć na następcy tylko raz na #Y 5#! lat.\n"
+ unit_is_destroyed_tooltip:0 "Losowa podjednostka z armii #Y [SCOPE.sChar('target').GetName]#! zdezerteruje."
+ succession_crisis_encourage_deserters:0 "Zachęcaj do dezercji"
+ succession_crisis_encourage_deserters_act:0 "Zachęcaj do dezercji"
+ succession_crisis_encourage_deserters_past:0 "Kraj $COUNTRY$ zachęcał armie do dezercji od $CHAR$"
+ succession_crisis_encourage_deserters_act_past:0 "Kraj $COUNTRY$ zachęcał armie do dezercji od $CHAR$"
+ #
+ recently_supported_sc_tooltip:1 "Można poprzeć pretendenta tylko raz na #Y 2#! lata."
+ support_foreign_successor:1 "Interweniuj w kryzysie"
+ support_foreign_successor_act:1 "Poprzyj postać $CHAR$ w wysiłkach zmierzających do obalenia jej władcy"
+ support_foreign_successor_past:1 "Poparto pretendenta $CHAR$"
+ support_foreign_successor_act_past:1 "Poparto postać $CHAR$ w wysiłkach zmierzających do obalenia jej władcy"
+ #
+ coup_on_return_tooltip:0 "Jeśli zatrudnisz #Y [SCOPE.sChar('target').GetName]#!, w czasie gdy jest [SCOPE.sChar('target').GetSheHe] najemnikiem, prawdopodobnie spróbuje ponownie przejąć tron."
+ #
+ seize_successor_assets:0 "Skonfiskuj majątek"
+ seize_successor_assets_act:0 "Skonfiskuj majątek $CHAR$, podczas jego/jej nieobecności"
+ seize_successor_assets_past:0 "Kraj $COUNTRY$ skonfiskował majątek $CHAR$"
+ seize_successor_assets_act_past:0 "Kraj $COUNTRY$ skonfiskował majątek $CHAR$"
+ #
+ derival_ruler:0 "Usuń rywala"
+ derival_ruler_act:0 "Przestań postrzegać $CHAR$ jako rywala"
+ derival_ruler_past:0 "Kraj $COUNTRY$ przestał postrzegać $CHAR$ jako rywala"
+ derival_ruler_act_past:0 "Kraj $COUNTRY$ przestał postrzegać $CHAR$ jako rywala"
+ #
+ stop_inspire_disloyalty_ruler:0 "Zaprzestań zachęcania do nielojalności"
+ stop_inspire_disloyalty_ruler_act:0 "Zaprzestań zachęcania obcych frakcji do nielojalności."
+ stop_inspire_disloyalty_ruler_past:0 "Zaprzestano zachęcania obcych frakcji do nielojalności."
+ stop_inspire_disloyalty_ruler_act_past:0 "Kraj $COUNTRY$ zachęca obce frakcje do nielojalności."
+ #TP
+ flog:0 "Rozkaż wychłostać"
+ flog_act:0 "Rozkaż wychłostać $CHAR$"
+ flog_past:0 "Kraj $COUNTRY$ rozkazał wychłostać $CHAR$"
+ flog_act_past:0 "Kraj $COUNTRY$ rozkazał wychłostać $CHAR$"
+ rivals_gain_loyalty_flogging:0 "#Y Wszyscy rywale [SCOPE.sChar('target').GetName]:#!"
+ #
+ grant_clan_autonomy:0 "Przyznaj klanowi autonomię"
+ grant_clan_autonomy_act:0 "Przyznaj $CHAR$ całkowitą autonomię"
+ grant_clan_autonomy_act_past:0 "Przyznano $CHAR$ całkowitą autonomię"
+ grant_clan_autonomy_past:0 "Kraj $COUNTRY$ przyznał $CHAR$ całkowitą autonomię"
+ clan_chief_secedes:0 "#Y [SCOPE.sChar('target').GetName]#! odejdzie, aby przewodzić temu krajowi.\nJeżeli ma [SCOPE.sChar('target').GetSheHe] członków rodziny w #Y [SCOPE.sC('actor').GetName]#!, oni też odejdą."
+ becomes_a_tributary_tt:0 "\nStaną się naszym #Y trybutariuszem#!."
+ every_remaining_chief_tt:0 "\n\nKażdy pozostanie #Y wodzem klanu#!:"
+ #
+ insulted_clan_chief:0 "Obrażony wódz klanu"
+ desc_insulted_clan_chief:0 "Ten wódz klanu czuje się szczególnie obrażony po tym, jak wywyższyliśmy innego wodza."
+ exalted_clan_chief:0 "Wywyższony wódz klanu"
+ desc_exalted_clan_chief:0 "Ten wódz klanu czuje się wspaniałomyślnie po tym, jak go wywyższyliśmy."
+ exalt_clan_chief:0 "Wywyższ wodza klanu"
+ exalt_clan_chief_act:0 "Wywyższ $CHAR$"
+ exalt_clan_chief_act_past:0 "Wywyższono $CHAR$"
+ exalt_clan_chief_past:0 "Wywyższono $CHAR$"
+ every_other_clan_chief:1 "\nKażdy inny #Y wódz klanu#! ([SCOPE.ScriptValue('exalt_chief_count')|0R]) traci #R 10#! lojalności@loyalty_icon!na #Y 60 miesięcy#! i #R 0.02#! miesięcznej popularności @popularity_icon! na #Y 60 miesięcy#!"
+ no_other_clan_chief_modifier_tt:0 "@trigger_no! Żaden #Y wódz klanu#! nie ma modyfikatora #Y wywyższony wódz klanu#!."
+ exalt_tt:0 "[target.GetName] zyskuje #G 20#! lojalności@loyalty_icon!na #Y 120 miesięcy#! i #G +0.5#! miesięcznej popularności @popularity_icon! na #Y 60 miesięcy#!" 
+ #
+ grant_laurels:0 "Przyznaj wyróżnienia kapitulacyjne"
+ grant_laurels_act:0 "Przyznaj wyróżnienia kapitulacyjne $CHAR$"
+ grant_laurels_past:0 "Przyznano wyróżnienia kapitulacyjne $CHAR$"
+ grant_laurels_act_past:0 "Kraj $COUNTRY$ przyznał wyróżnienia kapitulacyjne $CHAR$"
+ laurels_already_granted_tt:0 "Już przyznano wyróżnienia kapitulacyjne tej postaci"
+ may_gain_nickname:1 "[target.GetSheHe|U] może zyskać #Y przydomek#!."
+ may_gain_cognomen:0 "[target.GetSheHe|U] może zyskać #Y kognomen#!"
+ laurels_effect_tt:0 "[target.GetName] zyska #G 60#! lojalności@loyalty_icon! na #Y 120 miesięcy#!, #G 20#! prominencji @prominence_icon! i #G 20#! popularności @popularity_icon!" 
+ #
+ tutor_heir:1 "Szkól dziecko"
+ tutor_heir_act:1 "Wybierz nową ambicję dla królewskiego dziecka"
+ tutor_heir_act_past:0 "Wybierz nową ambicję dla królewskiego potomstwa"
+ tutor_heir_past:0 "Wybierz nową ambicję dla królewskiego potomstwa"
+ tutor_heir_select_title:0 "Wybierz kandydata na nauczyciela"
+
+ tutor_child:0 "Nauczaj"
+ tutor_child_act:0 "Wybierz nową ambicję dla: $CHAR$"
+ tutor_child_act_past:0 "Wybrano nową ambicję dla: $CHAR$"
+ tutor_child_past:0 "Wybrano nową ambicję dla: $CHAR$"
+
+ #
+ every_applicable_family_member_tt:1 "Każdy członek rodziny '[target.GetFamily.GetName|Y]' nadający się na urząd ([SCOPE.ScriptValue('stipends_char_count_svalue')|Y0]) zyskuje #R +50.0%#! miesięcznej płacy, #G +2.0#! @gold! na miesiąc i #G 20#! lojalności@loyalty_icon!przez okres #Y 60 miesięcy#!"
+ grant_stipends:0 "Przyznaj uposażenie"
+ grant_stipends_act:0 "Przyznaj uposażenie rodzinie $CHAR$"
+ grant_stipends_act_past:0 "Kraj $COUNTRY$ przyznał uposażenie rodzinie $CHAR$"
+ grant_stipends_past:0 "Przyznano uposażenie rodzinie $CHAR$"
+ #
+ gladiatorial_debut:0 "Zaaranżuj debiut gladiatorski"
+ gladiatorial_debut_act:0 "Zaaranżuj debiut gladiatorski"
+ gladiatorial_debut_past:0 "Zaaranżowano debiut gladiatorski"
+ gladiatorial_debut_act_past:0 "Zaaranżowano debiut gladiatorski"
+ gladiator_outcome_tooltip:0 "[SCOPE.sC('actor').GetRuler.GetName] zyska popularności @popularity_icon! bazującej na wyniku walki.\nZwycięzca walki zostanie #Y uwolniony#! z więzienia."
+ gladiatorial_debut_select_title:0 "Wybierz przeciwnika"
+ #
+ republic_reward_veterans:0 "Nagródź weteranów"
+ republic_reward_veterans_act:0 "Wypłać pieniądze weteranom lojalnym wobec $CHAR$"
+ republic_reward_veterans_act_past:0 "Kraj $COUNTRY$ wypłacił pieniądze weteranom lojalnym wobec $CHAR$"
+ republic_reward_veterans_past:0 "Wypłacono pieniądze weteranom lojalnym wobec $CHAR$"
+ unit_is_bought_off_tooltip:1 "Maks. #Y 4#! kohorty lub #Y 4#! weteranów lojalnych wobec [target.GetName] straci osobistą lojalność lub zniknie, #R zmniejszając#! #Y siłę bazową#!@power_base! tej postaci."
+ REWARDED_VETERANS_RECENTLY:1 "@trigger_no! Niedawno wypłacono pieniądze weteranom lojalnym wobec [SCOPE.sChar('target').GetName] i do tego czasu nie będziemy w stanie przekonać innych do [SCOPE.sChar('target').GetVariableExpiry('republic_reward_veterans_cooldown')|Y]\n"
+ has_loyal_cohorts_or_veterans_tt:0 "Musi mieć co najmniej 1 #Y lojalnego weterana#! lub #Y lojalną kohortę#!."
+ #
+ merc_buyoff:1 "Przekup najemników"
+ merc_buyoff_act:0 "Spróbuj przekupić $CHAR$"
+ merc_buyoff_past:0 "Podjęto próbę przekupienia $CHAR$"
+ merc_buyoff_act_past:0 "Podjęto próbę przekupienia $CHAR$"
+ merc_buyoff_effect_tooltip:0 "[SCOPE.sChar('target').GetName] otrzyma od nas ofertę. Jeśli ich obecny zleceniodawca nie przebije naszej oferty, najemnicy przejdą na naszą stronę!"
+ merc_buyoff_effect_tooltip_sg:0 "[SCOPE.GetRootScope.GetCharacter.GetName] otrzyma od nas ofertę. Jeśli ich obecny zleceniodawca nie przebije naszej oferty, najemnicy przejdą na naszą stronę!"
+ merc_joined_us_tt:0 "[SCOPE.sChar('target').GetName] dołączył do nas wraz ze swoją grupą najemników!"
+ merc_employed_tt:0 "[target.GetName] jest zatrudniony przez kraj."
+ eligible_merc_buyoff_tt:0 "Jednostka najemników nie jest w walce."
+ warfare.3.t:0 "Lepsza oferta"
+ warfare.3.desc:0 "Zatrudnieni przez nas najemnicy, dowodzeni przez [SCOPE.sChar('target').GetName], zwrócili się do nas, twierdząc, że [Select_CString(actor.IsFemale, 'nikczemna', 'nikczemny' )] [SCOPE.sC('actor').GetName] [Select_CString(actor.IsFemale, 'zaoferowała', 'zaoferował' )] im pokaźną sumę za przejście na [SCOPE.sChar('actor').GetSheHe] stronę.\n\nPrzebiegle dali nam szansę na przebicie oferty, mając nadzieję, że skorzystają podwójnie na tej podstępnej transakcji."
+ warfare.3.a:0 "Bardzo dobrze..."
+ warfare.3.b:0 "Nigdy!"
+ warfare.4.t:0 "Oferta odrzucona"
+ warfare.4.desc:0 "Oddział najemników dowodzony przez [SCOPE.sChar('target').GetName] bezdusznie odrzucił naszą ofertę lepszego zatrudnienia!\n\nWygląda na to, że otrzymali lepszą ofertę od łotrów z [SCOPE.sChar('target').GetEmployer.GetAdjective]."
+ warfare.4.a:0 "Szlag!"
+ warfare.5.t:0 "Próba przekupienia najemników zakończona powodzeniem!"
+ warfare.5.desc:0 "Oddział najemników dowodzony przez [SCOPE.sChar('target').GetName], przyjął naszą życzliwą ofertę zatrudnienia. Łotry z [SCOPE.sC('counter_target').GetName] nie były w stanie przebić naszej szczodrej oferty."
+ warfare.5.a:0 "Ich strata!"
+ merc_1_year_buyoff_tt:0 "Nie możesz przekupić najemników częściej niż raz w roku."
+ #
+ create_mercenary_may_return_some_day_tt:1 "[SCOPE.sChar('target').GetName] opuści @[actor.GetFlag]! [actor.GetName], aby zostać najemnikiem. Wróci, kiedy stwierdzi, że [Select_CString(target.IsFemale, 'nauczyła', 'nauczył' )] się już wszystkiego."
+ create_mercenary:0 "Wyślij na przygodę"
+ create_mercenary_act:0 "Wyślij $CHAR$ na przygodę w obcych krajach"
+ create_mercenary_past:0 "Wysłano $CHAR$ na przygodę w obcych krajach"
+ create_mercenary_act_past:0 "Wysłano $CHAR$ na przygodę w obcych krajach"
+ estimated_chance_to_assassinate_tooltip_monarchy:1 "Szansa na powodzenie #R maleje#! wraz ze wzrostem umiejętności @military_icon! #Y dowódcy straży#! [target.GetEmployer.GetAdjective]. (Umiejętność ta wynosi obecnie [SCOPE.ScriptValue('get_master_of_guard_martial_svalue')|0Y])."
+ estimated_chance_to_assassinate_tooltip_tribal:1 "Szansa na powodzenie #R maleje#! wraz ze wzrostem umiejętności @military_icon! #Y strażnika przybocznego#! [target.GetEmployer.GetAdjective]. (Umiejętność ta wynosi obecnie [SCOPE.ScriptValue('get_master_of_guard_martial_svalue')|0Y])."
+ #
+ grant_holding:0 "Przyznaj posiadłość"
+ grant_holding_act:0 "Przyznaj posiadłość $CHAR$"
+ grant_holding_past:0 "Przyznano posiadłość $CHAR$"
+ grant_holding_act_past:0 "Kraj $COUNTRY$ przyznał posiadłość $CHAR$"
+ grant_holding_effect_tooltip:1 "Rodzinie '[target.GetFamily.GetName|Y]' zostanie przyznana wybrana przez nas posiadłość."
+ grant_holding_select_title:0 "Wybierz posiadłość"
+ #
+ office_trial:0 "Postaw przed sądem"
+ office_trial_act:0 "Spróbuj aresztować $CHAR$"
+ office_trial_past:0 "Podjęto próbę zwolnienia z urzędu i aresztowania postaci $CHAR$"
+ office_trial_act_past:0 "W kraju $COUNTRY$ podjęto próbę zwolnienia z urzędu i aresztowania postaci $CHAR$"
+ office_trial_success_chance:1 "Obecnie masz [SCOPE.sChar('target').Custom('get_trial_success_chance_summary')] szansę na powodzenie. (#Y [SCOPE.ScriptValue('get_trial_success_chance')|/0]%#!)"
+ office_trial_success_chance_echain:0 "Obecnie masz [SCOPE.sChar('target').Custom('get_trial_success_chance_summary_echain')] szansę na powodzenie. [SCOPE.ScriptValue('get_trial_success_chance')]"
+ office_trial_success_can_improve:0 "Wybory dokonane podczas procesu wpłyną na ostateczną szansę.\n\n"
+ chance_below_20:0 "#R bardzo niską#!"
+ chance_20_40:0 "#R niską#!"
+ chance_40_60:0 "#Y średnią#!"
+ chance_60_80:0 "#G wysoką#!"
+ chance_above_80:0 "#G bardzo wysoką#!"
+ chances_reduced_by:1 "Szansa jest #R zmniejszana#! przez [SCOPE.sChar('target').GetHerHis] siłę bazową@power_base! (#R [SCOPE.ScriptValue('get_trial_powerbase')|/0]#!)"
+ chances_increased_by:0 "Szansa jest #G zwiększana#! przez [SCOPE.sChar('target').GetHerHis] korupcję @corruption_icon! (#G [SCOPE.ScriptValue('get_trial_corruption')|/0]#!)"
+ easier_to_prosecute_tt:0 "Brak prawa do odwołania: #Y [SCOPE.sChar('target').GetName]#! nie ma naszej #Y kultury podstawowej#!, zwiększając szansę na wyrok.\n\n"
+ pick_influence_ambition:1 "Plan: Wpływ"
+ pick_influence_ambition_act:2 "$CHAR$ zacznie tworzyć wpływy polityczne"
+ pick_influence_ambition_past:2 "Postać $CHAR$ rozpoczęła tworzenie wpływów politycznych."
+ pick_influence_ambition_act_past:2 "Postać $CHAR$ rozpoczęła tworzenie wpływów politycznych"
+ ##
+ pick_influence_ambition_select_title:0 "$pick_influence_ambition$"
+ auto_influence_toggle:0 "Włącz automatyczne wywieranie wpływu"
+ auto_influence_toggle_act:0 "$CHAR$ będzie automatycznie wywierać wpływ na wybrany cel."
+ auto_influence_toggle_past:0 "Zezwolono $CHAR$ na automatyczne wywieranie wpływu na wybrany cel."
+ auto_influence_toggle_act_past:0 "Zezwolono $CHAR$ na automatyczne wywieranie wpływu na wybrany cel."
+ influence_potential_rewards_tt:1 "[target.GetName] będzie tracić #R -0.1#! popularności @popularity_icon! każdego miesiąca."
+ until_scheme_ends_tt:0 "Do czasu zakończenia planu:"
+ #
+ scheme_ruler_invest_has_tt:0 "Ma aktywną ambicję "Wyprowadź fundusze"."
+ scheme_ruler_invest_potential_rewards_tt:1 "[target.GetName] zyska #G 10#! @gold! i #R 0.05#! @corruption_icon! każdego miesiąca aż do czasu zakończenia planu."
+ ruler_invest_ambition:0 "Plan: Wyprowadź fundusze"
+ ruler_invest_ambition_act:1 "$CHAR$ wyprowadzi fundusze ze skarbu państwa do własnej kieszeni"
+ ruler_invest_ambition_past:1 "Postać $CHAR$ wyprowadziła fundusze ze skarbu państwa"
+ ruler_invest_ambition_act_past:1 "Postać $CHAR$ rozpoczęła wyprowadzanie funduszy ze skarbu państwa"
+ #
+ legitimacy_ambition_effect_tt:1 "[target.GetName] będzie tracić #R -4#! @gold! każdego miesiąca aż do zakończenia planu, kiedy to zyska #Y 5#! legitymizacji @legitimacy!"
+ legitimacy_bloodline_tt:0 "[target.GetPraenomen] może również zyskać cechę greckiego #Y rodowodu#!"
+ prove_legitimacy:1 "Plan: Udowodnij legitymizację"
+ prove_legitimacy_act:0 "$CHAR$ zacznie zgłębiać pochodzenie swojego rodowodu"
+ prove_legitimacy_act_past:0 "Postać $CHAR$ zaczęła zgłębiać pochodzenie swojego rodowodu"
+ prove_legitimacy_past:0 "Postać $CHAR$ zaczęła zgłębiać pochodzenie swojego rodowodu"
+ gain_random_diadochi_bloodline_trait:0 "Znajdź powiązanie z greckim #Y rodowodem#!!"
+ gained_diadochi_bloodline_trait:0 "[SCOPE.GetRootScope.GetCharacter.GetName] i zyskał(a) cechę #Y rodowód#!."
+ gained_diadochi_bloodline_trait_children:0 "[SCOPE.GetRootScope.GetCharacter.GetName] i [SCOPE.GetRootScope.GetCharacter.GetHerHis] potomstwo zyskuje cechę #Y rodowód#!."
+ hold_games_scheme:2 "Plan: Ufunduj igrzyska"
+ hold_games_scheme_act:1 "Ufunduj igrzyska"
+ hold_games_scheme_past:1 "Ufundowano igrzyska"
+ hold_games_scheme_act_past:1 "Ufundowano igrzyska"
+ hold_games_scheme_ci_tooltip:3 "Podczas trwania tego planu [SCOPE.sChar('target').GetName] utraci #R 5#! @gold! i zyska #Y 0.5#! @popularity_icon! każdego miesiąca, a wybrane w tym celu terytorium otrzyma #G +10%#! zadowolenia lokalnej ludności."
+ recent_trial_cannot_tt:0 "@trigger_no! Nie możesz zorganizować kolejnego procesu do [SCOPE.sChar('target').GetVariableExpiry('recent_trial_cooldown_var')|Y]"
+ #
+ governor_grant_nickname:0 "Nadaj regionalny kognomen"
+ governor_grant_nickname_act:0 "Nadaj kognomen"
+ governor_grant_nickname_past:0 "Nadano kognomen"
+ governor_grant_nickname_act_past:0 "Nadano kognomen"
+ #
+ impose_corruption_sanctions:1 "Nałóż sankcje"
+ impose_corruption_sanctions_act:0 "Nałóż sankcje za korupcję na $CHAR$"
+ impose_corruption_sanctions_past:0 "Nałożono sankcje za korupcję na $CHAR$"
+ impose_corruption_sanctions_act_past:0 "Nałożono sankcje za korupcję na $CHAR$"
+ impose_corruption_sanctions_tt_1:0 "[target.GetName] straci [SCOPE.ScriptValue('impose_fine_corruption_svalue')|G0] korupcji @corruption_icon! i #R 20#! lojalności@loyalty_icon! na okres #Y 60 miesięcy#!"
+ impose_corruption_sanctions_tt_2:0 "[target.GetName] straci [SCOPE.ScriptValue('impose_fine_corruption_svalue')|G0] korupcji @corruption_icon!"
+ #Marriage Events
+ royal_marriage.6.t:0 "[ROOT.GetCountry.Custom('proposal_type')]"
+ got_indecent_proposal:0 "Nieoczekiwana propozycja"
+ got_decent_proposal:0 "Dobrana para"
+ #First
+ random_marriage_proposal_1:0 "[Select_CString(suitor.IsFemale, 'Pełna', 'Pełen' )] podniecenia, [SCOPE.sChar('suitor').GetPraenomen] [Select_CString(suitor.IsFemale, 'wezwała', 'wezwał' )] swoją pomoc domową. Po zbyt długiej samotności, [Select_CString(suitor.IsFemale, 'postanowiła', 'postanowił' )] przedstawić ofertę małżeństwa osobie będącej [SCOPE.sChar('love_target').Custom('get_beautifulness')][Select_CString(love_target.IsFemale, 'ą', 'ym' )] [SCOPE.sChar('love_target').Custom('get_age_adjective')] o imieniu [SCOPE.sChar('love_target').GetPraenomen], [Select_CString(love_target.IsFemale, 'pochodzącej', 'pochodzącemu' )] z dynastii [SCOPE.sChar('love_target').GetFamilyDisplayAdjective]."
+ random_marriage_proposal_2:0 "Po dokładnych rozważaniach, ocenie potencjalnych małżonków i wielu badaniach dotyczących różnych rodów i spuścizn, [SCOPE.sChar('suitor').GetPraenomen] wezwał swoich pomocników i zaproponował ofertę małżeństwa [SCOPE.sChar('love_target').GetPraenomen] z dynastii [SCOPE.sChar('love_target').GetFamilyDisplayAdjective]."
+ random_marriage_proposal_3:0 "[SCOPE.sChar('suitor').GetPraenomen] od dawna [Select_CString(suitor.IsFemale, 'cieszyła', 'cieszył' )] się życiem pełnym beztroski, jednakże tego samego ranka [Select_CString(suitor.IsFemale, 'wezwała', 'wezwał' )] wysłannika, by przedstawić propozycję małżeństwa [SCOPE.sChar('love_target').Custom('get_beautifulness')][Select_CString(love_target.IsFemale, 'ej', 'emu' )] [SCOPE.sChar('love_target').GetPraenomen], [Select_CString(love_target.IsFemale, 'będącej', 'będącemu' )] [SCOPE.sChar('love_target').Custom('get_age_adjective')], w nadziei na spłodzenie spadkobierców w celu dalszej legitymizacji dynastii [SCOPE.sChar('suitor').GetFamilyDisplayAdjective]."
+ #Second
+ hof_disapproves_loyalty_desc:0 "\n\nNiestety, wysłannik donosi, że głowa dynastii [SCOPE.sChar('love_target').GetFamilyDisplayAdjective], [SCOPE.sChar('negotiator').GetName], stanowczo krytykuje nasze rządy i wyraźnie twierdzi, że w żadnym wypadku nie pozwoli na ten związek.\n\nPodejrzewamy, że być może po prostu chce podnieść cenę negocjacyjną, chociaż będziemy musieli zaoferować znacznie więcej, niż się spodziewaliśmy, jeśli chcemy zdobyć serce [SCOPE.sChar('love_target').Custom('get_beautifulness')][Select_CString(target.IsFemale, 'ej', 'ego' )] [SCOPE.sChar('love_target').GetPraenomen]."
+ hof_disapproves_age_desc:0 "\n\nZ żalem nasz wysłannik przynosi wieści, że głowa rodu [SCOPE.sChar('love_target').GetFamilyDisplayAdjective], [SCOPE.sChar('negotiator').GetName], [Select_CString(love_target.IsFemale, 'wkroczyła', 'wkroczył' )], by poruszyć problemy związane z tą propozycją, powołując się na wielką różnicę wieku między [SCOPE.sChar('suitor').GetPraenomen] a [SCOPE.sChar('love_target').Custom('get_age_adjective')], [SCOPE.sChar('love_target').GetPraenomen].\n\nWyraźnie, próbuje [SCOPE.sChar('negotiator').GetSheHe] wyciągnąć z nas tylko większy posag... być może negocjacje to jedyny sposób na zdobycie miłości [SCOPE.sChar('suitor').GetPraenomen]."
+ self_disapproves_loyalty_desc:0 "\n\nWysłannik, który dostarczył propozycję informuje, że ledwo udało mu się ujść z życiem po tym, jak [SCOPE.sChar('love_target').GetPraenomen] [Select_CString(love_target.IsFemale, 'wpadła', 'wpadł' )] w wielką furię, rzucając [ROOT.GetCountry.Custom('get_arena_death_implement_glad')] z wielką dokładnością i prawie go ścinając. Wygląda na to, że [SCOPE.sChar('love_target').GetPraenomen] z wielką pogardą rozważa naszą propozycję. Może być konieczne jest uatrakcyjnienie umowy przez zwiększenie wielkości posagu."
+ self_disapproves_age_desc:0 "\n\nWysłannik informuje, że propozycja ta, choć pochlebna, wzbudziła wielkie rozbawienie [SCOPE.sChar('love_target').GetPraenomen] i [SCOPE.sChar('love_target').GetHerHis] towarzyszy, którzy nie starali się ukryć pogardy wobec zaawansowanego w jakim jest [SCOPE.sChar('suitor').GetPraenomen].\n\nByć może będziemy musieli rozważyć zaoferowanie znacznego posagu, jeśli [SCOPE.sChar('suitor').GetPraenomen] ma odnaleźć miłość w osobie o tak zaawansowanym wieku i doświadczeniu."
+ self_approves_desc:0 "\n\nWysłannik informuje, że [SCOPE.sChar('love_target').GetPraenomen], [Select_CString(love_target.IsFemale, 'będąca', 'będący' )] [SCOPE.sChar('love_target').Custom('get_age_adjective')] prawie [Select_CString(love_target.IsFemale, 'omdlała', 'omdlał' )] po otrzymaniu wiadomości. Może to oznaczać, że [SCOPE.sChar('suitor').GetPraenomen] i [SCOPE.sChar('love_target').GetPraenomen] są idealną parą."
+ hof_approves_desc:0 "\n\nPomimo wyglądu jaki ma [SCOPE.sChar('negotiator').GetPraenomen], wygląda na to, że wszystkie obawy jakie miała głowa rodziny, [SCOPE.sChar('negotiator').GetFamilyDisplayAdjective], zostały rozwiązane przez [SCOPE.sChar('suitor').Custom('love_object')], które [SCOPE.sChar('suitor').GetPraenomen] [Select_CString(suitor.IsFemale, 'zaoferowała', 'zaoferował' )] w celu wsparcia swojej propozycji."
+ ##get_age_adjective
+ get_maiden_nn:0 "młodą dziewczyną"
+ get_master_nn:0 "młodym panem"
+ get_woman_nn:0 "młodą kobietą"
+ get_man_nn:0 "młodym mężczyzną"
+ get_woman_of_age_nn:0 "starszą kobietą"
+ get_gentleman_nn:0 "starszym panem"
+ #get_beautifulness
+ get_beautifulness_beautiful:0 "piękn"
+ get_beautifulness_pulchritudinous:0 "urodziw"
+ get_beautifulness_stunning:0 "oszałamiając"
+ get_beautifulness_fabulous:0 "fantastyczn"
+ get_beautifulness_hideously_maimed:0 "paskudnie okaleczon"
+ get_beautifulness_leprous:0 "trędowat"
+ get_beautifulness_charmless:0 "nieurodziw"
+ get_beautifulness_pious:0 "pobożn"
+ get_beautifulness_fair:0 "sprawiedliw"
+ get_beautifulness_charming:0 "urocz"
+ get_beautifulness_splendid:0 "wspaniał"
+ get_beautifulness_attractive:0 "atrakcyjn"
+ get_beautifulness_expert_martial:0 "muskularn"
+ #love_object
+ got_poetry:0 "pięknie napisany wiersze miłosne"
+ got_flowers:0 "liczne dekoracje kwiatowe"
+ got_mournful_wailings:0 "żałobne zawodzenie w tle"
+ got_splendid_gifts:0 "wspaniałe prezenty"
+ got_fine_clothes:0 "ładne ubrania"
+ got_wondrous_garments:0 "cudowne ubrania"
+ got_offers_of_friendship:0 "obietnice wiecznej wierności"
+ disloyalty_exclusive_marriage:0 "Ta opcja jest dostępna #Y tylko#! dlatego, ponieważ strona negocjująca jest nielojalna."
+ unable_to_propose_to_for_5_years:0 "Nie będzie można zaoferować mariażu postaci #Y [SCOPE.sChar('love_target').GetPraenomen]#! przez następne #Y 5#! lat."
+ royal_marriage.6.a:0 "Wspaniale! Zorganizujmy uroczystości!"
+ royal_marriage.6.b:0 "Sprytnie. Mamy trochę złota do wydania."
+ royal_marriage.6.c:0 "Twarde warunki, ale warte każdego grosza."
+ royal_marriage.6.d:0 "Będziemy musieli szukać miłości gdzie indziej..."
+ #Sell into slavery
+ sell_into_slavery:0 "Sprzedaj w niewolę"
+ sell_into_slavery_act:0 "Sprzedaj $CHAR$ w niewolę"
+ sell_into_slavery_act_past:0 "Sprzedano $CHAR$ w niewolę"
+ sell_into_slavery_past:0 "Sprzedano $CHAR$ w niewolę"
+ based_on_stats_slave:1 "[actor.GetName] zyska [SCOPE.ScriptValue('sell_slavery_income')|2G] @gold! z racji umiejętności postaci [target.GetPraenomen]"
+ sold_every_family_member_tt:1 "Każdy inny członek rodziny '[target.GetFamily.GetName|Y]' ([SCOPE.ScriptValue('sell_into_slavery_count_svalue')|Y0]) straci #R 10#! lojalności@loyalty_icon!"
+ sold_every_family_head_tt:0 "Każdy inny członek rodziny '[target.GetFamily.GetName|Y]' ([SCOPE.ScriptValue('sell_into_slavery_count_svalue')|Y0]) straci #R 30#! lojalności@loyalty_icon!na okres #Y 120 miesięcy#!"
+ slavery_sell_tt:0 "[target.GetName] #R zniknie#! na zawsze."
+ dislikes_selling_family_slavery_tt:0 "Wielka rodzina okryta hańbą:"
+ #Revoke Holding
+ revoke_holding:0 "Odbierz posiadłość"
+ revoke_holding_past:0 "Odebrano posiadłość"
+ revoke_holding_act:1 "$CHAR$ odbierze rodzinną posiadłość"
+ revoke_holding_act_past:0 "Odebrano posiadłość"
+ revoke_holding_effect_tooltip:0 "Odbierz posiadłość, która nie jest własnością rodziny"
+ revoke_holding_select_title:0 "Wybierz posiadłość do odebrania:"
+ #Orator Bribe
+ orator_bribe_character:0 "Przekonaj"
+ orator_bribe_character_past:0 "Postać przekonana!"
+ orator_bribe_character_act:0 "Przekonaj $CHAR$ do stania się bardziej lojalnym"
+ orator_bribe_character_act_past:0 "Kraj $COUNTRY$ przekonał $CHAR$ do stania się znacznie bardziej lojalnym."
+ orator_bribe_reason:0 "Zastępuje to opcję #Y przekupstwa#!, ponieważ twój władca posiada cechę #Y orator#! lub #Y elokwencja#!.\n\n"
+ #Ostracize
+ ostracize_effect_tt:1 "[SCOPE.sChar('target').GetName|Y] zostanie [Select_CString(target.IsFemale, 'wygnana', 'wygnany' )] do losowego pobliskiego kraju, który straci #R 25#! opinii o nas."
+ ostracize_char:0 "Skaż na ostracyzm"
+ ostracize_char_past:0 "Postać skazana na ostracyzm!"
+ ostracize_char_act:0 "Skaż na ostracyzm: $CHAR$"
+ ostracize_char_act_past:0 "Kraj $COUNTRY$ skazał na ostracyzm $CHAR$!"
+ due_to_half_power_base:0 "#R Koszt tyranii#! jest równy połowie siły bazowej celu.\n\n"
+ FROM_TYRANNY_PARTY_OSTRA:0 "Kraj: Od tyranii"
+ ostracize_char_impact:0 "Ostracyzm"
+ mg_ostra:0 "Pogłoski o ostracyzmie"
+ mg_ostra_oops:0 "Skazano na ostracyzm członka rodziny królewskiej"
+ OSTRACISM_RECENTLY_HELD:1 "Kraj [SCOPE.sCountry('actor').GetName|Y] niedawno skazał postać na ostracyzm i nie może skazać kolejnej do [SCOPE.sCountry('actor').GetVariableExpiry('ostracism_recently_held')|Y].\n"
+ ostracize_tt:0 "[actor.GetName] straci #R 5#! stabilności @stability! i [SCOPE.ScriptValue('ostracize_tyranny_svalue')|R0] tyranii @tyranny!"
+ #MG SYRACUSE
+ mg_syracuse_merc_recruit:0 "Wybierz nowego przywódcę"
+ mg_syracuse_merc_recruit_past:0 "Wybrano nowego przywódcę"
+ mg_syracuse_merc_recruit_act:0 "Wybierz $CHAR$ na nowego przywódcę"
+ mg_syracuse_merc_recruit_act_past:0 "Wybrano nowego przywódcę"
+ must_have_adjacent_disloyal_state:0 "Przynajmniej jedna prowincja rządzona przez tego gubernatora, przylegająca do naszej granicy musi mieć mniej niż #Y 50#! lojalności prowincji."
+ #Spouse Finder
+ marriage_internal_scheme_tt:1 "[target.GetName] nie próbuje już zaaranżować mariażu politycznego."
+ seek_spouse_interaction:1 "Plan: Znajdź współmałżonka"
+ seek_spouse_interaction_act:1 "Wżeń postać $CHAR$ w wielką rodzinę"
+ seek_spouse_interaction_past:0 "Zaaranżowano mariaż polityczny"
+ seek_spouse_interaction_act_past:0 "Zaaranżowano mariaż polityczny"
+ marriage_internal_unmarried_tt:0 "[target.GetName] nie może być [Select_CString(target.IsFemale, 'zamężna', 'żonaty' )]."
+ scheme_seek_a_spouse_tooltip:3 "Odpowiedni współmałżonek dla [target.GetName] zostanie znaleziony spośród rozszerzonych relacji wybranej #Y rodziny#!. #Y Głowa rodziny#! może stawiać żądania lub #R odrzucić#! prośbę.\n[target.GetName] będzie tracić #R -2.5#! @gold! każdego miesiąca aż do zakończenia planu."
+ seek_spouse_interaction_select_title:0 "Wybierz głowę rodziny, aby złożyć propozycję:"
+ scheme.21.t:0 "Nowy mariaż polityczny?"
+ not_state_culture:0 "[target.GetName] nie ma naszej #Y kultury podstawowej#!.\nAby [target.GetHerHim] zaadoptować, musimy uchwalić decyzję kulturową #Y Złagodzenie ograniczeń dotyczących obywatelstwa#! dla kultury [target.GetEmployer.GetPrimaryCulture.GetName]."
+ BRIBE_RULERWEALTH_TT:0 "[SCOPE.sCountry('actor').GetRuler.GetName|Y] musi mieć #Y 100#! @gold! w swoim majątku osobistym."
+ PROVE_LEGITIMACY_RULERWEALTH_TT:0 "[SCOPE.sCountry('actor').GetRuler.GetName|Y] musi mieć #Y 300#! @gold! w swoim majątku osobistym."
+ SEEK_TREATMENT_RULERWEALTH_TT:0 "[SCOPE.sCountry('actor').GetRuler.GetName|Y] musi mieć #Y 200#! @gold! w swoim majątku osobistym."
+
+ get_ambition_blank:0 ""
+ get_ambition_old:0 "porzuci swoją ambicję '[ROOT.GetCharacter.GetAmbitionName|Y]' i "
+ 
+ SHOW_THEIR_CHARACTERS:0 "#T Pokaż postacie w kraju#!"
+
+ RESET_CVIEW:0 "Zresetuj widok postaci, aby pokazać nasze postacie."

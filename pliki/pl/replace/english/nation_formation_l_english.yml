@@ -41,7 +41,7 @@
  MGG: "Wielka Grecja"
  MGG_ADJ: "Grecka"
  formable_magna_graecia_not_exists: "#Y Wielka Grecja#! NIE może istnieć."
- form_magna_graecia_claims_tooltip: "Magna Graecia zyska roszczenia do regionu #Y Wielka Grecja#!."
+ form_magna_graecia_claims_tooltip: "Wielka Grecja zyska roszczenia do regionu #Y Wielka Grecja#!."
  GALLAECIA_NAME: "Galicja"
  GALLAECIA_ADJECTIVE: "Galicji"
  form_gallaecia: "Zjednoczenie Galicji"

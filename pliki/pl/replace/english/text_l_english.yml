@@ -159,7 +159,7 @@
  change_pantheon: "zmiany składu panteonu"
  HEALTH_VALUE_CODE: "[CHARACTER.Custom('health_svalue_malefemale')]"
  HEALTH_VALUE: "[Character.Custom('health_svalue_malefemale')]"
- health_perfect: "Doskonałe zdrowie"
+ health_perfect: "W pełni zdrowy"
  health_high: "Zdrowy"
  health_medium: "Niedomagający"
  health_low: "Słabe zdrowie"

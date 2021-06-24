@@ -1,6 +1,6 @@
 ﻿l_english:
- mission_task_completed_tt_1: ""
- mission_task_completed_tt_2: ""
+ mission_task_completed_tt_1: "Zadanie misji '#Y "
+ mission_task_completed_tt_2: "#!' zostało #G ukończone#!!"
  me_syr_task_start_tt_1: ""
  me_syr_task_start_tt_2: ""
  me_syracuse_1_democracy_leader_tt: ""

@@ -1,6 +1,6 @@
 ﻿l_english:
  warfare.1.t: "Złupienie miasta [SCOPE.sP('temp_city_scope_warfare_1').GetName]"
- warfare.1.desc: "[ROOT.GetCharacter.GetName] [Select_CString(ROOT.GetCharacter.IsFemale, 'prowadziła', 'prowadził' )] swoich ludzi do chwalebnego zwycięstwa podczas oblężenia miasta [SCOPE.sP('temp_city_scope_warfare_1').GetName]. Wróg ucieka w hańbie, pozostaje nam tylko zdecydować, jak traktować mieszkańców.\n\nOczywiście dzięki bogatym łupom [ROOT.GetCharacter.GetPraenomen] będzie w stanie zyskać znaczną popularność w stolicy [ROOT.GetCharacter.GetEmployer.GetCapital.GetName], ale pozostawienie takiego bogactwa w rękach jednego człowieka może spowodować problemy w przyszłości..."
+ warfare.1.desc: "[ROOT.GetCharacter.GetName] [Select_CString(ROOT.GetCharacter.IsFemale, 'poprowadziła', 'poprowadził' )] swoich ludzi do chwalebnego zwycięstwa podczas oblężenia miasta [SCOPE.sP('temp_city_scope_warfare_1').GetName]. Wróg ucieka w hańbie, pozostaje nam tylko zdecydować, jak traktować mieszkańców.\n\nOczywiście dzięki bogatym łupom [ROOT.GetCharacter.GetPraenomen] będzie w stanie zyskać znaczną popularność w stolicy [ROOT.GetCharacter.GetEmployer.GetCapital.GetName], ale pozostawienie takiego bogactwa w rękach jednego człowieka może spowodować problemy w przyszłości..."
  warfare.1.a: "Nie przesadzaj z grabieżami."
  warfare.1.b: "Niech biorą co zechcą!"
  warfare.1.c: "Nikt się nie ukryje!"
