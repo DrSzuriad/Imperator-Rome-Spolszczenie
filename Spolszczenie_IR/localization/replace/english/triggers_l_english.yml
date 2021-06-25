@@ -299,7 +299,7 @@
  CIVILIZATIONVALUE_NOT_TRIGGER:0 "Poziom cywilizacji terytorium NIE wynosi $COMPARATOR$ $NUM|Y$"
  TOTALPOPULATION_TRIGGER:0 "Populacja wynosi $COMPARATOR$ $NUM|Y$"
  TOTALPOPULATION_NOT_TRIGGER:0 "Populacja NIE wynosi $COMPARATOR$ $NUM|Y$"
- ANPOWER_INCOME_TRIGGER:0 "Dochód z zasobów ludzkich wynosi $COMPARATOR$ $NUM|Y$"
+ MANPOWER_INCOME_TRIGGER:0 "Manpower income is $COMPARATOR$ $NUM|Y$"
  MANPOWER_INCOME_NOT_TRIGGER:0 "Dochód z zasobów ludzkich NIE wynosi $COMPARATOR$ $NUM|Y$"
  UNIT_THREAT_NOT_TRIGGER:0 "NIE ma $COMPARATOR$ $NUM|Y$ zagrożeń dla jednostki."
  UNIT_THREAT_TRIGGER:0 "Ma $COMPARATOR$ $NUM|Y$ zagrożeń dla jednostki."
