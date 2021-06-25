@@ -1,0 +1,3189 @@
+﻿
+############################################
+###   Scripted Localization for Polish   ###
+############################################
+
+## Religie (kraj) ##
+#get_Rel_Dop
+#get_Rel_Cel
+#get_Rel_Bier
+#get_Rel_Narz
+#get_Rel_Mian_LMn
+#get_Rel_Dop_LMn
+
+## Panteony ##
+#get_Pantheon_pl
+#get_Deity_DescriptiveName_pl
+
+## Świątynie ##
+#temple_string_pl_BIER
+#temple_string_pl_MSC
+#temple_string_pl_YmEj [-ym/-ej] (temple_string_pl_BIER)
+#temple_string_pl_YA
+#temple_string_pl_ImJej [-im/-ej] (temple_string_pl_MSC)
+
+## Grupy kulturowe (kraj) ##
+#get_CultureGroup_pl_DOP (=CEL)
+#get_CultureGroup_pl_BIER
+
+## Typy rządów (nazwy senatu) ##
+#get_court_type_pl_DOP
+#get_court_type_pl_MSC
+#get_court_type_pl_NARZ
+#get_court_type_pl_CEL
+#get_court_type_pl_BIER
+#get_court_type_pl_EgoEj [-ego/-ej] (get_court_type_pl_DOP)
+#get_court_type_pl_YmA [-ym/-ą] (get_court_type_pl_NARZ)
+#get_court_type_pl_YmEj [-ym/-ej] (get_court_type_pl_MSC)
+#get_court_type_pl_YA [-y/-a]
+#get_court_type_pl_W_Na [W /Na ] (get_court_type_pl_MSC)
+#get_court_type_pl_Nic_A [-/-ą] (get_court_type_pl_BIER)
+#get_court_type_pl_PowinienPowinna [powinien/powinna]
+
+## Ranga państwa ##
+#get_country_rank_DOP
+#get_country_rank_BIER
+#get_country_rank_CEL
+
+## Typy miast ##
+#get_city_type_loc_Cap
+#get_city_type_loc_pl_MSC
+#get_city_type_loc_pl_DOP
+#get_city_type_loc_pl_NARZ
+#get_city_type_loc_pl_BIER
+#get_city_type_loc_pl_OA [-o/-a]
+#get_city_type_loc_pl_EA [-e/-a]
+#get_city_type_loc_pl_IeA [-ie/-a]
+#get_city_type_loc_pl_EgoEj [-ego/-ej] (get_city_type_loc_pl_DOP)
+#get_city_type_loc_pl_EAdiakr [-e/-ą] (get_city_type_loc_pl_BIER)
+#get_city_type_loc_pl_IeAdiakr [-ie/-ą] (get_city_type_loc_pl_BIER)
+
+## Postacie ##
+#get_IsWas_ANone
+#get_GrandDaughterSon
+#get_GrandDaughterSon_Cap
+#get_Rival_malefemale
+#get_Rival_malefemale_Cap
+#get_Friend_malefemale
+#get_Friend_malefemale_Cap
+#health_svalue_malefemale
+
+## Określenia współmałżonka ##
+#monarchy_spouse_description_malefemale
+#consort_malefemale = {
+
+## Wydarzenia ##
+#get_applause_type_glad_2
+#get_applause_type_glad_outro
+
+## Inne ##
+#reign_singplur = {
+
+
+
+
+####################
+# Religie (kraj)   #
+####################
+
+get_Rel_Dop = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_dop
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_dop
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_dop
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_dop
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_dop
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_dop
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_dop
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_dop
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_dop
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_dop
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_dop
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_dop
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_dop
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_dop
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_dop
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_dop
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_dop
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_dop
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_dop
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_dop
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_dop
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_dop
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Cel = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_cel
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_cel
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_cel
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_cel
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_cel
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_cel
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_cel
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_cel
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_cel
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_cel
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_cel
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_cel
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_cel
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_cel
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_cel
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_cel
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_cel
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_cel
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_cel
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_cel
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_cel
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_cel
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Bier = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_bier
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_bier
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_bier
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_bier
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_bier
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_bier
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_bier
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_bier
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_bier
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_bier
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_bier
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_bier
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_bier
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_bier
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_bier
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_bier
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_bier
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_bier
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_bier
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_bier
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_bier
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_bier
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Narz = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_narz
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_narz
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_narz
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_narz
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_narz
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_narz
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_narz
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_narz
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_narz
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_narz
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_narz
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_narz
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_narz
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_narz
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_narz
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_narz
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_narz
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_narz
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_narz
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_narz
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_narz
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_narz
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Mian_LMn = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_mian_l_mn
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_mian_l_mn
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_mian_l_mn
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_mian_l_mn
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_mian_l_mn
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_mian_l_mn
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_mian_l_mn
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_mian_l_mn
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_mian_l_mn
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_mian_l_mn
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_mian_l_mn
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_mian_l_mn
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_mian_l_mn
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_mian_l_mn
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_mian_l_mn
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_mian_l_mn
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_mian_l_mn
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_mian_l_mn
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_mian_l_mn
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_mian_l_mn
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_mian_l_mn
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_mian_l_mn
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Dop_LMn = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_dop_l_mn
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_dop_l_mn
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_dop_l_mn
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_dop_l_mn
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_dop_l_mn
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_dop_l_mn
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_dop_l_mn
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_dop_l_mn
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_dop_l_mn
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_dop_l_mn
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_dop_l_mn
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_dop_l_mn
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_dop_l_mn
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_dop_l_mn
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_dop_l_mn
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_dop_l_mn
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_dop_l_mn
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_dop_l_mn
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_dop_l_mn
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_dop_l_mn
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_dop_l_mn
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_dop_l_mn
+		trigger = { religion = jainism }
+	}
+}
+
+####################
+# Świątynie        #
+####################
+
+temple_string_pl_BIER = {
+	type = province
+	
+	text = {
+		localization_key = cloc_shrine_matrist_BIER
+		trigger = {
+			has_city_status = no
+			dominant_province_religion = matrist_religion
+		}
+	}
+
+	text = {
+		localization_key = cloc_shrine_BIER
+		trigger = {
+			has_city_status = no
+		}
+	}
+	
+	text = {
+		localization_key = cloc_temple_BIER
+		trigger = {
+			has_city_status = yes
+			total_population <= 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_sanctuary_BIER
+		trigger = {
+			has_city_status = yes
+			total_population > 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_holy_site_default_BIER
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+temple_string_pl_MSC = {
+	type = province
+	
+	text = {
+		localization_key = cloc_shrine_matrist_MSC
+		trigger = {
+			has_city_status = no
+			dominant_province_religion = matrist_religion
+		}
+	}
+
+	text = {
+		localization_key = cloc_shrine_MSC
+		trigger = {
+			has_city_status = no
+		}
+	}
+	
+	text = {
+		localization_key = cloc_temple_MSC
+		trigger = {
+			has_city_status = yes
+			total_population <= 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_sanctuary_MSC
+		trigger = {
+			has_city_status = yes
+			total_population > 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_holy_site_default_MSC
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+temple_string_pl_YmEj = {
+	type = province
+	
+	text = {
+		localization_key = cloc_shrine_matrist_YmEj
+		trigger = {
+			has_city_status = no
+			dominant_province_religion = matrist_religion
+		}
+	}
+
+	text = {
+		localization_key = cloc_shrine_YmEj
+		trigger = {
+			has_city_status = no
+		}
+	}
+	
+	text = {
+		localization_key = cloc_temple_YmEj
+		trigger = {
+			has_city_status = yes
+			total_population <= 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_sanctuary_YmEj
+		trigger = {
+			has_city_status = yes
+			total_population > 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_holy_site_default_YmEj
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+temple_string_pl_YA = {
+	type = province
+	
+	text = {
+		localization_key = cloc_shrine_matrist_YA
+		trigger = {
+			has_city_status = no
+			dominant_province_religion = matrist_religion
+		}
+	}
+
+	text = {
+		localization_key = cloc_shrine_YA
+		trigger = {
+			has_city_status = no
+		}
+	}
+	
+	text = {
+		localization_key = cloc_temple_YA
+		trigger = {
+			has_city_status = yes
+			total_population <= 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_sanctuary_YA
+		trigger = {
+			has_city_status = yes
+			total_population > 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_holy_site_default_YA
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+temple_string_pl_ImJej = {
+	type = province
+	
+	text = {
+		localization_key = cloc_shrine_matrist_ImJej
+		trigger = {
+			has_city_status = no
+			dominant_province_religion = matrist_religion
+		}
+	}
+
+	text = {
+		localization_key = cloc_shrine_ImJej
+		trigger = {
+			has_city_status = no
+		}
+	}
+	
+	text = {
+		localization_key = cloc_temple_ImJej
+		trigger = {
+			has_city_status = yes
+			total_population <= 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_sanctuary_ImJej
+		trigger = {
+			has_city_status = yes
+			total_population > 80
+		}
+	}
+	
+	text = {
+		localization_key = cloc_holy_site_default_ImJej
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+####################
+# Panteony    	   #
+####################
+
+get_Pantheon_pl = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_pl
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_pl
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_pl
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_pl
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_pl
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_pl
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_pl
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_pl
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_pl
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_pl
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_pl
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_pl
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_pl
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_pl
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_pl
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_pl
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_pl
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_pl
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_pl
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_pl
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_pl
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_pl
+		trigger = { religion = jainism }
+	}
+}
+
+get_Deity_DescriptiveName_pl = {
+	type = country
+	text = {
+		localization_key = roman_pantheon_deity_pl
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_deity_pl
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_deity_pl
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_deity_pl
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_deity_pl
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_deity_pl
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_deity_pl
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_deity_pl
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_deity_pl
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_deity_pl
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_deity_pl
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_deity_pl
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_deity_pl
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_deity_pl
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_deity_pl
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_deity_pl
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_deity_pl
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_deity_pl
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_deity_pl
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_deity_pl
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_deity_pl
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_deity_pl
+		trigger = { religion = jainism }
+	}
+}
+
+######################################
+# Grupy kulturowe (kraj)             #
+######################################
+
+get_CultureGroup_pl_DOP = {
+	type = country
+	text = {
+		localization_key = aksumite_group_DOP
+		trigger = { country_culture_group = aksumite_group }
+	}
+	text = {
+		localization_key = anatolian_DOP
+		trigger = { country_culture_group = anatolian }
+	}
+	text = {
+		localization_key = south_levantine_DOP
+		trigger = { country_culture_group = south_levantine }
+	}
+	text = {
+		localization_key = east_levantine_DOP
+		trigger = { country_culture_group = east_levantine }
+	}
+	text = {
+		localization_key = aryan_DOP
+		trigger = { country_culture_group = aryan }
+	}
+	text = {
+		localization_key = bactrian_DOP
+		trigger = { country_culture_group = bactrian }
+	}
+	text = {
+		localization_key = belgae_group_DOP
+		trigger = { country_culture_group = belgae_group }
+	}
+	text = {
+		localization_key = caucasian_DOP
+		trigger = { country_culture_group = caucasian }
+	}
+	text = {
+		localization_key = celt_iberia_DOP
+		trigger = { country_culture_group = celt_iberia }
+	}
+	text = {
+		localization_key = dacia_group_DOP
+		trigger = { country_culture_group = dacia_group }
+	}
+	text = {
+		localization_key = indian_DOP
+		trigger = { country_culture_group = indian }
+	}
+	text = {
+		localization_key = north_african_DOP
+		trigger = { country_culture_group = north_african }
+	}
+	text = {
+		localization_key = gaelic_DOP
+		trigger = { country_culture_group = gaelic }
+	}
+	text = {
+		localization_key = gallic_DOP
+		trigger = { country_culture_group = gallic }
+	}
+	text = {
+		localization_key = germanic_DOP
+		trigger = { country_culture_group = germanic }
+	}
+	text = {
+		localization_key = hellenic_DOP
+		trigger = { country_culture_group = hellenic }
+	}
+	text = {
+		localization_key = iberia_DOP
+		trigger = { country_culture_group = iberia }
+	}
+	text = {
+		localization_key = illyrian_group_DOP
+		trigger = { country_culture_group = illyrian_group }
+	}
+	text = {
+		localization_key = persia_DOP
+		trigger = { country_culture_group = persia }
+	}
+	text = {
+		localization_key = latin_DOP
+		trigger = { country_culture_group = latin }
+	}
+	text = {
+		localization_key = west_levantine_DOP
+		trigger = { country_culture_group = west_levantine }
+	}
+	text = {
+		localization_key = meroitic_group_DOP
+		trigger = { country_culture_group = meroitic_group }
+	}
+	text = {
+		localization_key = numidian_DOP
+		trigger = { country_culture_group = numidian }
+	}
+	text = {
+		localization_key = proto_european_DOP
+		trigger = { country_culture_group = proto_european }
+	}
+	text = {
+		localization_key = celto_pannonian_group_DOP
+		trigger = { country_culture_group = celto_pannonian_group }
+	}
+	text = {
+		localization_key = pracyan_DOP
+		trigger = { country_culture_group = pracyan }
+	}
+	text = {
+		localization_key = britannic_DOP
+		trigger = { country_culture_group = britannic }
+	}
+	text = {
+		localization_key = scythia_DOP
+		trigger = { country_culture_group = scythia }
+	}
+	text = {
+		localization_key = tibetan_DOP
+		trigger = { country_culture_group = tibetan }
+	}
+	text = {
+		localization_key = baltic_DOP
+		trigger = { country_culture_group = baltic }
+	}
+}
+
+get_CultureGroup_pl_BIER = {
+	type = country
+	text = {
+		localization_key = aksumite_group_BIER
+		trigger = { country_culture_group = aksumite_group }
+	}
+	text = {
+		localization_key = anatolian_BIER
+		trigger = { country_culture_group = anatolian }
+	}
+	text = {
+		localization_key = south_levantine_BIER
+		trigger = { country_culture_group = south_levantine }
+	}
+	text = {
+		localization_key = east_levantine_BIER
+		trigger = { country_culture_group = east_levantine }
+	}
+	text = {
+		localization_key = aryan_BIER
+		trigger = { country_culture_group = aryan }
+	}
+	text = {
+		localization_key = bactrian_BIER
+		trigger = { country_culture_group = bactrian }
+	}
+	text = {
+		localization_key = belgae_group_BIER
+		trigger = { country_culture_group = belgae_group }
+	}
+	text = {
+		localization_key = caucasian_BIER
+		trigger = { country_culture_group = caucasian }
+	}
+	text = {
+		localization_key = celt_iberia_BIER
+		trigger = { country_culture_group = celt_iberia }
+	}
+	text = {
+		localization_key = dacia_group_BIER
+		trigger = { country_culture_group = dacia_group }
+	}
+	text = {
+		localization_key = indian_BIER
+		trigger = { country_culture_group = indian }
+	}
+	text = {
+		localization_key = north_african_BIER
+		trigger = { country_culture_group = north_african }
+	}
+	text = {
+		localization_key = gaelic_BIER
+		trigger = { country_culture_group = gaelic }
+	}
+	text = {
+		localization_key = gallic_BIER
+		trigger = { country_culture_group = gallic }
+	}
+	text = {
+		localization_key = germanic_BIER
+		trigger = { country_culture_group = germanic }
+	}
+	text = {
+		localization_key = hellenic_BIER
+		trigger = { country_culture_group = hellenic }
+	}
+	text = {
+		localization_key = iberia_BIER
+		trigger = { country_culture_group = iberia }
+	}
+	text = {
+		localization_key = illyrian_group_BIER
+		trigger = { country_culture_group = illyrian_group }
+	}
+	text = {
+		localization_key = persia_BIER
+		trigger = { country_culture_group = persia }
+	}
+	text = {
+		localization_key = latin_BIER
+		trigger = { country_culture_group = latin }
+	}
+	text = {
+		localization_key = west_levantine_BIER
+		trigger = { country_culture_group = west_levantine }
+	}
+	text = {
+		localization_key = meroitic_group_BIER
+		trigger = { country_culture_group = meroitic_group }
+	}
+	text = {
+		localization_key = numidian_BIER
+		trigger = { country_culture_group = numidian }
+	}
+	text = {
+		localization_key = proto_european_BIER
+		trigger = { country_culture_group = proto_european }
+	}
+	text = {
+		localization_key = celto_pannonian_group_BIER
+		trigger = { country_culture_group = celto_pannonian_group }
+	}
+	text = {
+		localization_key = pracyan_BIER
+		trigger = { country_culture_group = pracyan }
+	}
+	text = {
+		localization_key = britannic_BIER
+		trigger = { country_culture_group = britannic }
+	}
+	text = {
+		localization_key = scythia_BIER
+		trigger = { country_culture_group = scythia }
+	}
+	text = {
+		localization_key = tibetan_BIER
+		trigger = { country_culture_group = tibetan }
+	}
+	text = {
+		localization_key = baltic_BIER
+		trigger = { country_culture_group = baltic }
+	}
+}
+
+######################################
+# Typy rządów (nazwy senatu)         #
+######################################
+
+get_court_type_pl_DOP = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_DOP
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_DOP #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_DOP # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_DOP #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_DOP # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_DOP # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_DOP # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_DOP
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_DOP
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_DOP
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_MSC = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_MSC
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_MSC #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_MSC # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_MSC #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_MSC # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_MSC # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_MSC # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_MSC
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_MSC
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_MSC
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_NARZ = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_NARZ
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_NARZ #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_NARZ # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_NARZ #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_NARZ # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_NARZ # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_NARZ # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_NARZ
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_NARZ
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_NARZ
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_CEL = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_CEL
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_CEL #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_CEL # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_CEL #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_CEL # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_CEL # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_CEL # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_CEL
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_CEL
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_CEL
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_BIER = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_BIER
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_BIER #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_BIER # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_BIER #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_BIER # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_BIER # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_BIER # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_BIER
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_BIER
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_BIER
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_EgoEj = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_EgoEj
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_EgoEj #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_EgoEj # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_EgoEj #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_EgoEj # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_EgoEj # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_EgoEj # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_EgoEj
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_EgoEj
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_EgoEj
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_YmA = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_YmA
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_YmA #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_YmA # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_YmA #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_YmA # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_YmA # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_YmA # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_YmA
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_YmA
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_YmA
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_YmEj = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_YmEj
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_YmEj #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_YmEj # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_YmEj #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_YmEj # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_YmEj # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_YmEj # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_YmEj
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_YmEj
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_YmEj
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_YA = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_YA
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_YA #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_YA # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_YA #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_YA # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_YA # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_YA # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_YA
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_YA
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_YA
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_W_Na = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_W_Na
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_W_Na #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_W_Na # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_W_Na #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_W_Na # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_W_Na # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_W_Na # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_W_Na
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_W_Na
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_W_Na
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_Nic_A = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_Nic_A
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_Nic_A #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_Nic_A # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_Nic_A #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_Nic_A # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_Nic_A # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_Nic_A # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_Nic_A
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_Nic_A
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_Nic_A
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+get_court_type_pl_PowinienPowinna = {
+	type = country
+	text = {
+		localization_key = court_type_athens_pl_PowinienPowinna
+		trigger = {
+			is_republic = yes
+			tag = ATH
+		}
+	}
+	text = {
+		localization_key = court_type_greek_oligarchy_pl_PowinienPowinna #Gerousia
+		trigger = {
+			is_republic = yes
+			government = oligarchic_republic
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_greek_pl_PowinienPowinna # Boule
+		trigger = {
+			is_republic = yes
+			country_culture_group = hellenic
+		}
+	}
+	text = {
+		localization_key = court_type_punic_pl_PowinienPowinna #Adirim
+		trigger = {
+			is_republic = yes
+			OR = {
+				primary_culture = carthaginian
+				primary_culture = phoenician
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_rome_pl_PowinienPowinna # Rome
+		trigger = {
+			is_republic = yes
+			tag = ROM
+		}
+	}
+	text = {
+		localization_key = court_type_synedrion_pl_PowinienPowinna # Mac/Epi
+		trigger = {
+			is_republic = yes
+			OR = {
+				tag = MAC
+				tag = EPI
+				tag = KOR
+				primary_culture = macedonian
+				primary_culture = epirote
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_sangha_pl_PowinienPowinna # Sanskrit
+		trigger = {
+			is_republic = yes
+			OR = {
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				country_culture_group = indian
+			}
+		}
+	}
+	text = {
+		localization_key = court_type_monarchy_pl_PowinienPowinna
+		trigger = {
+			is_monarchy = yes
+		}
+	}
+	text = {
+		localization_key = court_type_republic_pl_PowinienPowinna
+		trigger = {
+			is_republic = yes
+		}
+	}
+	text = {
+		localization_key = court_type_tribal_pl_PowinienPowinna
+		trigger = {
+			is_tribal = yes
+		}
+	}
+}
+
+########################
+# Ranga państwa        #
+########################
+
+get_country_rank_DOP = {
+	type = country
+	text = {
+		localization_key = country_rank_migrant_horde_DOP
+		trigger = {
+			rank = migrant_horde
+		}
+	}
+	text = {
+		localization_key = country_rank_city_power_DOP
+		trigger = {
+			rank = city_power
+		}
+	}
+	text = {
+		localization_key = country_rank_local_power_DOP
+		trigger = {
+			rank = local_power
+		}
+	}
+	text = {
+		localization_key = country_rank_regional_power_DOP
+		trigger = {
+			rank = regional_power
+		}
+	}
+	text = {
+		localization_key = country_rank_major_power_DOP
+		trigger = {
+			rank = major_power
+		}
+	}
+	text = {
+		localization_key = country_rank_great_power_DOP
+		trigger = {
+			rank = great_power
+		}
+	}
+}
+
+get_country_rank_BIER = {
+	type = country
+	text = {
+		localization_key = country_rank_migrant_horde_BIER
+		trigger = {
+			rank = migrant_horde
+		}
+	}
+	text = {
+		localization_key = country_rank_city_power_BIER
+		trigger = {
+			rank = city_power
+		}
+	}
+	text = {
+		localization_key = country_rank_local_power_BIER
+		trigger = {
+			rank = local_power
+		}
+	}
+	text = {
+		localization_key = country_rank_regional_power_BIER
+		trigger = {
+			rank = regional_power
+		}
+	}
+	text = {
+		localization_key = country_rank_major_power_BIER
+		trigger = {
+			rank = major_power
+		}
+	}
+	text = {
+		localization_key = country_rank_great_power_BIER
+		trigger = {
+			rank = great_power
+		}
+	}
+}
+
+get_country_rank_CEL = {
+	type = country
+	text = {
+		localization_key = country_rank_migrant_horde_CEL
+		trigger = {
+			rank = migrant_horde
+		}
+	}
+	text = {
+		localization_key = country_rank_city_power_CEL
+		trigger = {
+			rank = city_power
+		}
+	}
+	text = {
+		localization_key = country_rank_local_power_CEL
+		trigger = {
+			rank = local_power
+		}
+	}
+	text = {
+		localization_key = country_rank_regional_power_CEL
+		trigger = {
+			rank = regional_power
+		}
+	}
+	text = {
+		localization_key = country_rank_major_power_CEL
+		trigger = {
+			rank = major_power
+		}
+	}
+	text = {
+		localization_key = country_rank_great_power_CEL
+		trigger = {
+			rank = great_power
+		}
+	}
+}
+
+########################
+# Typy miast           #
+########################
+
+get_city_type_loc_Cap = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_Cap
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_Cap
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_Cap
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_MSC = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_MSC
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_MSC
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_MSC
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_DOP = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_DOP
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_DOP
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_DOP
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_NARZ = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_NARZ
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_NARZ
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_NARZ
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_BIER = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_BIER
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_BIER
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_BIER
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_OA = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_OA
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_OA
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_OA
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_EA = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_EA
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_EA
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_EA
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_IeA = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_IeA
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_IeA
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_IeA
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_EgoEj = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_EgoEj
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_EgoEj
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_EgoEj
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_EAdiakr = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_EAdiakr
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_EAdiakr
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_EAdiakr
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_city_type_loc_pl_IeAdiakr = {
+	type = province
+
+	text = {
+		localization_key = get_city_type_loc_metropolis_IeAdiakr
+		trigger = {
+			has_province_rank = city_metropolis
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_settlement_IeAdiakr
+		trigger = {
+			has_province_rank = settlement
+		}
+	}
+
+	text = {
+		localization_key = get_city_type_loc_city_IeAdiakr
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+#####################
+# Postacie          #
+#####################
+
+get_IsWas_ANone = {
+	type = character
+	
+	text = {
+		localization_key = was_a
+		trigger = {
+			is_female = yes
+			is_alive = no
+		}
+	}
+	
+	text = {
+		localization_key = was_none
+		trigger = {
+			is_female = no
+			is_alive = no
+		}
+	}
+
+	text = {
+		localization_key = is_none
+		trigger = {
+			is_alive = yes
+		}
+	}
+}
+
+get_GrandDaughterSon = {
+	type = character
+	
+	text = {
+		localization_key = CHARACTER_GRANDDAUGHTER
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = CHARACTER_GRANDSON
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+get_GrandDaughterSon_Cap = {
+	type = character
+	
+	text = {
+		localization_key = CHARACTER_GRANDDAUGHTER_Cap
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = CHARACTER_GRANDSON_Cap
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+get_Rival_malefemale = {
+	type = character
+	
+	text = {
+		localization_key = Rival_female
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = Rival_male
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+get_Rival_malefemale_Cap = {
+	type = character
+	
+	text = {
+		localization_key = Rival_female_Cap
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = Rival_male_Cap
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+get_Friend_malefemale = {
+	type = character
+	
+	text = {
+		localization_key = Friend_female
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = Friend_male
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+get_Friend_malefemale_Cap = {
+	type = character
+	
+	text = {
+		localization_key = Friend_female_Cap
+		trigger = {
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = Friend_male_Cap
+		trigger = {
+			is_female = no
+		}
+	}
+}
+
+health_svalue_malefemale = {
+	type = character
+
+	text = {
+		localization_key = health_dead
+		trigger = {
+			is_alive = no
+		}
+	}
+
+	text = {
+		localization_key = health_perfect
+		trigger = {
+			health = 100
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = health_high
+		trigger = {
+			health > 80
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = health_medium
+		trigger = {
+			health > 60
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = health_low
+		trigger = {
+			health > 40
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = health_ailing
+		trigger = {
+			health > 20
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = health_near_death
+		trigger = {
+			#always = yes
+			is_female = no
+		}
+	}
+
+	text = {
+		localization_key = health_perfect_female
+		trigger = {
+			health = 100
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = health_high_female
+		trigger = {
+			health > 80
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = health_medium_female
+		trigger = {
+			health > 60
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = health_low_female
+		trigger = {
+			health > 40
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = health_ailing_female
+		trigger = {
+			health > 20
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = health_near_death_female
+		trigger = {
+			#always = yes
+			is_female = yes
+		}
+	}	
+}
+
+##################################
+# Określenia współmałżonka       #
+##################################
+
+monarchy_spouse_description_malefemale = {
+	type = character
+	
+	text = {
+		localization_key = spouse_stunningly_talented
+		trigger = {
+			combined_stats_olympics_svalue >= 28
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = spouse_very_wicked
+		trigger = {
+			loyalty <= 10
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = spouse_wicked
+		trigger = {
+			loyalty <= 40
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = spouse_corrupt
+		trigger = {
+			corruption >= 50
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = spouse_ailing
+		trigger = {
+			health <= 25
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = spouse_serene
+		trigger = {
+			is_female = yes
+			#always = yes
+		}
+	}
+	text = {
+		localization_key = spouse_stunningly_talented_male
+		trigger = {
+			combined_stats_olympics_svalue >= 28
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = spouse_very_wicked_male
+		trigger = {
+			loyalty <= 10
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = spouse_wicked_male
+		trigger = {
+			loyalty <= 40
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = spouse_corrupt_male
+		trigger = {
+			corruption >= 50
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = spouse_ailing_male
+		trigger = {
+			health <= 25
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = spouse_serene_male
+		trigger = {
+			is_female = no
+			#always = yes
+		}
+	}	
+}
+
+consort_malefemale = {
+	type = character
+	
+	text = {
+		localization_key = consort_male
+		trigger = {
+			is_female = no
+		}
+	}
+	
+	text = {
+		localization_key = consort_female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+####################
+# Wydarzenia       #
+####################
+
+get_applause_type_glad_2 = {
+	type = country
+	random_valid = yes
+	
+	text = {
+		localization_key = got_rapturous_2
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_unenthusiastic_2
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_standing_2
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_literally_no_2
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_mildly_interested_2
+		trigger = {
+			always = yes
+		}
+	}
+	
+}
+
+get_applause_type_glad_outro = {
+	type = country
+	random_valid = yes
+	
+	text = {
+		localization_key = got_rapturous_outro
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_unenthusiastic_outro
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_standing_outro
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_literally_no_outro
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = got_mildly_interested_outro
+		trigger = {
+			always = yes
+		}
+	}
+	
+}
+
+####################
+# Inne             #
+####################
+
+reign_singplur = {
+	type = character
+	
+	text = {
+		localization_key = reign_singular
+		trigger = {
+			is_married = no
+		}
+	}
+	
+	text = {
+		localization_key = reign_plural
+		trigger = {
+			is_married = yes
+		}
+	}
+}
+
+

@@ -1,0 +1,1982 @@
+﻿# For Gods and their different names in different places
+
+# Male Gods
+get_medicine_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_aesculapius
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_vetis
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_asclepius
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_eshmun
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_imhotep
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}	
+
+	text = { # Chaldean
+		localization_key = get_DOP_ninurta
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_medicine_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_war_god_DOP = {
+	type = country 
+
+	text = { # Roman
+		localization_key = get_DOP_mars
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_laran
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_ares
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_anhur
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_toutatis
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_nergal
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_war_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_forge_god_DOP ={
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_vulcan
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_sethlans
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_hephaistos
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_ptah
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_gobannus
+		trigger = {
+			religion = druidism
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_forge_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_sea_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_neptune
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan 
+		localization_key = get_DOP_nethuns
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_poseidon
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_sea_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_wine_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_bacchus
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_fufluns
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_dionysus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_osiris
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_wine_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_hero_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_hercules
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_hercle
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_heracles
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_melqart
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_heryshaf
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_ogmios
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Heptadic
+		localization_key = get_DOP_targitaos
+		trigger = {
+			religion = indo_iranian_religion
+		}
+	}
+
+	text = { # Zalmoxian
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = shamanism
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_gilgamesh
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_hero_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_commerce_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_mercury
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_turms
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_hermes
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_melqart
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_thoth
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_lugus
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_enki
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_commerce_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_sky_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_jupiter
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_tinia
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_zeus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Carthaginian
+		localization_key = get_DOP_baal_hammon
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_baalshamin
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_horus
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_taranis
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Assyrian Chaldean
+		localization_key = get_DOP_Ashshur
+		trigger = {
+			primary_culture = assyrian
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_enlil
+		trigger = {
+			NOT = { primary_culture = assyrian }
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_sky_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_harvest_god_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_saturn
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_satre
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_cronus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene
+		localization_key = get_DOP_attis
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Carthaginian
+		localization_key = get_DOP_baal_hammon
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_baal
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_geb
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_tammuz
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_harvest_god_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_god_of_dead_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_dis
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}	
+
+	text = { # Etruscan
+		localization_key = get_DOP_aita
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_hades
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_mot
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_osiris
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_cernunnos
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_ninazu
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_god_of_dead_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_god_of_light_DOP = {
+	type = country
+
+	text = { # Etruscan
+		localization_key = get_DOP_apulu
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_apollo
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_resheph
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_ra
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_shamash
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_god_of_light_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+# Female Goddesses
+get_wisdom_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_minerva 
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_menrva
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_athena
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_anat
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_neith
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic
+		localization_key = get_DOP_icovellauna
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_tashmetum
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_wisdom_goddess_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_moon_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_diana
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_aritimi
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_artemis
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Carthaginian
+		localization_key = get_DOP_tanit
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_astarte
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_bast
+		trigger ={
+			religion = egyptian_pantheon
+		}
+	}	
+	
+	text = { # Fallback
+		localization_key = get_DOP_moon_goddess_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_love_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_venus
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_turan
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_aphrodite
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Carthaginian
+		localization_key = get_DOP_tanit
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite
+		localization_key = get_DOP_astarte
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_isis
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_ninlil
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_love_goddess_default 
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_marriage_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_juno
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_uni 
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_hera
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = {
+		localization_key = get_DOP_hathor
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_marriage_goddess_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_harvest_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_ceres
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_cels
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_demeter
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Latin Cybelene
+		localization_key = get_DOP_magna_mater
+		trigger = {
+			country_culture_group = latin
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Cybelene
+		localization_key = get_DOP_cybele
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Kemetic
+		localization_key = get_DOP_isis
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Aquitani
+		localization_key = get_DOP_mari
+		trigger = {
+			primary_culture = aquitani
+			religion = druidism
+		}
+	}
+
+	text = { # Khaldic
+		localization_key = get_DOP_huba
+		trigger = {
+			religion = armenian_religion
+		}
+	}
+
+	text = { # Armazic
+		localization_key = get_DOP_anahit
+		trigger = {
+			religion = caucasian_religion
+		}
+	}
+
+	text = { # Chaldean
+		localization_key = get_DOP_shala
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Druidism
+		localization_key = get_DOP_rosmerta
+		trigger = {
+			NOT = { primary_culture = aquitani }
+			religion = druidism
+		}
+	}
+	
+	text = { # Tuistic
+		localization_key = get_DOP_nerthus
+		trigger = {
+			religion = germanic_religion
+		}
+	}
+	
+	text = { # Matrist
+		localization_key = get_DOP_saulia
+		trigger = {
+			religion = matrist_religion
+		}
+	}
+	
+	text = { # Iberic
+		localization_key = get_DOP_the_duillae
+		trigger = {
+			religion = animism
+		}
+	}
+	
+	text = { # Megalithic
+		localization_key = get_DOP_isis
+		trigger = {
+			religion = berber_religion
+		}
+	}
+
+	text = { # Zalmoxian
+		localization_key = get_DOP_semele
+		trigger = {
+			religion = shamanism
+		}
+	}
+	
+	text = { # Heptadic
+		localization_key = get_DOP_argimpasa
+		trigger = {
+			religion = indo_iranian_religion
+		}
+	}
+	
+	text = { # Arabic
+		localization_key = get_DOP_orotalt
+		trigger = {
+			religion = arabian_pantheon
+		}
+	}
+	
+	text = { # Zoroaster
+		localization_key = get_DOP_tishtrya
+		trigger = {
+			religion = zoroaster
+		}
+	}
+	
+	text = { # Jewish
+		localization_key = get_DOP_jewish_god
+		trigger = {
+			religion = judaism
+		}
+	}
+	
+	text = { # Ritualistic/Bon
+		localization_key = get_DOP_the_ancestors
+		trigger = {
+			OR = {
+				religion = eastern_animism
+				religion = bon_religion
+			}
+		}
+	}
+	
+	text = { # Hindu
+		localization_key = get_DOP_parvati
+		trigger = {
+			religion = hindu
+		}
+	}
+	
+	text = { # Buddhist
+		localization_key = get_DOP_buddha
+		trigger = {
+			religion = buddhism
+		}
+	}
+
+	text = { # Jain
+		localization_key = get_DOP_mahavir
+		trigger = {
+			religion = jainism
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_harvest_goddess_default
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+get_hearth_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_vesta
+		trigger = {
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_hestia
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_hearth_goddess_default
+		trigger = {
+			NAND = {
+				country_culture_group = latin
+				religion = roman_pantheon
+			}
+			NAND = {
+				NOT = { country_culture_group = latin }
+				religion = roman_pantheon
+			}
+		}
+	}
+}
+
+get_fortune_goddess_DOP = {
+	type = country
+
+	text = { # Roman
+		localization_key = get_DOP_fortuna
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan
+		localization_key = get_DOP_nortia
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic
+		localization_key = get_DOP_tyche
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Fallback
+		localization_key = get_DOP_fortune_goddess_default
+		trigger = {
+			NAND = {
+				NOT = { primary_culture = etruscan }
+				country_culture_group = latin
+				religion = roman_pantheon
+			}
+			NAND = {
+				primary_culture = etruscan
+				religion = roman_pantheon
+			}
+			NAND = {
+				NOT = { country_culture_group = latin }
+				religion = roman_pantheon
+			}
+		}
+	}
+}
+
+get_random_god_DOP = {
+	type = country
+	random_valid = yes
+
+	text = { # Roman Medicine
+		localization_key = get_DOP_aesculapius
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Medicine
+		localization_key = get_DOP_vetis
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Medicine
+		localization_key = get_DOP_asclepius
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Medicine
+		localization_key = get_DOP_eshmun
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Medicine
+		localization_key = get_DOP_imhotep
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Roman War
+		localization_key = get_DOP_mars
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan War
+		localization_key = get_DOP_laran
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic War
+		localization_key = get_DOP_ares
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Kemetic War
+		localization_key = get_DOP_anhur
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic War
+		localization_key = get_DOP_toutatis
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Roman Forge
+		localization_key = get_DOP_vulcan
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Forge
+		localization_key = get_DOP_sethlans
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Forge
+		localization_key = get_DOP_hephaistos
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Kemetic Forge
+		localization_key = get_DOP_ptah
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Forge
+		localization_key = get_DOP_gobannus
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Roman Sea
+		localization_key = get_DOP_neptune
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Sea
+		localization_key = get_DOP_nethuns
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Sea
+		localization_key = get_DOP_poseidon
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Roman Wine
+		localization_key = get_DOP_bacchus
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Wine
+		localization_key = get_DOP_fufluns
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Wine
+		localization_key = get_DOP_dionysus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene Wine
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Kemetic Wine
+		localization_key = get_DOP_osiris
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Roman Hero
+		localization_key = get_DOP_hercules
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Hero
+		localization_key = get_DOP_hercle
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Hero
+		localization_key = get_DOP_heracles
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Hero
+		localization_key = get_DOP_melqart
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Hero
+		localization_key = get_DOP_heryshaf
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Hero
+		localization_key = get_DOP_ogmios
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Heptadic Hero
+		localization_key = get_DOP_targitaos
+		trigger = {
+			religion = indo_iranian_religion
+		}
+	}
+
+	text = { # Zalmoxian Hero
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = shamanism
+		}
+	}
+
+	text = { # Roman Commerce
+		localization_key = get_DOP_mercury
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Commerce
+		localization_key = get_DOP_turms
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Commerce
+		localization_key = get_DOP_hermes
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Commerce
+		localization_key = get_DOP_melqart
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Commerce
+		localization_key = get_DOP_thoth
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Commerce
+		localization_key = get_DOP_lugus
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Roman Sky
+		localization_key = get_DOP_jupiter
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Sky
+		localization_key = get_DOP_tinia
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Sky
+		localization_key = get_DOP_zeus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene Sky
+		localization_key = get_DOP_sabazios
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Carthaginian Sky
+		localization_key = get_DOP_baal_hammon
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite Sky
+		localization_key = get_DOP_baalshamin
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Sky
+		localization_key = get_DOP_horus
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Sky
+		localization_key = get_DOP_taranis
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Roman Harvest
+		localization_key = get_DOP_saturn
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Harvest
+		localization_key = get_DOP_satre
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Harvest
+		localization_key = get_DOP_cronus
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Cybelene Harvest
+		localization_key = get_DOP_attis
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Carthaginian Harvest
+		localization_key = get_DOP_baal_hammon
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite Harvest
+		localization_key = get_DOP_baal
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Harvest
+		localization_key = get_DOP_geb
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Roman Dead
+		localization_key = get_DOP_dis
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}	
+
+	text = { # Etruscan Dead
+		localization_key = get_DOP_aita
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Dead
+		localization_key = get_DOP_hades
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Dead
+		localization_key = get_DOP_mot
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Dead
+		localization_key = get_DOP_osiris
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Dead
+		localization_key = get_DOP_cernunnos
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Etruscan Light
+		localization_key = get_DOP_apulu
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Light
+		localization_key = get_DOP_apollo
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Light
+		localization_key = get_DOP_resheph
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Light
+		localization_key = get_DOP_ra
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+	
+	text = { # Roman Wisdom
+		localization_key = get_DOP_minerva 
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Wisdom
+		localization_key = get_DOP_menrva
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Wisdom
+		localization_key = get_DOP_athena
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Canaanite Wisdom
+		localization_key = get_DOP_anat
+		trigger = {
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Wisdom
+		localization_key = get_DOP_neith
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Druidic Wisdom
+		localization_key = get_DOP_icovellauna
+		trigger = {
+			religion = druidism
+		}
+	}
+
+	text = { # Roman Moon
+		localization_key = get_DOP_diana
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Moon
+		localization_key = get_DOP_aritimi
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Moon
+		localization_key = get_DOP_artemis
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Carthaginian Moon
+		localization_key = get_DOP_tanit
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite Moon
+		localization_key = get_DOP_astarte
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Moon
+		localization_key = get_DOP_bast
+		trigger ={
+			religion = egyptian_pantheon
+		}
+	}	
+
+	text = { # Roman Love
+		localization_key = get_DOP_venus
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Love
+		localization_key = get_DOP_turan
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Love
+		localization_key = get_DOP_aphrodite
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Carthaginian Love
+		localization_key = get_DOP_tanit
+		trigger = {
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Canaanite Love
+		localization_key = get_DOP_astarte
+		trigger = {
+			NOT = { primary_culture = carthaginian }
+			religion = carthaginian_pantheon
+		}
+	}
+
+	text = { # Kemetic Love
+		localization_key = get_DOP_isis
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Roman Marriage
+		localization_key = get_DOP_juno
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Marriage
+		localization_key = get_DOP_uni 
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Marriage
+		localization_key = get_DOP_hera
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Egyptian Marriage
+		localization_key = get_DOP_hathor
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+	
+	text = { # Roman Harvest
+		localization_key = get_DOP_ceres
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Harvest
+		localization_key = get_DOP_cels
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Harvest
+		localization_key = get_DOP_demeter
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Latin Cybelene Harvest
+		localization_key = get_DOP_magna_mater
+		trigger = {
+			country_culture_group = latin
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Cybelene Harvest
+		localization_key = get_DOP_cybele
+		trigger = {
+			religion = anatolian_religion
+		}
+	}
+
+	text = { # Kemetic Harvest
+		localization_key = get_DOP_isis
+		trigger = {
+			religion = egyptian_pantheon
+		}
+	}
+
+	text = { # Aquitani Harvest
+		localization_key = get_DOP_mari
+		trigger = {
+			primary_culture = aquitani
+			religion = druidism
+		}
+	}
+
+	text = { # Khaldic Harvest
+		localization_key = get_DOP_huba
+		trigger = {
+			religion = armenian_religion
+		}
+	}
+
+	text = { # Chaldean Harvest
+		localization_key = get_DOP_ishtar
+		trigger = {
+			religion = mesopotamian_religion
+		}
+	}
+
+	text = { # Armazic Harvest
+		localization_key = get_DOP_anahit
+		trigger = {
+			religion = caucasian_religion
+		}
+	}
+
+	text = { # Roman Hearth
+		localization_key = get_DOP_vesta
+		trigger = {
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Hearth
+		localization_key = get_DOP_hestia
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Roman Fortune
+		localization_key = get_DOP_fortuna
+		trigger = {
+			NOT = { primary_culture = etruscan }
+			country_culture_group = latin
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Etruscan Fortune
+		localization_key = get_DOP_nortia
+		trigger = {
+			primary_culture = etruscan
+			religion = roman_pantheon
+		}
+	}
+
+	text = { # Hellenic Fortune
+		localization_key = get_DOP_tyche
+		trigger = {
+			NOT = { country_culture_group = latin }
+			religion = roman_pantheon
+		}
+	}
+	
+	text = { # Jewish
+		localization_key = get_DOP_jewish_god
+		trigger = {
+			religion = judaism
+		}
+	}
+	
+	text = { # Zoroastrian
+		localization_key = get_DOP_zoroastrian_god
+		trigger = {
+			religion = zoroaster
+		}
+	}
+	
+	text = { # Fallback
+		localization_key = get_DOP_a_god
+		trigger = {
+			NOR = {
+				religion = roman_pantheon
+				religion = carthaginian_pantheon
+				religion = egyptian_pantheon
+				religion = druidism
+				religion = indo_iranian_religion
+				religion = shamanism
+				religion = anatolian_religion
+				religion = armenian_religion
+				religion = mesopotamian_religion
+				religion = caucasian_religion
+				religion = judaism
+				religion = zoroaster
+			}
+		}
+	}
+}

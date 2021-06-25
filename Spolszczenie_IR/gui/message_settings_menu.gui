@@ -1,0 +1,314 @@
+
+base_window = {
+    gfxtype = windowgfx
+    name = "message_settings_menu"
+    alwaystransparent = no
+    reorder_on_mouse = never
+    resizable = no
+    movable = no
+    parentanchor = center
+    widgetanchor = center
+
+    size = { 740 800 }
+	
+	vbox = {
+		using = MainWindowHeaderBox
+		layoutpolicy_horizontal = expanding
+		
+		blockoverride "Title_text"
+		{
+			text = "MESSAGE_SETTINGS"
+		}
+		blockoverride "White_buttons" 
+		{
+			button_close = {
+				tooltip = "CLOSE"
+				onclick = "[MessageSettingsMenu.Close]"
+				shortcut = "close_window"
+			} 
+		}
+		#scrollarea = {
+		#	size = { 700 70% }
+		#	position = { 50 100 }
+		#	scrollbarpolicy_horizontal = always_off
+		#	
+		#	scrollbar_vertical = {
+		#		using = MarbleScrollBar
+		#	}
+		#
+		#	scrollwidget = {
+		#		dynamicgridbox = {
+		#			datamodel = "[MessageSettingsMenu.GetItems]"
+		#			
+		#			item = {
+		#				container = {
+		#					textbox = {
+		#						text = "[MessageMenuItem.GetText]"
+		#						using = MarbleButtonFontS
+		#						align = left
+		#						autoresize = yes
+		#						margin = { 0 6 }
+		#						multiline = yes
+		#						maximumsize = { 530 -1 }
+		#					}
+		#
+		#					flowcontainer = {
+		#						position = { 546 0 }
+		#						parentanchor = vcenter
+		#						widgetanchor = vcenter
+		#
+		#						checkbutton = {
+		#							texture = "gfx/interface/buttons/checkbox.dds"
+		#							framesize = { 36 36 }
+		#							checked = "[MessageMenuItem.GetLog]"
+		#							onclick = "[MessageMenuItem.SetLog(Not(MessageMenuItem.GetLog))]"
+		#							tooltip = "MESSAGE_SETTINGS_LOG_TOOLTIP"
+		#						}
+		#
+		#						checkbutton = {
+		#							texture = "gfx/interface/buttons/checkbox.dds"
+		#							framesize = { 36 36 }
+		#							checked = "[MessageMenuItem.GetPopup]"
+		#							onclick = "[MessageMenuItem.SetPopup(Not(MessageMenuItem.GetPopup))]"
+		#							tooltip = "MESSAGE_SETTINGS_POPUP_TOOLTIP"
+		#						}
+		#
+		#						checkbutton = {
+		#							texture = "gfx/interface/buttons/checkbox.dds"
+		#							framesize = { 36 36 }
+		#							checked = "[MessageMenuItem.GetPause]"
+		#							onclick = "[MessageMenuItem.SetPause(Not(MessageMenuItem.GetPause))]"
+		#							tooltip = "MESSAGE_SETTINGS_PAUSE_TOOLTIP"
+		#						}
+		#
+		#						checkbutton = {
+		#							texture = "gfx/interface/buttons/checkbox.dds"
+		#							framesize = { 36 36 }
+		#							checked = "[MessageMenuItem.GetShowOnMap]"
+		#							onclick = "[MessageMenuItem.SetShowOnMap(Not(MessageMenuItem.GetShowOnMap))]"
+		#							tooltip = "MESSAGE_SETTINGS_SHOW_ON_MAP_TOOLTIP"
+		#						}
+		#					}
+		#				}
+		#			}
+		#		}
+		#	}
+		#}
+		vbox = {
+			layoutpolicy_vertical = expanding
+			layoutpolicy_horizontal = expanding
+			margin_top = 60
+			margin_bottom = 90
+			margin_left = 20
+			margin_right = 16
+			scrollarea = {
+				layoutpolicy_vertical = expanding
+				layoutpolicy_horizontal = expanding
+				scrollbarpolicy_horizontal = always_off
+				
+				using = VerticalScrollAreaCutOff
+				
+				scrollbar_vertical = {
+					using = VerticalScrollBar
+				}
+
+				scrollwidget = {
+					
+					vbox = {
+						vbox = {
+							layoutpolicy_vertical = fixed
+							layoutpolicy_horizontal = expanding
+							datamodel = "[MessageSettingsMenu.GetItems]"
+							
+							item = {
+								margin_widget = {
+									visible = "[MessageMenuItem.IsVisible]"
+									layoutpolicy_horizontal = expanding
+									size = { 0 32 }
+									margin_left = 14
+									margin_right = 24
+									hbox = {
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+										margin_right = 34
+										textbox = {
+											text = "[MessageMenuItem.GetText]"
+											using = BaseFontM
+											using = Black_FontColor
+											size = { 0 32 }
+											layoutpolicy_horizontal = expanding
+											using = NoninteractableBG
+											align = left
+											multiline = yes
+											blockoverride "Margins"
+											{
+												margin_bottom = 2
+												margin_top = 1
+												margin_left = 10
+												margin_right = -12
+											}
+											elide = right
+										}
+										
+										flowcontainer = {
+											#parentanchor = right|vcenter
+											#position = { 0 0 }
+											spacing = 9
+											check_box_button = { 
+												blockoverride "Frame"
+												{
+													frame = "[BoolTo1And2( MessageMenuItem.GetLog )]"
+												} 
+												blockoverride "On_click"
+												{
+													onclick = "[MessageMenuItem.SetLog(Not(MessageMenuItem.GetLog))]"
+												}
+												
+												tooltip = "MESSAGE_SETTINGS_LOG_TOOLTIP"
+											}
+											check_box_button = { 
+												blockoverride "Frame"
+												{
+													frame = "[BoolTo1And2( MessageMenuItem.GetPopup )]"
+												} 
+												blockoverride "On_click"
+												{
+													onclick = "[MessageMenuItem.SetPopup(Not(MessageMenuItem.GetPopup))]"
+												}
+												
+												tooltip = "MESSAGE_SETTINGS_POPUP_TOOLTIP"
+											}
+											check_box_button = { 
+												blockoverride "Frame"
+												{
+													frame = "[BoolTo1And2( MessageMenuItem.GetPause )]"
+												} 
+												blockoverride "On_click"
+												{
+													onclick = "[MessageMenuItem.SetPause(Not(MessageMenuItem.GetPause))]"
+												}
+												
+												tooltip = "MESSAGE_SETTINGS_PAUSE_TOOLTIP"
+											}
+											check_box_button = { 
+												blockoverride "Frame"
+												{
+													frame = "[BoolTo1And2( MessageMenuItem.GetShowOnMap )]"
+												} 
+												blockoverride "On_click"
+												{
+													onclick = "[MessageMenuItem.SetShowOnMap(Not(MessageMenuItem.GetShowOnMap))]"
+												}
+												
+												tooltip = "MESSAGE_SETTINGS_SHOW_ON_MAP_TOOLTIP"
+											}
+										}
+									}
+								}
+							}
+						}
+						vbox = {
+							layoutpolicy_vertical = expanding
+							layoutpolicy_horizontal = expanding
+						}
+					}
+				}
+			}
+			
+		}
+	}
+
+    widget = {
+        position = { -34 60 }
+        size = { 144 40 }
+		parentanchor = right
+        hbox = {
+        	spacing = 6
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/log_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_LOG_TOOLTIP"
+            }
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/popup_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_POPUP_TOOLTIP"
+            }
+
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/pause_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_PAUSE_TOOLTIP"
+            }
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/map_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_SHOW_ON_MAP_TOOLTIP"
+            }
+        }
+    }
+	
+	textbox = {
+		using = BaseFontM 
+		using = Black_FontColor
+		#fontsize = 20
+		text = "SEARCH_COLON"
+		position = { 26 65 }
+		autoresize = yes
+		##ZMIANA##
+		maximumsize = { 210 32 } #200 32
+		##      ##
+		elide = right
+		
+	}
+	
+	margin_widget = {
+		size = { 310 40 }
+		layoutpolicy_horizontal = expanding
+		##ZMIANA##
+		position = { 232 58 } #212 58
+		##      ##
+		using = inputfield
+	
+		editbox = {
+			position = { 12 0 }
+			size = { 100% 34 }
+			name = "message_filter"
+			text = ""
+			using = BaseFontM 
+			using = Black_FontColor
+			focuspolicy = all
+			alwaystransparent = no
+			multiline = no
+			maxcharacters = 26
+			ontextedited = "[MessageSettingsMenu.UpdateFilter]"
+		}
+	}
+
+
+	
+	margin_widget = {
+		size = { 100% 80 }
+		parentanchor = hcenter|bottom
+		widgetanchor = hcenter|bottom
+		position = { 0 -2 }
+		hbox = {
+			text_button_square = {
+				name = "reset_button"
+				blockoverride "Center_text" { text = "RESET_TO_DEFAULT" }
+				blockoverride "On_click" { onclick = "[MessageSettingsMenu.Reset]" }
+				size = { 220 26 }
+			}
+
+			text_button_square = {
+				name = "save_button"
+				blockoverride "Center_text" { text = "SAVE_AND_CLOSE" }
+				blockoverride "On_click" { onclick = "[MessageSettingsMenu.Save]" }
+				blockoverride "Shortcut" { shortcut = "confirm" }
+				size = { 220 26 }
+			}
+		}
+	}
+
+    
+}
