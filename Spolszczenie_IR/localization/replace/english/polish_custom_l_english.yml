@@ -1,0 +1,980 @@
+﻿l_english:
+ ##### Bogowie Dopełniacz #####
+ ###get_sky_god
+ get_DOP_jupiter:0 "Jowisza"
+ get_DOP_tinia:0 "Tinia"
+ get_DOP_zeus:0 "Zeusa"
+ get_DOP_sabazios:0 "Sabazjosa"
+ get_DOP_baalshamin:0 "Baal-Szamina"
+ get_DOP_horus:0 "Horusa"
+ get_DOP_taranis:0 "Taranisa"
+ get_DOP_ashshur:0 "Aszura"
+ get_DOP_enlil:0 "Enlila"
+ get_DOP_sky_god_default:0 "Boga niebios"
+ ###get_sea_god
+ get_DOP_neptune:0 "Neptuna"
+ get_DOP_nethuns:0 "Nethunsa"
+ get_DOP_poseidon:0 "Posejdona"
+ get_DOP_sea_god_default:0 "Boga morza"
+ ###get_hero_god
+ get_DOP_hercules:0 "Herkulesa"
+ get_DOP_hercle:0 "Herclea"
+ get_DOP_heracles:0 "Heraklesa"
+ get_DOP_melqart:0 "Melkarta"
+ get_DOP_heryshaf:0 "Harsafesa"
+ get_DOP_ogmios:0 "Ogmiosa"
+ get_DOP_targitaos:0 "Targitaosa"
+ get_DOP_gilgamesh:0 "Gilgamesza"
+ get_DOP_hero_god_default:0 "Boga bohaterów"
+ ###get_harvest_god
+ get_DOP_saturn:0 "Saturna"
+ get_DOP_cronus:0 "Kronosa"
+ get_DOP_baal_hammon:0 "Baala Hammona"
+ get_DOP_baal:0 "Baala"
+ get_DOP_geb:0 "Geba"
+ get_DOP_tammuz:0 "Tammuza"
+ get_DOP_attis:0 "Attisa"
+ get_DOP_harvest_god_default:0 "Boga żniw"
+ ###get_war_god
+ get_DOP_mars:0 "Marsa"
+ get_DOP_laran:0 "Larana"
+ get_DOP_ares:0 "Aresa"
+ get_DOP_anhur:0 "Anhura"
+ get_DOP_toutatis:0 "Teutatesa"
+ get_DOP_nergal:0 "Nergala"
+ get_DOP_war_god_default:0 "Boga wojny"
+ ###get_god_of_dead
+ get_DOP_dis:0 "Disa"
+ get_DOP_aita:0 "Aita"
+ get_DOP_hades:0 "Hadesa"
+ get_DOP_mot:0 "Mota"
+ get_DOP_osiris:0 "Ozyrysa"
+ get_DOP_cernunnos:0 "Cernunnosa"
+ get_DOP_ninazu:0 "Ninazu"
+ get_DOP_god_of_dead_default:0 "Boga śmierci"
+ ###get_commerce_god
+ get_DOP_mercury:0 "Merkurego"
+ get_DOP_turms:0 "Turmsa"
+ get_DOP_hermes:0 "Hermesa"
+ get_DOP_thot:0 "Thota"
+ get_DOP_lugus:0 "Lugusa"
+ get_DOP_enki:0 "Enkiego"
+ get_DOP_commerce_god_default:0 "Boga handlu"
+ ###get_god_of_light
+ get_DOP_apulu:0 "Apulu"
+ get_DOP_apollo:0 "Apolla"
+ get_DOP_resheph:0 "Reszefa"
+ get_DOP_ra:0 "Ra"
+ get_DOP_shamash:0 "Szamasza"
+ get_DOP_god_of_light_default:0 "Boga słońca"
+ ###get_forge_god
+ get_DOP_vulcan:0 "Wulkana"
+ get_DOP_sethlans:0 "Sethlansa"
+ get_DOP_hephaistos:0 "Hefajstosa"
+ get_DOP_ptah:0 "Ptaha"
+ get_DOP_gobannus:0 "Gobannusa"
+ get_DOP_forge_god_default:0 "Boga rzemiosła"
+ ###get_wine_god
+ get_DOP_bacchus:0 "Bachusa"
+ get_DOP_fufluns:0 "Fuflunsa"
+ get_DOP_dionysus:0 "Dionizosa"
+ get_DOP_wine_god_default:0 "Boga wina"
+ ###get_medicine_god
+ get_DOP_aesculapius:0 "Asklepiosa"
+ get_DOP_vetis:0 "Vetisa"
+ get_DOP_asclepius:0 "Asklepiosa"
+ get_DOP_eshmun:0 "Eszmuna"
+ get_DOP_imhotep:0 "Imhotepa"
+ get_DOP_ninurta:0 "Ninurty"
+ get_DOP_medicine_god_default:0 "Boga medycyny"
+
+ ##### Goddesses #####
+ ###get_wisdom_goddess
+ get_DOP_minerva:0 "Minerwy"
+ get_DOP_menrva:0 "Menrvy"
+ get_DOP_athena:0 "Ateny"
+ get_DOP_anat:0 "Anat"
+ get_DOP_neith:0 "Neith"
+ get_DOP_icovellauna:0 "Icovellauny"
+ get_DOP_tashmetum:0 "Taszmetum"
+ get_DOP_wisdom_goddess_default:0 "Bogini mądrości"
+ ###get_moon_goddess
+ get_DOP_diana:0 "Diany"
+ get_DOP_aritimi:0 "Aritimi"
+ get_DOP_artemis:0 "Artemidy"
+ get_DOP_tanit:0 "Tanit"
+ get_DOP_astarte:0 "Astarte"
+ get_DOP_bast:0 "Bast"
+ get_DOP_moon_goddess_default:0 "Bogini księżyca"
+ ###get_love_goddess
+ get_DOP_venus:0 "Wenus"
+ get_DOP_turan:0 "Turan"
+ get_DOP_aphrodite:0 "Afrodyty"
+ get_DOP_isis:0 "Izydy"
+ get_DOP_ninlil:0 "Ninlil"
+ get_DOP_love_goddess_default:0 "Bogini miłości"
+ ###get_marriage_goddess
+ get_DOP_juno:0 "Junony"
+ get_DOP_uni:0 "Uni"
+ get_DOP_hera:0 "Hery"
+ get_DOP_hathor:0 "Hathor"
+ get_DOP_marriage_goddess_default:0 "Bogini małżeństwa"
+ ###get_harvest_goddess
+ get_DOP_ceres:0 "Ceres"
+ get_DOP_cels:0 "Cels"
+ get_DOP_demeter:0 "Demeter"
+ get_DOP_cybele:0 "Kybele"
+ get_DOP_mari:0 "Mari"
+ get_DOP_huba:0 "Huby"
+ get_DOP_ishtar:0 "Isztar"
+ get_DOP_anahit:0 "Anahity"
+ get_DOP_shala:0 "Shala"
+ get_DOP_rosmerta:0 "Rosmerty"
+ get_DOP_nerthus:0 "Nerthus"
+ get_DOP_saulia:0 "Sauliy"
+ get_DOP_the_duillae:0 "Duillae"
+ get_DOP_semele:0 "Semele"
+ get_DOP_argimpasa:0 "Argimpasy"
+ get_DOP_orotalt:0 "Orotalt"
+ get_DOP_tishtrya:0 "Tisztriy"
+ get_DOP_parvati:0 "Parwati"
+ get_DOP_buddha:0 "Buddy"
+ get_DOP_mahavir:0 "Mahawiry" #Mahawira
+ get_DOP_harvest_goddess_default:0 "Bogini żniw"
+ ###get_hearth_goddess
+ get_DOP_vesta:0 "Westy"
+ get_DOP_hestia:0 "Hestii"
+ get_DOP_hearth_goddess_default:0 "Bogini ogniska domowego"
+ ###get_fortune_goddess
+ get_DOP_fortuna:0 "Fortuny"
+ get_DOP_nortia:0 "Nortii"
+ get_DOP_tyche:0 "Tyche"
+ get_DOP_fortune_goddess_default:0 "Bogini pomyślności"
+ ###monothesitic
+ get_DOP_jewish_god:0 "Jahwe"
+ get_DOP_zoroastrian_god:0 "Ahury Mazdy"
+ ###fallback
+ get_DOP_a_god:0 "jednego z wielkich bogów"
+ get_DOP_the_ancestors:0 "przodków"
+ 
+ ##############################################################
+ 
+ ##### Bogowie Celownik #####
+ ###get_sky_god
+ get_CEL_jupiter:0 "Jowiszowi"
+ get_CEL_tinia:0 "Tini"
+ get_CEL_zeus:0 "Zeusowi"
+ get_CEL_sabazios:0 "Sabazjosowi"
+ get_CEL_baalshamin:0 "Baal-Szaminowi"
+ get_CEL_horus:0 "Horusowi"
+ get_CEL_taranis:0 "Taranisowi"
+ get_CEL_ashshur:0 "Aszurowi"
+ get_CEL_enlil:0 "Enlilowi"
+ get_CEL_sky_god_default:0 "Bogu niebios"
+ ###get_sea_god
+ get_CEL_neptune:0 "Neptunowi"
+ get_CEL_nethuns:0 "Nethunsowi"
+ get_CEL_poseidon:0 "Posejdonowi"
+ get_CEL_sea_god_default:0 "Bogu morza"
+ ###get_hero_god
+ get_CEL_hercules:0 "Herkulesowi"
+ get_CEL_hercle:0 "Hercleowi"
+ get_CEL_heracles:0 "Heraklesowi"
+ get_CEL_melqart:0 "Melkartowi"
+ get_CEL_heryshaf:0 "Harsafesowi"
+ get_CEL_ogmios:0 "Ogmiosowi"
+ get_CEL_targitaos:0 "Targitaosowi"
+ get_CEL_gilgamesh:0 "Gilgameszowi"
+ get_CEL_hero_god_default:0 "Bogu bohaterów"
+ ###get_harvest_god
+ get_CEL_saturn:0 "Saturnowi"
+ get_CEL_cronus:0 "Kronosowi"
+ get_CEL_baal_hammon:0 "Baalowi Hammonowi"
+ get_CEL_baal:0 "Baalowi"
+ get_CEL_geb:0 "Gebowi"
+ get_CEL_attis:0 "Attisowi"
+ get_CEL_tammuz:0 "Tammuzowi"
+ get_CEL_harvest_god_default:0 "Bogu żniw"
+ ###get_war_god
+ get_CEL_mars:0 "Marsowi"
+ get_CEL_laran:0 "Laranowi"
+ get_CEL_ares:0 "Aresowi"
+ get_CEL_anhur:0 "Anhurowi"
+ get_CEL_toutatis:0 "Teutatesowi"
+ get_CEL_nergal:0 "Nergalowi"
+ get_CEL_war_god_default:0 "Bogu wojny"
+ ###get_god_of_dead
+ get_CEL_dis:0 "Disowi"
+ get_CEL_aita:0 "Aitaowi"
+ get_CEL_hades:0 "Hadesowi"
+ get_CEL_mot:0 "Motowi"
+ get_CEL_osiris:0 "Ozyrysowi"
+ get_CEL_cernunnos:0 "Cernunnosowi"
+ get_CEL_ninazu:0 "Ninazu"
+ get_CEL_god_of_dead_default:0 "Bogu śmierci"
+ ###get_commerce_god
+ get_CEL_mercury:0 "Merkuremu"
+ get_CEL_turms:0 "Turmsowi"
+ get_CEL_hermes:0 "Hermesowi"
+ get_CEL_thot:0 "Thotowi"
+ get_CEL_lugus:0 "Lugusowi"
+ get_CEL_enki:0 "Enkiemu"
+ get_CEL_commerce_god_default:0 "Bogu handlu"
+ ###get_god_of_light
+ get_CEL_apulu:0 "Apulu"
+ get_CEL_apollo:0 "Apolloowi"
+ get_CEL_resheph:0 "Reszefowi"
+ get_CEL_ra:0 "Ra"
+ get_CEL_shamash:0 "Szamaszowi"
+ get_CEL_god_of_light_default:0 "Bogu słońca"
+ ###get_forge_god
+ get_CEL_vulcan:0 "Wulkanowi"
+ get_CEL_sethlans:0 "Sethlansowi"
+ get_CEL_hephaistos:0 "Hefajstosowi"
+ get_CEL_ptah:0 "Ptahowi"
+ get_CEL_gobannus:0 "Gobannusowi"
+ get_CEL_forge_god_default:0 "Bogu rzemiosła"
+ ###get_wine_god
+ get_CEL_bacchus:0 "Bachusowi"
+ get_CEL_fufluns:0 "Fuflunsowi"
+ get_CEL_dionysus:0 "Dionizosowi"
+ get_CEL_wine_god_default:0 "Bogu wina"
+ ###get_medicine_god
+ get_CEL_aesculapius:0 "Asklepiosowi"
+ get_CEL_vetis:0 "Vetisowi"
+ get_CEL_asclepius:0 "Asklepiosowi"
+ get_CEL_eshmun:0 "Eszmunowi"
+ get_CEL_imhotep:0 "Imhotepowi"
+ get_CEL_ninurta:0 "Ninurcie"
+ get_CEL_medicine_god_default:0 "Bogu medycyny"
+
+ ##### Goddesses #####
+ ###get_wisdom_goddess
+ get_CEL_minerva:0 "Minerwie"
+ get_CEL_menrva:0 "Menrvie"
+ get_CEL_athena:0 "Atenie"
+ get_CEL_anat:0 "Anat"
+ get_CEL_neith:0 "Neith"
+ get_CEL_icovellauna:0 "Icovellaunie"
+ get_CEL_tashmetum:0 "Taszmetum"
+ get_CEL_wisdom_goddess_default:0 "Bogini mądrości"
+ ###get_moon_goddess
+ get_CEL_diana:0 "Dianie"
+ get_CEL_aritimi:0 "Aritimi"
+ get_CEL_artemis:0 "Artemidzie"
+ get_CEL_tanit:0 "Tanit"
+ get_CEL_astarte:0 "Astarte"
+ get_CEL_bast:0 "Bast"
+ get_CEL_moon_goddess_default:0 "Bogini księżyca"
+ ###get_love_goddess
+ get_CEL_venus:0 "Wenus"
+ get_CEL_turan:0 "Turan"
+ get_CEL_aphrodite:0 "Afrodycie"
+ get_CEL_isis:0 "Izydzie"
+ get_CEL_ninlil:0 "Ninlil"
+ get_CEL_love_goddess_default:0 "Bogini miłości"
+ ###get_marriage_goddess
+ get_CEL_juno:0 "Junonie"
+ get_CEL_uni:0 "Uni"
+ get_CEL_hera:0 "Herze"
+ get_CEL_hathor:0 "Hathor"
+ get_CEL_marriage_goddess_default:0 "Bogini małżeństwa"
+ ###get_harvest_goddess
+ get_CEL_ceres:0 "Ceres"
+ get_CEL_cels:0 "Cels"
+ get_CEL_demeter:0 "Demeter"
+ get_CEL_cybele:0 "Kybele"
+ get_CEL_mari:0 "Mari"
+ get_CEL_huba:0 "Hubie"
+ get_CEL_ishtar:0 "Isztar"
+ get_CEL_anahit:0 "Anahicie"
+ get_CEL_shala:0 "Shali"
+ get_CEL_rosmerta:0 "Rosmercie"
+ get_CEL_nerthus:0 "Nerthus"
+ get_CEL_saulia:0 "Saulii"
+ get_CEL_the_duillae:0 "Duillae"
+ get_CEL_semele:0 "Semele"
+ get_CEL_argimpasa:0 "Argimpasie"
+ get_CEL_orotalt:0 "Orotalt"
+ get_CEL_tishtrya:0 "Tisztrii"
+ get_CEL_parvati:0 "Parwacie"
+ get_CEL_buddha:0 "Buddzie"
+ get_CEL_mahavir:0 "Mahawirze" #Mahawirowi
+ get_CEL_harvest_goddess_default:0 "Bogini żniw"
+ ###get_hearth_goddess
+ get_CEL_vesta:0 "Weście"
+ get_CEL_hestia:0 "Hestii"
+ get_CEL_hearth_goddess_default:0 "Bogini ogniska domowego"
+ ###get_fortune_goddess
+ get_CEL_fortuna:0 "Fortunie"
+ get_CEL_nortia:0 "Nortii"
+ get_CEL_tyche:0 "Tyche"
+ get_CEL_fortune_goddess_default:0 "Bogini pomyślności"
+ ###monothesitic
+ get_CEL_jewish_god:0 "Jahwe"
+ get_CEL_zoroastrian_god:0 "Ahurze Mazdzie"
+ ###fallback
+ get_CEL_a_god:0 "jednemu z wielkich bogów"
+ get_CEL_the_ancestors:0 "przodkom"
+
+ ##############################################################
+ #Religie (kraj)
+
+ #Religie dopełniacz
+ roman_pantheon_dop:0 "helleńskiej"
+ egyptian_pantheon_dop:0 "kemetycznej"
+ carthaginian_pantheon_dop:0 "kananejskiej"
+ shamanism_dop:0 "zalmoksiańskiej"
+ druidism_dop:0 "druidzkiej"
+ animism_dop:0 "iberyjskiej"
+ judaism_dop:0 "żydowskiej"
+ zoroaster_dop:0 "zaratusztriańskiej"
+ matrist_religion_dop:0 "matrystycznej"
+ berber_religion_dop:0 "megalitycznej"
+ germanic_religion_dop:0 "tuistonicznej"
+ arabian_pantheon_dop:0 "arabskiej"
+ eastern_animism_dop:0 "rytualistycznej"
+ buddhism_dop:0 "buddyjskiej"
+ hindu_dop:0 "hinduskiej"
+ bon_dop:0 "Bön"
+ indo_iranian_religion_dop:0 "heptadycznej"
+ anatolian_religion_dop:0 "kybeleńskiej"
+ armenian_religion_dop:0 "chaldyjskiej" 
+ caucasian_religion_dop:0 "armazyjskiej"
+ mesopotamian_religion_dop:0 "chaldejskiej"
+ jainism_dop:0 "dźinijskiej"
+ 
+ #Religie celownik
+ roman_pantheon_dop:0 "helleńskiemu"
+ egyptian_pantheon_dop:0 "kemetycznemu"
+ carthaginian_pantheon_dop:0 "kananejskiemu"
+ shamanism_dop:0 "zalmoksiańskiemu"
+ druidism_dop:0 "druidzkiemu"
+ animism_dop:0 "iberyjskiemu"
+ judaism_dop:0 "żydowskiemu"
+ zoroaster_dop:0 "zaratusztriańskiemu"
+ matrist_religion_dop:0 "matrystycznemu"
+ berber_religion_dop:0 "megalitycznemu"
+ germanic_religion_dop:0 "tuistonicznemu"
+ arabian_pantheon_dop:0 "arabskiemu"
+ eastern_animism_dop:0 "rytualistycznemu"
+ buddhism_dop:0 "buddyjskiemu"
+ hindu_dop:0 "hinduskiemu"
+ bon_dop:0 "böńskiemu"
+ indo_iranian_religion_dop:0 "heptadycznemu"
+ anatolian_religion_dop:0 "kybeleńskiemu"
+ armenian_religion_dop:0 "chaldyjskiemu" 
+ caucasian_religion_dop:0 "armazyjskiemu"
+ mesopotamian_religion_dop:0 "chaldejskiemu"
+ jainism_dop:0 "dźinijskiemu"
+ 
+ #Religie narzędnik
+ roman_pantheon_narz:0 "helleńską"
+ egyptian_pantheon_narz:0 "kemetyczną"
+ carthaginian_pantheon_narz:0 "kananejską"
+ shamanism_narz:0 "zalmoksiańską"
+ druidism_narz:0 "druidzką"
+ animism_narz:0 "iberyjską"
+ judaism_narz:0 "żydowską"
+ zoroaster_narz:0 "zaratusztriańską"
+ matrist_religion_narz:0 "matrystyczną"
+ berber_religion_narz:0 "megalityczną"
+ germanic_religion_narz:0 "tuistoniczną"
+ arabian_pantheon_narz:0 "arabską"
+ eastern_animism_narz:0 "rytualistyczną"
+ buddhism_narz:0 "buddyjską"
+ hindu_narz:0 "hinduską"
+ bon_narz:0 "Bön"
+ indo_iranian_religion_narz:0 "heptadyczną"
+ anatolian_religion_narz:0 "kybeleńską"
+ armenian_religion_narz:0 "chaldyjską" 
+ caucasian_religion_narz:0 "armazyjską"
+ mesopotamian_religion_narz:0 "chaldejską"
+ jainism_narz:0 "dźinijską"
+ 
+ #Religie biernik
+ roman_pantheon_bier:0 "helleńskiego"
+ egyptian_pantheon_bier:0 "kemetycznego"
+ carthaginian_pantheon_bier:0 "kananejskiego"
+ shamanism_bier:0 "zalmoksiańskiego"
+ druidism_bier:0 "druidzkiego"
+ animism_bier:0 "iberyjskiego"
+ judaism_bier:0 "żydowskiego"
+ zoroaster_bier:0 "zaratusztriańskiego"
+ matrist_religion_bier:0 "matrystycznego"
+ berber_religion_bier:0 "megalitycznego"
+ germanic_religion_bier:0 "tuistonicznego"
+ arabian_pantheon_bier:0 "arabskiego"
+ eastern_animism_bier:0 "rytualistycznego"
+ buddhism_bier:0 "buddyjskiego"
+ hindu_bier:0 "hinduskiego"
+ bon_bier:0 "böńskiego"
+ indo_iranian_religion_bier:0 "heptadycznego"
+ anatolian_religion_bier:0 "kybeleńskiego"
+ armenian_religion_bier:0 "chaldyjskiego" 
+ caucasian_religion_bier:0 "armazyjskiego"
+ mesopotamian_religion_bier:0 "chaldejskiego"
+ jainism_bier:0 "dźinijskiego"
+ 
+ #Religie mianownik l. mn.
+ roman_pantheon_mian_l_mn:0 "helleńscy"
+ egyptian_pantheon_mian_l_mn:0 "kemetyczni"
+ carthaginian_pantheon_mian_l_mn:0 "kananejscy"
+ shamanism_mian_l_mn:0 "zalmoksiańscy"
+ druidism_mian_l_mn:0 "druidzcy"
+ animism_mian_l_mn:0 "iberyjscy"
+ judaism_mian_l_mn:0 "żydowscy"
+ zoroaster_mian_l_mn:0 "zaratusztriańscy"
+ matrist_religion_mian_l_mn:0 "matrystyczni"
+ berber_religion_mian_l_mn:0 "megalityczni"
+ germanic_religion_mian_l_mn:0 "tuistoniczni"
+ arabian_pantheon_mian_l_mn:0 "arabscy"
+ eastern_animism_mian_l_mn:0 "rytualistyczni"
+ buddhism_mian_l_mn:0 "buddyjscy"
+ hindu_mian_l_mn:0 "hinduscy"
+ bon_mian_l_mn:0 "böńscy"
+ indo_iranian_religion_mian_l_mn:0 "heptadyczni"
+ anatolian_religion_mian_l_mn:0 "kybeleńscy"
+ armenian_religion_mian_l_mn:0 "chaldyjscy" 
+ caucasian_religion_mian_l_mn:0 "armazyjscy"
+ mesopotamian_religion_mian_l_mn:0 "chaldejscy"
+ jainism_mian_l_mn:0 "dźinijscy"
+ 
+ #Religie dopełniacz l. mn.
+ roman_pantheon_dop_l_mn:0 "helleńskich"
+ egyptian_pantheon_dop_l_mn:0 "kemetycznych"
+ carthaginian_pantheon_dop_l_mn:0 "kananejskich"
+ shamanism_dop_l_mn:0 "zalmoksiańskich"
+ druidism_dop_l_mn:0 "druidzkich"
+ animism_dop_l_mn:0 "iberyjskich"
+ judaism_dop_l_mn:0 "żydowskich"
+ zoroaster_dop_l_mn:0 "zaratusztriańskich"
+ matrist_religion_dop_l_mn:0 "matrystycznych"
+ berber_religion_dop_l_mn:0 "megalitycznych"
+ germanic_religion_dop_l_mn:0 "tuistonicznych"
+ arabian_pantheon_dop_l_mn:0 "arabskich"
+ eastern_animism_dop_l_mn:0 "rytualistycznych"
+ buddhism_dop_l_mn:0 "buddyjskich"
+ hindu_dop_l_mn:0 "hinduskich"
+ bon_dop_l_mn:0 "böńskich"
+ indo_iranian_religion_dop_l_mn:0 "heptadycznych"
+ anatolian_religion_dop_l_mn:0 "kybeleńskich"
+ armenian_religion_dop_l_mn:0 "chaldyjskich" 
+ caucasian_religion_dop_l_mn:0 "armazyjskich"
+ mesopotamian_religion_dop_l_mn:0 "chaldejskich"
+ jainism_dop_l_mn:0 "dźinijskich"
+ 
+ #Panteony religii
+ roman_pantheon_pl:0 "Panteon helleński"
+ egyptian_pantheon_pl:0 "Panteon kemetyczny"
+ carthaginian_pantheon_pl:0 "Panteon kananejski"
+ shamanism_pl:0 "Panteon zalmoksiański"
+ druidism_pl:0 "Panteon druidzki"
+ animism_pl:0 "Panteon iberyjski"
+ judaism_pl:0 "Żydowskie wzorce"
+ zoroaster_pl:0 "Zaratusztriańskie jazamaty"
+ matrist_religion_pl:0 "Panteon matrystyczny"
+ berber_religion_pl:0 "Panteon megalityczny"
+ germanic_religion_pl:0 "Panteon tuistoniczny"
+ arabian_pantheon_pl:0 "Panteon arabski"
+ eastern_animism_pl:0 "Panteon rytualistyczny"
+ buddhism_pl:0 "Nauki buddyjskie"
+ hindu_pl:0 "Panteon hinduski"
+ bon_religion_pl:0 "Panteon Bön"
+ indo_iranian_religion_pl:0 "Panteon heptadyczny"
+ anatolian_religion_pl:0 "Panteon kybeleński"
+ armenian_religion_pl:0 "Panteon chaldyjski" 
+ caucasian_religion_pl:0 "Panteon armazyjski"
+ mesopotamian_religion_pl:0 "Panteon chaldejski"
+ jainism_pl:0 "Nauki dźinijskie"
+ 
+ #Nazwy opisowe bóstw
+ roman_pantheon_deity_god_only_pl:0 "Bóstwo"
+ egyptian_pantheon_deity_god_only_pl:0 "Bóstwo"
+ carthaginian_pantheon_deity_god_only_pl:0 "Bóstwo"
+ shamanism_deity_god_only_pl:0 "Bóstwo"
+ druidism_deity_god_only_pl:0 "Bóstwo"
+ animism_deity_god_only_pl:0 "Bóstwo"
+ judaism_deity_god_only_pl:0 "Prorok"
+ zoroaster_deity_god_only_pl:0 "Jazata"
+ matrist_religion_deity_god_only_pl:0 "Bóstwo"
+ berber_religion_deity_god_only_pl:0 "Bóstwo"
+ germanic_religion_deity_god_only_pl:0 "Bóstwo"
+ arabian_pantheon_deity_god_only_pl:0 "Bóstwo"
+ eastern_animism_deity_god_only_pl:0 "Bóstwo"
+ buddhism_deity_god_only_pl:0 "Paradygmat"
+ hindu_deity_god_only_pl:0 "Bóstwo"
+ bon_religion_deity_god_only_pl:0 "Bóstwo"
+ indo_iranian_religion_deity_god_only_pl:0 "Bóstwo"
+ anatolian_religion_deity_god_only_pl:0 "Bóstwo"
+ armenian_religion_deity_god_only_pl:0 "Bóstwo" 
+ caucasian_religion_deity_god_only_pl:0 "Bóstwo"
+ mesopotamian_religion_deity_god_only_pl:0 "Bóstwo"
+ jainism_deity_god_only_pl:0 "Paradygmat"
+ 
+#roman_pantheon_deity_pl:0 "Bóstwo helleńskie"
+#egyptian_pantheon_deity_pl:0 "Bóstwo kemetyczne"
+#carthaginian_pantheon_deity_pl:0 "Bóstwo kananejskie"
+#shamanism_deity_pl:0 "Bóstwo zalmoksiańskie"
+#druidism_deity_pl:0 "Bóstwo druidzkie"
+#animism_deity_pl:0 "Bóstwo iberyjskie"
+#judaism_deity_pl:0 "Żydowski prorok"
+#zoroaster_deity_pl:0 "Zaratusztriański jazata"
+#matrist_religion_deity_pl:0 "Bóstwo matrystyczne"
+#berber_religion_deity_pl:0 "Bóstwo megalityczne"
+#germanic_religion_deity_pl:0 "Bóstwo tuistoniczne"
+#arabian_pantheon_deity_pl:0 "Bóstwo arabskie"
+#eastern_animism_deity_pl:0 "Bóstwo rytualistyczne"
+#buddhism_deity_pl:0 "Buddyjski paradygmat"
+#hindu_deity_pl:0 "Bóstwo hinduskie"
+#bon_religion_deity_pl:0 "Bóstwo Bön"
+#indo_iranian_religion_deity_pl:0 "Bóstwo heptadyczne"
+#anatolian_religion_deity_pl:0 "Bóstwo kybeleńskie"
+#armenian_religion_deity_pl:0 "Bóstwo chaldyjskie" 
+#caucasian_religion_deity_pl:0 "Bóstwo armazyjskie"
+#mesopotamian_religion_deity_pl:0 "Bóstwo chaldejskie"
+#jainism_deity_pl:0 "Dźinijski paradygmat"
+
+ roman_pantheon_deity_pl_Cap:0 "Helleńskie bóstwo"
+ egyptian_pantheon_deity_pl_Cap:0 "Kemetyczne bóstwo"
+ carthaginian_pantheon_deity_pl_Cap:0 "Kananejskie bóstwo"
+ shamanism_deity_pl_Cap:0 "Zalmoksiańskie bóstwo"
+ druidism_deity_pl_Cap:0 "Druidzkie bóstwo"
+ animism_deity_pl_Cap:0 "Iberyjskie bóstwo"
+ judaism_deity_pl_Cap:0 "Żydowski prorok"
+ zoroaster_deity_pl_Cap:0 "Zaratusztriański jazata"
+ matrist_religion_deity_pl_Cap:0 "Matrystyczne bóstwo"
+ berber_religion_deity_pl_Cap:0 "Megalityczne bóstwo"
+ germanic_religion_deity_pl_Cap:0 "Tuistoniczne bóstwo"
+ arabian_pantheon_deity_pl_Cap:0 "Arabskie bóstwo"
+ eastern_animism_deity_pl_Cap:0 "Rytualistyczne bóstwo"
+ buddhism_deity_pl_Cap:0 "Buddyjski paradygmat"
+ hindu_deity_pl_Cap:0 "Hinduskie bóstwo"
+ bon_religion_deity_pl_Cap:0 "Bóstwo Bön"
+ indo_iranian_religion_deity_pl_Cap:0 "Heptadyczne bóstwo"
+ anatolian_religion_deity_pl_Cap:0 "Kybeleńskie bóstwo"
+ armenian_religion_deity_pl_Cap:0 "Chaldyjskie bóstwo" 
+ caucasian_religion_deity_pl_Cap:0 "Armazyjskie bóstwo"
+ mesopotamian_religion_deity_pl_Cap:0 "Chaldejskie bóstwo"
+ jainism_deity_pl_Cap:0 "Dźinijski paradygmat"
+ 
+ roman_pantheon_deity_pl_BIER:0 "bóstwo helleńskie"
+ egyptian_pantheon_deity_pl_BIER:0 "bóstwo kemetyczne"
+ carthaginian_pantheon_deity_pl_BIER:0 "bóstwo kananejskie"
+ shamanism_deity_pl_BIER:0 "bóstwo zalmoksiańskie"
+ druidism_deity_pl_BIER:0 "bóstwo druidzkie"
+ animism_deity_pl_BIER:0 "bóstwo iberyjskie"
+ judaism_deity_pl_BIER:0 "żydowskiego proroka"
+ zoroaster_deity_pl_BIER:0 "zaratusztriańskiego jazatę"
+ matrist_religion_deity_pl_BIER:0 "bóstwo matrystyczne"
+ berber_religion_deity_pl_BIER:0 "bóstwo megalityczne"
+ germanic_religion_deity_pl_BIER:0 "bóstwo tuistoniczne"
+ arabian_pantheon_deity_pl_BIER:0 "bóstwo arabskie"
+ eastern_animism_deity_pl_BIER:0 "bóstwo rytualistyczne"
+ buddhism_deity_pl_BIER:0 "buddyjski paradygmat"
+ hindu_deity_pl_BIER:0 "bóstwo hinduskie"
+ bon_religion_deity_pl_BIER:0 "bóstwo Bön"
+ indo_iranian_religion_deity_pl_BIER:0 "bóstwo heptadyczne"
+ anatolian_religion_deity_pl_BIER:0 "bóstwo kybeleńskie"
+ armenian_religion_deity_pl_BIER:0 "bóstwo chaldyjskie" 
+ caucasian_religion_deity_pl_BIER:0 "bóstwo armazyjskie"
+ mesopotamian_religion_deity_pl_BIER:0 "bóstwo chaldejskie"
+ jainism_deity_pl_BIER:0 "dźinijski paradygmat"
+ 
+ #Świątynie
+ cloc_shrine_matrist_BIER:0 "gaj"
+ cloc_shrine_BIER:0 "kaplicę"
+ cloc_temple_BIER:0 "świątynię"
+ cloc_sanctuary_BIER:0 "sanktuarium"
+ cloc_holy_site_default_BIER:0 "kaplicę"
+
+ cloc_shrine_matrist_MSC:0 "gaju"
+ cloc_shrine_MSC:0 "kaplicy"
+ cloc_temple_MSC:0 "świątyni"
+ cloc_sanctuary_MSC:0 "sanktuarium"
+ cloc_holy_site_default_MSC:0 "kaplicy"
+
+ cloc_shrine_matrist_YmEj:0 "ym"
+ cloc_shrine_YmEj:0 "ej"
+ cloc_temple_YmEj:0 "ej"
+ cloc_sanctuary_YmEj:0 "ym"
+ cloc_holy_site_default_YmEj:0 "ej"
+
+ cloc_shrine_matrist_YA:0 "y"
+ cloc_shrine_YA:0 "a"
+ cloc_temple_YA:0 "a"
+ cloc_sanctuary_YA:0 "y"
+ cloc_holy_site_default_YA:0 "a"
+
+ cloc_shrine_matrist_ImJej:0 "im"
+ cloc_shrine_ImJej:0 "jej"
+ cloc_temple_ImJej:0 "jej"
+ cloc_sanctuary_ImJej:0 "im"
+ cloc_holy_site_default_ImJej:0 "jej" 
+ 
+ #Grupy kulturowe (kraj)
+ 
+ #Grupy kulturowe - dopełniacz (celownik)
+ aksumite_group_DOP:0 "aksumskiej"
+ anatolian_DOP:0 "anatolijskiej"
+ south_levantine_DOP:0 "arabskiej"
+ east_levantine_DOP:0 "aramejskiej"
+ aryan_DOP:1 "aryjskiej"
+ bactrian_DOP:0 "baktryjskiej"
+ belgae_group_DOP:0 "belgijskiej"
+ caucasian_DOP:0 "kaukaskiej"
+ celt_iberia_DOP:0 "celtycko-iberyjskiej"
+ dacia_group_DOP:1 "dackiej"
+ indian_DOP:0 "drawidyjskiej"
+ north_african_DOP:2 "egipskiej"
+ gaelic_DOP:0 "celtyckiej"
+ gallic_DOP:0 "galijskiej"
+ germanic_DOP:0 "germańskiej"
+ hellenic_DOP:1 "helleńskiej"
+ iberia_DOP:0 "iberyjskiej"
+ illyrian_group_DOP:0 "iliryjskiej"
+ persia_DOP:0 "irańskiej"
+ latin_DOP:0 "italskiej"
+ west_levantine_DOP:0 "lewantyńskiej"
+ meroitic_group_DOP:0 "nubijskiej"
+ numidian_DOP:0 "numidyjskiej"
+ proto_european_DOP:1 "okcydentalnej"
+ celto_pannonian_group_DOP:0 "panońskiej"
+ pracyan_DOP:0 "pracjańskiej"
+ britannic_DOP:0 "brytyjskiej"
+ scythia_DOP:0 "scytyjskiej"
+ tibetan_DOP:0 "tybetańskiej"
+ baltic_DOP:0 "wenedzkiej" 
+
+ #Grupy kulturowe - biernik
+ aksumite_group_BIER:0 "aksumską"
+ anatolian_BIER:0 "anatolijską"
+ south_levantine_BIER:0 "arabską"
+ east_levantine_BIER:0 "aramejską"
+ aryan_BIER:1 "aryjską"
+ bactrian_BIER:0 "baktryjską"
+ belgae_group_BIER:0 "belgijską"
+ caucasian_BIER:0 "kaukaską"
+ celt_iberia_BIER:0 "celtycko-iberyjską"
+ dacia_group_BIER:1 "dacką"
+ indian_BIER:0 "drawidyjską"
+ north_african_BIER:2 "egipską"
+ gaelic_BIER:0 "celtycką"
+ gallic_BIER:0 "galijską"
+ germanic_BIER:0 "germańską"
+ hellenic_BIER:1 "helleńską"
+ iberia_BIER:0 "iberyjską"
+ illyrian_group_BIER:0 "iliryjską"
+ persia_BIER:0 "irańską"
+ latin_BIER:0 "italską"
+ west_levantine_BIER:0 "lewantyńską"
+ meroitic_group_BIER:0 "nubijską"
+ numidian_BIER:0 "numidyjską"
+ proto_european_BIER:1 "okcydentalną"
+ celto_pannonian_group_BIER:0 "panońską"
+ pracyan_BIER:0 "pracjańską"
+ britannic_BIER:0 "brytyjską"
+ scythia_BIER:0 "scytyjską"
+ tibetan_BIER:0 "tybetańską"
+ baltic_BIER:0 "wenedzką" 
+ 
+ #Typy rządów
+ court_type_athens_pl_DOP:0 "eklezji"
+ court_type_greek_oligarchy_pl_DOP:0 "geruzji"
+ court_type_greek_pl_DOP:1 "rady pięciuset"
+ court_type_punic_pl_DOP:0 "adirim"
+ court_type_rome_pl_DOP:0 "senatu"
+ court_type_synedrion_pl_DOP:0 "synedrionu"
+ court_type_sangha_pl_DOP:0 "sanghy"
+ court_type_monarchy_pl_DOP:0 "dworu"
+ court_type_republic_pl_DOP:0 "senatu"
+ court_type_tribal_pl_DOP:0 "rady klanowej"
+ 
+ court_type_athens_pl_MSC:0 "eklezji"
+ court_type_greek_oligarchy_pl_MSC:0 "geruzji"
+ court_type_greek_pl_MSC:1 "radzie pięciuset"
+ court_type_punic_pl_MSC:0 "adirim"
+ court_type_rome_pl_MSC:0 "senacie"
+ court_type_synedrion_pl_MSC:0 "synedrionie"
+ court_type_sangha_pl_MSC:0 "sanghie"
+ court_type_monarchy_pl_MSC:0 "dworze"
+ court_type_republic_pl_MSC:0 "senacie"
+ court_type_tribal_pl_MSC:0 "radzie klanowej"
+ 
+ court_type_athens_pl_NARZ:0 "eklezją"
+ court_type_greek_oligarchy_pl_NARZ:0 "geruzją"
+ court_type_greek_pl_NARZ:1 "radą pięciuset"
+ court_type_punic_pl_NARZ:0 "adirim"
+ court_type_rome_pl_NARZ:0 "senatem"
+ court_type_synedrion_pl_NARZ:0 "synedrionem"
+ court_type_sangha_pl_NARZ:0 "sanghą"
+ court_type_monarchy_pl_NARZ:0 "dworem"
+ court_type_republic_pl_NARZ:0 "senatem"
+ court_type_tribal_pl_NARZ:0 "radą klanową"
+ 
+ court_type_athens_pl_CEL:0 "eklezji"
+ court_type_greek_oligarchy_pl_CEL:0 "geruzji"
+ court_type_greek_pl_CEL:1 "radzie pięciuset"
+ court_type_punic_pl_CEL:0 "adirim"
+ court_type_rome_pl_CEL:0 "senatowi"
+ court_type_synedrion_pl_CEL:0 "synedrionowi"
+ court_type_sangha_pl_CEL:0 "sanghi"
+ court_type_monarchy_pl_CEL:0 "dworowi"
+ court_type_republic_pl_CEL:0 "senatowi"
+ court_type_tribal_pl_CEL:0 "radzie klanowej"
+ 
+ court_type_athens_pl_BIER:0 "eklezję"
+ court_type_greek_oligarchy_pl_BIER:0 "geruzję"
+ court_type_greek_pl_BIER:1 "radę pięciuset"
+ court_type_punic_pl_BIER:0 "adirim"
+ court_type_rome_pl_BIER:0 "senat"
+ court_type_synedrion_pl_BIER:0 "synedrion"
+ court_type_sangha_pl_BIER:0 "sanghę"
+ court_type_monarchy_pl_BIER:0 "dwór"
+ court_type_republic_pl_BIER:0 "senat"
+ court_type_tribal_pl_BIER:0 "radę klanową"
+
+ court_type_athens_pl_EgoEj:0 "ej" #eklezja
+ court_type_greek_oligarchy_pl_EgoEj:0 "ej" #geruzja
+ court_type_greek_pl_EgoEj:1 "ej" #rada pięciuset
+ court_type_punic_pl_EgoEj:0 "ego" #adirim
+ court_type_rome_pl_EgoEj:0 "ego" #senat
+ court_type_synedrion_pl_EgoEj:0 "ego" #synedrion
+ court_type_sangha_pl_EgoEj:0 "ej" #sangha
+ court_type_monarchy_pl_EgoEj:0 "ego" #dwór
+ court_type_republic_pl_EgoEj:0 "ego" #senat
+ court_type_tribal_pl_EgoEj:0 "ej" #rada klanowa 
+ 
+ court_type_athens_pl_YmA:0 "ą" #eklezja
+ court_type_greek_oligarchy_pl_YmA:0 "ą" #geruzja
+ court_type_greek_pl_YmA:1 "ą" #rada pięciuset
+ court_type_punic_pl_YmA:0 "ym" #adirim
+ court_type_rome_pl_YmA:0 "ym" #senat
+ court_type_synedrion_pl_YmA:0 "ym" #synedrion
+ court_type_sangha_pl_YmA:0 "ą" #sangha
+ court_type_monarchy_pl_YmA:0 "ym" #dwór
+ court_type_republic_pl_YmA:0 "ym" #senat
+ court_type_tribal_pl_YmA:0 "ą" #rada klanowa 
+
+ court_type_athens_pl_YmEj:0 "ej" #eklezja
+ court_type_greek_oligarchy_pl_YmEj:0 "ej" #geruzja
+ court_type_greek_pl_YmEj:1 "ej" #rada pięciuset
+ court_type_punic_pl_YmEj:0 "ym" #adirim
+ court_type_rome_pl_YmEj:0 "ym" #senat
+ court_type_synedrion_pl_YmEj:0 "ym" #synedrion
+ court_type_sangha_pl_YmEj:0 "ej" #sangha
+ court_type_monarchy_pl_YmEj:0 "ym" #dwór
+ court_type_republic_pl_YmEj:0 "ym" #senat
+ court_type_tribal_pl_YmEj:0 "ej" #rada klanowa
+ 
+ court_type_athens_pl_YA:0 "a" #eklezja
+ court_type_greek_oligarchy_pl_YA:0 "a" #geruzja
+ court_type_greek_pl_YA:1 "a" #rada pięciuset
+ court_type_punic_pl_YA:0 "y" #adirim
+ court_type_rome_pl_YA:0 "y" #senat
+ court_type_synedrion_pl_YA:0 "y" #synedrion
+ court_type_sangha_pl_YA:0 "a" #sangha
+ court_type_monarchy_pl_YA:0 "y" #dwór
+ court_type_republic_pl_YA:0 "y" #senat
+ court_type_tribal_pl_YA:0 "a" #rada klanowa
+ 
+ court_type_athens_pl_W_Na:0 "w" #eklezja
+ court_type_greek_oligarchy_pl_W_Na:0 "w" #geruzja
+ court_type_greek_pl_W_Na:1 "w" #rada pięciuset
+ court_type_punic_pl_W_Na:0 "w" #adirim
+ court_type_rome_pl_W_Na:0 "w" #senat
+ court_type_synedrion_pl_W_Na:0 "w" #synedrion
+ court_type_sangha_pl_W_Na:0 "w" #sangha
+ court_type_monarchy_pl_W_Na:0 "na" #dwór
+ court_type_republic_pl_W_Na:0 "w" #senat
+ court_type_tribal_pl_W_Na:0 "w" #rada klanowa  
+ 
+ court_type_athens_pl_Nic_A:0 "ą" #eklezja
+ court_type_greek_oligarchy_pl_Nic_A:0 "ą" #geruzja
+ court_type_greek_pl_Nic_A:1 "ą" #rada pięciuset
+ court_type_punic_pl_Nic_A:0 "" #adirim
+ court_type_rome_pl_Nic_A:0 "" #senat
+ court_type_synedrion_pl_Nic_A:0 "" #synedrion
+ court_type_sangha_pl_Nic_A:0 "ą" #sangha
+ court_type_monarchy_pl_Nic_A:0 "" #dwór
+ court_type_republic_pl_Nic_A:0 "" #senat
+ court_type_tribal_pl_Nic_A:0 "ą" #rada klanowa  
+ 
+ court_type_athens_pl_PowinienPowinna:0 "powinna" #eklezja
+ court_type_greek_oligarchy_pl_PowinienPowinna:0 "powinna" #geruzja
+ court_type_greek_pl_PowinienPowinna:1 "powinna" #rada pięciuset
+ court_type_punic_pl_PowinienPowinna:0 "powinien" #adirim
+ court_type_rome_pl_PowinienPowinna:0 "powinien" #senat
+ court_type_synedrion_pl_PowinienPowinna:0 "powinien" #synedrion
+ court_type_sangha_pl_PowinienPowinna:0 "powinna" #sangha
+ court_type_monarchy_pl_PowinienPowinna:0 "powinien" #dwór
+ court_type_republic_pl_PowinienPowinna:0 "powinien" #senat
+ court_type_tribal_pl_PowinienPowinna:0 "powinna" #rada klanowa
+ 
+ #Ranga państwa
+ country_rank_migrant_horde_DOP:0 "migrującej hordy"
+ country_rank_city_power_DOP:0 "nacji (państwa-miasta)"
+ country_rank_local_power_DOP:0 "lokalnej potęgi"
+ country_rank_regional_power_DOP:0 "regionalnej potęgi"
+ country_rank_major_power_DOP:0 "znaczącej potęgi"
+ country_rank_great_power_DOP:0 "wielkiej potęgi" 
+
+ country_rank_migrant_horde_BIER:0 "migrującą hordę"
+ country_rank_city_power_BIER:0 "nację (państwo-miasto)"
+ country_rank_local_power_BIER:0 "lokalną potęgę"
+ country_rank_regional_power_BIER:0 "regionalną potęgę"
+ country_rank_major_power_BIER:0 "znaczącą potęgę"
+ country_rank_great_power_BIER:0 "wielką potęgę"
+
+ country_rank_migrant_horde_CEL:0 "migrującej hordzie"
+ country_rank_city_power_CEL:0 "nacji (państwu-miastu)"
+ country_rank_local_power_CEL:0 "lokalnej potędze"
+ country_rank_regional_power_CEL:0 "regionalnej potędze"
+ country_rank_major_power_CEL:0 "znaczącej potędze"
+ country_rank_great_power_CEL:0 "wielkiej potędze" 
+ 
+ #Typy miast
+ get_city_type_loc_metropolis_Cap:0 "Metropolia"
+ get_city_type_loc_settlement_Cap:0 "Osada"
+ get_city_type_loc_city_Cap:0 "Miasto"
+
+ get_city_type_loc_metropolis_MSC:0 "metropolii"
+ get_city_type_loc_settlement_MSC:0 "osadzie"
+ get_city_type_loc_city_MSC:0 "mieście"
+
+ get_city_type_loc_metropolis_DOP:0 "metropolii"
+ get_city_type_loc_settlement_DOP:0 "osady"
+ get_city_type_loc_city_DOP:0 "miasta"
+ 
+ get_city_type_loc_metropolis_NARZ:0 "metropolią"
+ get_city_type_loc_settlement_NARZ:0 "osadą"
+ get_city_type_loc_city_NARZ:0 "miastem"
+
+ get_city_type_loc_metropolis_BIER:0 "metropolię"
+ get_city_type_loc_settlement_BIER:0 "osadę"
+ get_city_type_loc_city_BIER:0 "miasto" 
+
+ get_city_type_loc_metropolis_OA:0 "a"
+ get_city_type_loc_settlement_OA:0 "a"
+ get_city_type_loc_city_OA:0 "o"
+
+ get_city_type_loc_metropolis_EA:0 "a"
+ get_city_type_loc_settlement_EA:0 "a"
+ get_city_type_loc_city_EA:0 "e"
+
+ get_city_type_loc_metropolis_IeA:0 "a"
+ get_city_type_loc_settlement_IeA:0 "a"
+ get_city_type_loc_city_IeA:0 "ie"
+
+ get_city_type_loc_metropolis_EgoEj:0 "ej"
+ get_city_type_loc_settlement_EgoEj:0 "ej"
+ get_city_type_loc_city_EgoEj:0 "ego"
+
+ get_city_type_loc_metropolis_EAdiakr:0 "ą"
+ get_city_type_loc_settlement_EAdiakr:0 "ą"
+ get_city_type_loc_city_EAdiakr:0 "e"
+ 
+ get_city_type_loc_metropolis_IeAdiakr:0 "ą"
+ get_city_type_loc_settlement_IeAdiakr:0 "ą"
+ get_city_type_loc_city_IeAdiakr:0 "ie" 
+ 
+ #Postacie
+ was_a:0 "a" 
+ was_none:0 ""
+ is_none:0 ""
+ 
+ CHARACTER_GRANDDAUGHTER:0 "wnuczka"
+ CHARACTER_GRANDSON:0 "wnuk"
+ CHARACTER_GRANDDAUGHTER_Cap:0 "Wnuczka"
+ CHARACTER_GRANDSON_Cap:0 "Wnuk" 
+ 
+ Rival_female:0 "rywalka"
+ Rival_male:0 "rywal"
+ Rival_female_Cap:0 "Rywalka"
+ Rival_male_Cap:0 "Rywal"
+
+ Friend_female:0 "przyjaciółka"
+ Friend_male:0 "przyjaciel"
+ Friend_female_Cap:0 "Przyjaciółka"
+ Friend_male_Cap:0 "Przyjaciel"
+ 
+ health_perfect_female:0 "W pełni zdrowa" #Doskonałe zdrowie
+ health_high_female:0 "Zdrowa"
+ health_medium_female:0 "Niedomagająca"
+ health_low_female:0 "Słabe zdrowie"
+ health_ailing_female:0 "Bardzo słabe zdrowie"
+ health_near_death_female:0 "Bliska śmierci" 
+ health_dead:0 "Nie żyje" 
+  
+ #Określenia współmałżonka
+ spouse_very_wicked_male:0 "powszechnie znienawidzony"
+ spouse_wicked_male:0 "niegodziwy"
+ spouse_corrupt_male:0 "żałośnie skorumpowany"
+ spouse_ailing_male:0 "niedomagający"
+ spouse_serene_male:0 "najjaśniejszy" #łagodny
+ spouse_stunningly_talented_male:0 "zachwycająco utalentowany"
+ 
+ consort_male:0 "małżonek"
+ consort_female:0 "małżonka"
+ 
+ #Wydarzenia
+ got_rapturous_2:0 "entuzjastycznych"
+ got_unenthusiastic_2:0 "nieentuzjastycznych"
+ got_standing_2:0 "żywiołowych" #na stojąco
+ got_literally_no_2:0 "marnych"
+ got_mildly_interested_2:0 "średnio entuzjastycznych"
+
+ got_rapturous_outro:0 "rozradowaniu"
+ got_unenthusiastic_outro:0 "niezbyt entuzjastycznej radości"
+ got_standing_outro:0 "żywiołowej radości"
+ got_literally_no_outro:0 "pewnemu niedosytowi"
+ got_mildly_interested_outro:0 "umiarkowanej radości"
+ 
+ #Jednostki armii i floty
+ archers_DOP:0 "łuczników"
+ camels_DOP:0 "kawalerii wielbłądziej"
+ chariots_DOP:0 "rydwanów"
+ heavy_cavalry_DOP:0 "ciężkiej kawalerii"
+ heavy_infantry_DOP:0 "ciężkiej piechoty"
+ horse_archers_DOP:0 "łuczników konnych"
+ light_cavalry_DOP:0 "lekkiej kawalerii"
+ light_infantry_DOP:0 "lekkiej piechoty"
+ warelephant_DOP:0 "słoni bojowych"
+ supply_train_DOP:0 "taboru"
+ engineer_cohort_DOP:0 "inżynierów"
+
+ archers_DOP_2:0 "łuczników"
+ camels_DOP_2:0 "jeźdźców na wielbłądach"
+ chariots_DOP_2:0 "rydwanów"
+ heavy_cavalry_DOP_2:0 "ciężkozbrojnych jeźdźców"
+ heavy_infantry_DOP_2:0 "ciężkozbrojnych piechurów"
+ horse_archers_DOP_2:0 "łuczników konnych"
+ light_cavalry_DOP_2:0 "lekkozbrojnych jeźdźców"
+ light_infantry_DOP_2:0 "lekkozbrojnych piechurów"
+ warelephant_DOP_2:0 "słoni bojowych"
+ supply_train_DOP_2:0 "wozów taborowych"
+ engineer_cohort_DOP_2:0 "inżynierów"
+ 
+ archers_DOP_3:0 "łuczników"
+ camels_DOP_3:0 "jeźdźców kawalerii wielbłądziej"
+ chariots_DOP_3:0 "rydwanów"
+ heavy_cavalry_DOP_3:0 "jeźdźców ciężkiej kawalerii"
+ heavy_infantry_DOP_3:0 "żołnierzy ciężkiej piechoty"
+ horse_archers_DOP_3:0 "łuczników konnych"
+ light_cavalry_DOP_3:0 "jeźdźców lekkiej kawalerii"
+ light_infantry_DOP_3:0 "żołnierzy lekkiej piechoty"
+ warelephant_DOP_3:0 "słoni bojowych"
+ supply_train_DOP_3:0 "wozów taboru"
+ engineer_cohort_DOP_3:0 "inżynierów"
+ 
+ liburnian_DOP_mn:0 "liburn"
+ trireme_DOP_mn:0 "trirem"
+ tetrere_DOP_mn:0 "tetrer"
+ hexere_DOP_mn:0 "hekser"
+ octere_DOP_mn:0 "okter"
+ mega_galley_DOP_mn:0 "megapolirem"
+ 
+ #Inne
+ reign_singular:0 "e"
+ reign_plural:0 "ą"
+ 

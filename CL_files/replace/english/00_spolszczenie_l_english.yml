@@ -1,0 +1,43 @@
+﻿l_english:
+ #Bogowie - naprawa błędu twórców w CL
+ tammuz:0 "Tammuz"
+ get_havest_god_default:0 "Bóg żniw"
+ get_thoth:0 "Thot"
+ get_Ashshur:0 "Aszur"
+ #
+ #Deifikowane postacie (żydowscy prorocy, Aleksander Wlk., Zaratusztra, Mahawira)
+ Deborah:0 "Debora"
+ Ezekiel:0 "Ezechiel"
+ Moses:0 "Mojżesz"
+ Solomon:0 "Salomon"
+ David:0 "Dawid"
+ #Joseph:0 "Józef" -> character_names_l_english (2295)
+ Caleb:0 "Kaleb"
+ Ezra:0 "Ezdrasz" 
+ #Esther:0 "Estera" -> character_names_l_english (1608)
+ Zoroaster:0 "Zaratusztra" 
+ #Alexander:0 "Aleksander" -> nicknames_l_english (353)
+ Mahavira:0 "Mahawira"
+ #
+ #Naprawa błędu nazwy okrętu; Liburnijska zamiast Liburna
+ liburnian_latin:0 "Liburna"
+ liburnian_west_levantine:0 "Liburna"
+ liburnian_tibetan:0 "Liburna"
+ liburnian_indian:0 "Liburna"
+ liburnian_britannic:0 "Liburna"
+ liburnian_iberia:0 "Liburna"
+ liburnian_gallic:0 "Liburna"
+ liburnian_germanic:0 "Liburna"
+ liburnian_scythia:0 "Liburna"
+ liburnian_persia:0 "Liburna"
+ liburnian_south_levantine:0 "Liburna"
+ liburnian_north_levantine:0 "Liburna"
+ liburnian_aksumite_group:0 "Liburna"
+ liburnian_north_african:0 "Liburna"
+ liburnian_noculturegroup:0 "Liburna"
+ liburnian_hellenic:0 "Liburna"
+ #
+ #title_consort_female:0 "Małżonka" 
+ #tyrannical_monarchy_consort:0 "Małżonka"
+ #title_clan_chief_female:0 "Przywódczyni klanu"
+ #  

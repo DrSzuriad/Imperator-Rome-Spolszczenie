@@ -68,6 +68,9 @@ java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar"
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\replace\\english\\deities\\" "temp\\ir\\replace\\english\\deities\\" %charset%
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\replace\\english\\missions\\" "temp\\ir\\replace\\english\\missions\\" %charset%
 
+echo "Copy polish localisation file"
+xcopy /s CL_files temp\\ir
+
 cd "%project_folder%"
 echo "Removing old localisations"
 del /s /f /q replace
