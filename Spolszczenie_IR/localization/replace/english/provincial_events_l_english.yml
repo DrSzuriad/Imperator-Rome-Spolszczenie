@@ -1,0 +1,5 @@
+﻿l_english:
+ provincial_events.1.t:0 "Lokalne napięcia"
+ provincial_events.1.desc:0 "Napięcia rosły pomiędzy [ROOT.GetCountry.GetPrimaryCulture.GetName] kolonistami oraz lokalnymi mieszkańcami [SCOPE.sP('colonial_province').GetName]. Mieszkańcy twierdzą że nasi osadnicy odrzucają oraz ignorują lokalne tradycje i struktury władzy. Z drugiej strony nasi koloniści uważają, że mieszkańcy są zaniepokojeni jedynie dlatego, że nowa osada [ROOT.GetCountry.GetPrimaryCulture.GetName] przewyższa lokalną metropolię."
+ provincial_events.1.a:0 "Wesprzyjmy interesy [ROOT.GetCountry.GetPrimaryCulture.GetName]."
+ provincial_events.1.b:0 "Stańmy w obronie praw lokalnych mieszkańców."

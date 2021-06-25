@@ -73,7 +73,7 @@ echo "Removing old localisations"
 del /s /f /q replace
 mkdir replace
 del /s /f /q languages.yml
-cd ../
+cd ../../
 echo "Copying new localisation"
 xcopy /s temp\\ir "%project_folder%"
 echo "Cleaning up temp directory."

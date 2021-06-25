@@ -1,0 +1,11 @@
+﻿l_english:
+ END_GAME_VIEW_LOSING_TITLE:0 "Koniec gry"
+ END_GAME_VIEW_LOSING_TEXT:0 "Wspaniała era [COUNTRY.GetAdjective] doczekała się haniebnego końca w $DATE$, z rąk [TARGET_COUNTRY.GetRuler.GetName] i ludu [TARGET_COUNTRY.GetAdjective].\n\nGdy przeminą piaski czasu, nasi dumni ludzie będą zagubieni w historii, oznaczani jedynie jako przypis w epickich poematach o sukcesach naszego wroga."
+ END_GAME_VIEW_SURVIVING_TITLE:0 "Drobny dodatek do historii"
+ END_GAME_VIEW_SURVIVING_TEXT:0 "Nasz dumny naród przetrwał wieki walk, wojen i przeciwności losu, ale mimo to lud [COUNTRY.GetAdjective] niewiele osiągnął. W świecie pełnym olbrzymich cywilizacji i bitew jesteśmy tylko poboczną notą."
+ END_GAME_VIEW_IMPERIAL_GLORY_TITLE:0 "Imperium na wieki"
+ END_GAME_VIEW_IMPERIAL_GLORY_TEXT:0 "Lud [COUNTRY.GetAdjective] zbudował imperium, które historia powinna zapamiętać jako pierwsze wśród jego rówieśników. Pomimo naszych problemów, [COUNTRY.GetName] nadal prosperuje i na pewno to uczyni, dopóki nie nastanie koniec świata."
+ END_GAME_VIEW_GREATEST_EMPIRE_TITLE:0 "Największe imperium w historii"
+ END_GAME_VIEW_GREATEST_EMPIRE_TEXT:0 "Lud [COUNTRY.GetAdjective] wychwalany jest nawet przez samych bogów, zbudował imperium przewyższające nawet imperium Aleksandra.\n\nHistoria spogląda wstecz na nas nie tylko jako zdobywców, ale także na przynoszących cywilizację i prawdę we wszystkich częściach świata."
+ OBSERVE:0 "Kontynuuj w trybie obserwatora"
+ CONTINUE_PAST_END_DATE:0 "Kontynuuj grę ( osiągnięcia wyłączone )"
