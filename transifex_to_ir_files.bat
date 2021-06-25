@@ -1,7 +1,7 @@
 :: BUILDER SETTINGS
 set language="pl"
 set charset="empty"
-set project_folder="Spolszczenie_IR"
+set project_folder="Spolszczenie_IR\\localization"
 set parser_version="0.1.11"
 
 

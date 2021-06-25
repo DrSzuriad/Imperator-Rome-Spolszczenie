@@ -17179,3 +17179,87 @@
 2021-06-10 20:42:38 [main] INFO  LocaleLoader:77 - Writing locale file "senate_objectives_roman_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\przet\pl\replace\english\senate_objectives_roman_l_english.yml".
 2021-06-10 20:42:38 [main] ERROR FolderToYamlCommand:20 - Input folder "E:\Paradox\Imperator-Rome-Spolszczenie\translations_temp\replace\english\deities" does not exist or is a file.
 2021-06-10 20:42:39 [main] ERROR FolderToYamlCommand:20 - Input folder "E:\Paradox\Imperator-Rome-Spolszczenie\translations_temp\replace\english\missions" does not exist or is a file.
+2021-06-25 11:28:09 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\languages.yml" of type "YAML".
+2021-06-25 11:28:09 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\languages.yml".
+2021-06-25 11:28:09 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\languages.yml" of type "YAML".
+2021-06-25 11:28:09 [main] ERROR TextUtils:16 - Provided string has to start and end with quote symbols. Got "0 "Polski"".
+2021-06-25 11:28:09 [main] ERROR ValidatorTransifex:35 - Unescaped quote symbol in string "0 "Polski"" at index 2.
+Check if provided file is correct and not in EUIV format.
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_date_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_date_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_localize_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_localize_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_settings_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_settings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_settings_warnings_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_settings_warnings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_tools_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\cw_tools_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\languages.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\languages.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_date_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_date_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_localize_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_localize_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_settings_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_settings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_settings_warnings_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_settings_warnings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_tools_l_english.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\cw_tools_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\languages.yml" of type "YAML".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\languages.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_date_l_english.yml" and "cw_date_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_localize_l_english.yml" and "cw_localize_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_settings_l_english.yml" and "cw_settings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_settings_warnings_l_english.yml" and "cw_settings_warnings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_tools_l_english.yml" and "cw_tools_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "languages.yml" and "languages.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "cw_date_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\cw_date_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "cw_localize_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\cw_localize_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "cw_settings_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\cw_settings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "cw_settings_warnings_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\cw_settings_warnings_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "cw_tools_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\cw_tools_l_english.yml".
+2021-06-25 11:28:10 [main] INFO  LocaleLoader:77 - Writing locale file "languages.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\languages.yml".
+2021-06-25 11:28:11 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\text_utils\cw_text_utils_l_english.yml" of type "YAML".
+2021-06-25 11:28:11 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\clausewitz\localization\text_utils\cw_text_utils_l_english.yml".
+2021-06-25 11:28:12 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\text_utils\cw_text_utils_l_english.yml" of type "YAML".
+2021-06-25 11:28:12 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\clausewitz\localization\text_utils\cw_text_utils_l_english.yml".
+2021-06-25 11:28:12 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "cw_text_utils_l_english.yml" and "cw_text_utils_l_english.yml".
+2021-06-25 11:28:12 [main] INFO  LocaleLoader:77 - Writing locale file "cw_text_utils_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\clausewitz\localization\text_utils\cw_text_utils_l_english.yml".
+2021-06-25 11:28:13 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\load_tips\load_tips_l_english.yml" of type "YAML".
+2021-06-25 11:28:13 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\load_tips\load_tips_l_english.yml".
+2021-06-25 11:28:13 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\load_tips\load_tips_l_english.yml" of type "YAML".
+2021-06-25 11:28:13 [main] ERROR TextUtils:16 - Provided string has to start and end with quote symbols. Got "0 "Jeœli musisz z³amaæ prawo, zrób to, aby przej¹æ w³adzê: we wszystkich innych przypadkach przestrzegaj go. - Gajusz Juliusz Cezar"".
+2021-06-25 11:28:13 [main] ERROR ValidatorTransifex:35 - Unescaped quote symbol in string "0 "Jeœli musisz z³amaæ prawo, zrób to, aby przej¹æ w³adzê: we wszystkich innych przypadkach przestrzegaj go. - Gajusz Juliusz Cezar"" at index 2.
+Check if provided file is correct and not in EUIV format.
+2021-06-25 11:28:14 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\loadsave_l_english.yml" of type "YAML".
+2021-06-25 11:28:14 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:14 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\loadsave_l_english.yml" of type "YAML".
+2021-06-25 11:28:14 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:14 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "loadsave_l_english.yml" and "loadsave_l_english.yml".
+2021-06-25 11:28:14 [main] INFO  LocaleLoader:77 - Writing locale file "loadsave_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:15 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\loadsave_l_english.yml" of type "YAML".
+2021-06-25 11:28:15 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:15 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\loadsave_l_english.yml" of type "YAML".
+2021-06-25 11:28:15 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:15 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "loadsave_l_english.yml" and "loadsave_l_english.yml".
+2021-06-25 11:28:15 [main] INFO  LocaleLoader:77 - Writing locale file "loadsave_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\jomini\localization\loadsave_l_english.yml".
+2021-06-25 11:28:16 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\achievements\achievements_l_english.yml" of type "YAML".
+2021-06-25 11:28:16 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\achievements\achievements_l_english.yml".
+2021-06-25 11:28:16 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\achievements\achievements_l_english.yml" of type "YAML".
+2021-06-25 11:28:16 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\achievements\achievements_l_english.yml".
+2021-06-25 11:28:16 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "achievements_l_english.yml" and "achievements_l_english.yml".
+2021-06-25 11:28:16 [main] INFO  LocaleLoader:77 - Writing locale file "achievements_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\jomini\localization\achievements\achievements_l_english.yml".
+2021-06-25 11:28:17 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\credits\credits_l_english.yml" of type "YAML".
+2021-06-25 11:28:17 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\credits\credits_l_english.yml".
+2021-06-25 11:28:17 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\credits\credits_l_english.yml" of type "YAML".
+2021-06-25 11:28:17 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\credits\credits_l_english.yml".
+2021-06-25 11:28:17 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "credits_l_english.yml" and "credits_l_english.yml".
+2021-06-25 11:28:17 [main] INFO  LocaleLoader:77 - Writing locale file "credits_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\jomini\localization\credits\credits_l_english.yml".
+2021-06-25 11:28:18 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\frontend\frontend_l_english.yml" of type "YAML".
+2021-06-25 11:28:18 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\pl\replace\jomini\localization\frontend\frontend_l_english.yml".
+2021-06-25 11:28:18 [main] INFO  LocaleLoader:23 - Loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\frontend\frontend_l_english.yml" of type "YAML".
+2021-06-25 11:28:18 [main] INFO  LocaleLoader:68 - Finished loading locale file "E:\Paradox\Imperator-Rome-Spolszczenie\pliki\en\replace\jomini\localization\frontend\frontend_l_english.yml".
+2021-06-25 11:28:18 [main] INFO  LocaleType:22 - Combining locale files for supplementing empty texts between "frontend_l_english.yml" and "frontend_l_english.yml".
+2021-06-25 11:28:18 [main] INFO  LocaleLoader:77 - Writing locale file "frontend_l_english.yml" to file "E:\Paradox\Imperator-Rome-Spolszczenie\temp\supply\replace\jomini\localization\frontend\frontend_l_english.yml".
