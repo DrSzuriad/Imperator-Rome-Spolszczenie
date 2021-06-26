@@ -70,14 +70,14 @@
 
 ## Określenia współmałżonka ##
 #monarchy_spouse_description_malefemale
-#consort_malefemale = {
+#consort_malefemale
 
 ## Wydarzenia ##
 #get_applause_type_glad_2
 #get_applause_type_glad_outro
 
 ## Inne ##
-#reign_singplur = {
+#reign_singplur
 
 
 
