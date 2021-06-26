@@ -19,7 +19,7 @@
 #temple_string_pl_BIER
 #temple_string_pl_MSC
 #temple_string_pl_YmEj [-ym/-ej] (temple_string_pl_BIER)
-#temple_string_pl_YA
+#temple_string_pl_YA [-y/-a]
 #temple_string_pl_ImJej [-im/-ej] (temple_string_pl_MSC)
 
 ## Grupy kulturowe (kraj) ##
