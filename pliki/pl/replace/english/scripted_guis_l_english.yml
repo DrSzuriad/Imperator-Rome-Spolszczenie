@@ -1,10 +1,10 @@
 ﻿l_english:
  move_capital_title_tt: "#T Przenieś stolicę#!"
- make_into_subject_state_tt: "Uczyń #Y [SCOPE.sState('target_state').GetState.GetShortName]#! #Y państwem marionetkowym#!"
+ make_into_subject_state_tt: "Uczyń #Y [SCOPE.sState('target_state').GetState.GetShortName]#! #Y państwem klientelnym#!"
  make_into_tributary_state_tt: "Uczyń #Y [SCOPE.sState('target_state').GetState.GetShortName]#! #Y trybutariuszem#!"
  release_subject_title_tt: "#T Uwolnij poddanego#!"
  release_subject_confirm_title: "Uwolnij poddanego"
- release_subject_confirm_text: "Czy chcesz uczynić #Y [SCOPE.sState('target_state').GetState.GetShortName]#! #Y państwem marionetkowym#!?"
+ release_subject_confirm_text: "Czy chcesz uczynić #Y [SCOPE.sState('target_state').GetState.GetShortName]#! #Y państwem klientelnym#!?"
  move_province_capital_title_tt: "#T Przenieś stolicę prowincji#!"
  not_capital_state_tt: "Nie możesz zmienić stolicy prowincji w swojej prowincji stołecznej."
  empower_x_party: "#T Wzmocnij [SCOPE.GetRootScope.GetCharacter.GetPartyName]#!"

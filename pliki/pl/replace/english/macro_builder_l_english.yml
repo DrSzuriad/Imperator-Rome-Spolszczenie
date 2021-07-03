@@ -4,7 +4,7 @@
  MACROBUILDER_BUILDING_PRICE: "#t Zbuduj $NAME$ w [PROVINCE.GetName]#!\nBudowa $NAME|Y$ w [PROVINCE.GetName] będzie kosztować [COUNTRY.GetName] $VALUE$ i przyniesie następujące korzyści:\n$DESC$\n[PROVINCE.GetPopulationInfo]"
  MACRO_BUILDER_BUILD_BUILDING_TOOLTIP: "#t Zbuduj $NAME$#!\n$DESC$"
  MACRO_BUILD_BUILD_COST: "$VAL|2$ @gold!"
- MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP: "\n#G Kliknięcie LPM#! rozpocznie wznoszenie budowli.\n#G Kliknięcie PPM#! anuluje zakolejkowaną budowę lub zniszczy budowlę, jeśli nie ma żadnej w kolejce budowy"
+ MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP: "\n#G Kliknięcie LPM#! rozpocznie wznoszenie budowli.\n#G Kliknięcie PPM#! anuluje zakolejkowaną budowę lub zniszczy budowlę, jeśli nie ma żadnej w kolejce budowy."
  construct_city_buildings_TOOLTIP: "#t Wznoszenie budowli miejskich#!"
  construct_city_buildings: "Wznoszenie budowli miejskich"
  recruit_units: "Rekrutacja kohort"

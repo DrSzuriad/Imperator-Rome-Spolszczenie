@@ -214,7 +214,7 @@
  BATTLE_OF:0 "Bitwa o"
  SIEGE_OF:0 "Oblężenie"
  OCCUPATION_OF:0 "Okupacja"
- SIEGE_DEFEAT:0 "głód i choroby."
+ SIEGE_DEFEAT:0 "głodu i choroby."
  MIL_CONST_TIP:0 "#Y $TYPE$#! zostanie wystawiona #Y $DATE$#! ."
  SMIL_CONST_TIP:0 "#Y $TYPE$#! zostanie zwodowana #Y $DATE$#! ."
  BUILD_CONST_TIP:0 "#Y $BUILDING$#! zostanie ukończony #Y $DATE$#! ."

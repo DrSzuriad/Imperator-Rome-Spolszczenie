@@ -98,7 +98,7 @@
  ransom_prisoner_impact:0 "Wykup więźnia od kraju $TARGET$"
  trade_access_impact:0 "Negocjuj prawa handlowe z krajem $TARGET$"
  barbarian_demand_surrender_impact:0 "Zażądaj kapitulacji"
- barbarian_create_client_impact:0 "Zaoferuj status państwa satelickiego"
+ barbarian_create_client_impact:0 "Zaoferuj status państwa klientelnego"
  barbarian_payoff_impact:0 "Przekup barbarzyńców"
  barbarian_settle_impact:0 "Pozwól barbarzyńcom się osiedlić"
  fabricate_claim_impact:0 "Sfabrykuj roszczenia do: $TARGET$"
