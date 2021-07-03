@@ -73,8 +73,8 @@ xcopy /s CL_files temp\\ir
 
 echo "Delete space from empty key"
 for %%F in (temp\ir\replace\english\core_l_english.yml) do (
-call jrepl "\q \q"^
-         "" /m /x /t "|" /f "temp\ir\replace\english\core_l_english.yml" /o -
+call jrepl ":0 \q \q"^
+         ":0 \q\q" /m /x /t "|" /f "temp\ir\replace\english\core_l_english.yml" /o -
 )
 for %%F in (temp\ir\replace\english\messages_l_english.yml) do (
 call jrepl ":0 \q \q"^
