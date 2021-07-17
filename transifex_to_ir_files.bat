@@ -76,14 +76,17 @@ for %%F in (temp\ir\replace\english\core_l_english.yml) do (
 call jrepl ":0 \q \q"^
          ":0 \q\q" /m /x /t "|" /f "temp\ir\replace\english\core_l_english.yml" /o -
 )
+
 for %%F in (temp\ir\replace\english\messages_l_english.yml) do (
 call jrepl ":0 \q \q"^
          ":0 \q\q" /m /x /t "|" /f "temp\ir\replace\english\messages_l_english.yml" /o -
 )
+
 for %%F in (temp\ir\replace\english\great_works_l_english.yml) do (
 call jrepl ":0 \q \q"^
          ":0 \q\q" /m /x /t "|" /f "temp\ir\replace\english\great_works_l_english.yml" /o -
 )
+
 for %%F in (temp\ir\replace\jomini\localization\jomini\script_system\script_system_l_english.yml) do (
 call jrepl ":0 \q \q"^
          ":0 \q\q" /m /x /t "|" /f "temp\ir\replace\jomini\localization\jomini\script_system\script_system_l_english.yml" /o -

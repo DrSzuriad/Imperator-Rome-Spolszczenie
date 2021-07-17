@@ -217,7 +217,7 @@
  gw_name_tomb:0 "$ADJ$Tomb of $FAMILY$"
  gw_name_edifice_ruler:0 "$ADJ$Edifice of $FAMILY$"
  GW_NAME_ADJ:0 "$ADJ$"
- gw_adj_01:0 "The "
+ gw_adj_01:0 ""
  MODIFIER_GREAT_WORK_TOTAL_WORKRATE_CHARACTER:0 "Great Wonder Construction"
  MODIFIER_GREAT_WORK_SLAVES_WORKRATE_CHARACTER:0 "Slave Great Wonder Construction"
  MODIFIER_GREAT_WORK_TRIBALS_WORKRATE_CHARACTER:0 "Tribal Great Wonder Construction"
