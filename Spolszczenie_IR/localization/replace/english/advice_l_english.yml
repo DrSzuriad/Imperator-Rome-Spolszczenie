@@ -131,7 +131,7 @@
  ADVICE_REVOLT_STABTHEPIG_TITLE:0 "Sacrifice to the Gods"
  ADVICE_REVOLT_STABTHEPIG_BTN:0 "Make Sacrifice"
  ADVICE_BUTTON_TOOLTIP_DISABLED:0 "This action is no longer available"
- ALERT_TOOLTIP_ADVICE:0 "#G Click for available options #!"
+ ALERT_TOOLTIP_ADVICE:0 "#G Kliknij, aby zobaczyć dostępne opcje #!"
  ADVICE_SETTING_INFO_DIALOG_TITLE:0 "Disable Advice"
  ADVICE_SETTING_INFO_DIALOG_DESCRIPTION:0 "Highlights and advice on alerts may be disabled in the game settings menu."
  ADVICE_SETTING_INFO_DIALOG_ACCEPT:0 "Go to Settings"

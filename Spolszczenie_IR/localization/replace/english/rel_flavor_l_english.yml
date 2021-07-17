@@ -372,7 +372,7 @@
  rel_flavor_judaism.1.a:0 "Zbuduj świątynię."
  rel_flavor_judaism.1.b:0 "Będzie tylko jedna świątynia i będzie ona w Jerozolimie."
  rel_flavor_judaism.2.t:0 "Ofiary na szabat"
- rel_flavor_judaism.2.desc:0 "Zgodnie ze zwyczajem przygotowaliśmy wielką ofiarę na następny szabat. Niestety nasz [SCOPE.sCharacter('random_priest').GetOffice.GetCulturalName(ROOT.GetCountry)] [SCOPE.sCharacter('random_priest').GetName] poinformował nas, że wiele ofiar zniknęło i że musimy zdobyć nowe ofiary przed szabatem.\n\nNie znajdując niczego na zamianę, z pewnością staniemy się niepopularni wśród naszych lenników i kapłaństwa. Czy to naprawdę tak konieczne?"
+ rel_flavor_judaism.2.desc:0 "Zgodnie ze zwyczajem przygotowaliśmy wielką ofiarę na następny szabat. Niestety nasz [SCOPE.sCharacter('random_priest').GetOffice.GetCulturalName(ROOT.GetCountry)] [SCOPE.sCharacter('random_priest').GetName] poinformował nas, że wiele ofiar zniknęło i że musimy zdobyć nowe ofiary przed szabatem.\n\nNie znajdując niczego na zamianę, z pewnością staniemy się niepopularni wśród naszych wasali i kapłaństwa. Czy to naprawdę tak konieczne?"
  rel_flavor_judaism.2.a:0 "Znajdziemy zamienniki ofiar."
  rel_flavor_judaism.2.b:0 "To będzie musiało wystarczyć."
  rel_flavor_judaism.3.t:0 "Miasto brakujących modlitw"

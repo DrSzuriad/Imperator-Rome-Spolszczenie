@@ -11,7 +11,7 @@
  me_greek_1_black_sea.4.a:0 "Tak jak powinno być!"
  me_greek_1_black_sea.4.at:0 "The mission '#Y The Hospitable Sea#!' has been #G Completed#!!"
  me_greek_1_black_sea.5.t:0 "$greek_1_4$"
- me_greek_1_black_sea.5.desc:0 "Dzięki szybkiej ekspansji jesteśmy w stanie zdominować cały Pontem Euksyński i przekształcić go z barbarzyńskiego zaścianka w hellenistyczne centrum.\n\nMusimy kontynuować nasz impet i zapewnić sukces tym wszystkim miastom, na których zdobycie wydaliśmy tak wiele środków."
+ me_greek_1_black_sea.5.desc:0 "Dzięki szybkiej ekspansji jesteśmy w stanie zdominować cały Pont Euksyński i przekształcić go z barbarzyńskiego zaścianka w hellenistyczne centrum.\n\nMusimy kontynuować nasz impet i zapewnić sukces tym wszystkim miastom, na których zdobycie wydaliśmy tak wiele środków."
  me_greek_1_black_sea.5.a:0 "It is ours for the taking."
  me_greek_1_black_sea.5.at:0 "$mission_task_completed_tt_1$$greek_1_4$$mission_task_completed_tt_2$"
  me_greek_1_black_sea.6.t:0 "$greek_1_14$: Euxine Havens"

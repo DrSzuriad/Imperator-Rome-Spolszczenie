@@ -104,7 +104,7 @@
  shrine_branch_4_DESC:0 "Nieprawdą jest, że ludzie, którzy czczą boga w naszym imieniu, również służą doczesnym panom. Powinniśmy przyznać autonomię kapłanom z [SCOPE.sP('shrine_territory').GetName], aby mogli całkowicie poświęcić się świętym sprawom."
  shrine_branch_5:0 "Wielka darowizna"
  shrine_branch_5_DESC:0 "Wraz z rozbudową kompleksu świątynnego w [SCOPE.sP('shrine_territory').GetName] musimy zadbać o to, aby wspólnota kapłańska miała środki do dalszego wspierania tamtejszych nabożeństw. Wielka darowizna od skarbu państwa powinna wystarczyć, aby byli w stanie funkcjonować w nadchodzących stuleciach."
- autonomous_shrine_tooltip:0 "Nowy kraj zostanie #G lennikiem#! kraju [THIS.GetCountry.GetName] (@[THIS.GetCountry.GetFlag]!) z unikatowym dziedzictwem."
+ autonomous_shrine_tooltip:0 "Nowy kraj zostanie #G wasalem#! kraju [THIS.GetCountry.GetName] (@[THIS.GetCountry.GetFlag]!) z unikatowym dziedzictwem."
  ceremony_event.tooltip:0 "Instytucje religijne będą dalej #G nagradzać#! [THIS.GetCountry.GetName] (@[THIS.GetCountry.GetFlag]!)."
  temple_subject:0 ""
  generic_infra_mission.1.t:0 "Świątynie [SCOPE.sP('shrine_territory').GetName]"

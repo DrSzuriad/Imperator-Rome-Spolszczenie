@@ -223,7 +223,7 @@
  BUILD_CONST_LOC_TIP: "#Y $BUILDING$#! zostanie ukończony w #Y $LOCATION$#! #Y $DATE$#! ."
  PORT: "Ten port zapewnia bezpieczne schronienie dla statków."
  ATTR_BASE: "Wartość bazowa"
- ATTR_OPEN_SEA: "Otwarte morze"
+ ATTR_OPEN_SEA: "Pełne morze"
  LOAD_CAPACITY_LABEL: "Może transportować $NUM$ jednostek."
  COMBAT_FIRE: "Względny modyfikator wartości WOJOWNICZOŚCI dowodzącego dowódcy w porównaniu z dowódcą przeciwnika."
  AI_SELECTED_REGIONS: "Będzie działać w $COUNT$ regionach."

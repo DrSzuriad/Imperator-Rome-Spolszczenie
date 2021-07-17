@@ -37,6 +37,9 @@
  liburnian_noculturegroup:0 "Liburna"
  liburnian_hellenic:0 "Liburna"
  #
+ #Brakujące tytuły
+ theocratic_republic_ruler_female_latin:0 "Konsulka"
+ plutocratic_republic_ruler_female_latin:0 "Konsulka" 
  #title_consort_female:0 "Małżonka" 
  #tyrannical_monarchy_consort:0 "Małżonka"
  #title_clan_chief_female:0 "Przywódczyni klanu"

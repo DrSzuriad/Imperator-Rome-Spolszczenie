@@ -1,8 +1,8 @@
 ﻿l_english:
- military_tech: "Rozwój techn. wojskowych"
- oratory_tech: "Rozwój techn. oratorskich"
- civic_tech: "Rozwój techn. obywatelskich"
- religious_tech: "Rozwój techn. religijnych"
+ military_tech: "Rozwój technologii wojskowych"
+ oratory_tech: "Rozwój technologii oratorskich"
+ civic_tech: "Rozwój technologii obywatelskich"
+ religious_tech: "Rozwój technologii religijnych"
  RESEARCH_COMES_FROM: "#T Punkty badań#!"
  RESEARCH_MONTHLY_T: "#T Przyrost miesięczny#!"
  RESEARCH_EFFICIENCY: "Punkty badań"

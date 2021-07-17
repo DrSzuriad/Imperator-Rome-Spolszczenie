@@ -114,7 +114,7 @@
  ACHIEVEMENT_ach_man_who_would_be_king: "Człowiek, który będzie królem (The Man who would be King)"
  ACHIEVEMENT_DESC_ach_man_who_would_be_king: "Jako Baktria, ogłoś niepodległość i zajmij regiony: Ariana, Baktria i Gandhara."
  ach_man_who_would_be_king_tooltip: "[THIS.GetCountry.GetName] NIE jest państwem poddańczym."
- ACHIEVEMENT_ach_ashokas_pillars: "Pilary Aśoki (Ashoka's Pillars)"
+ ACHIEVEMENT_ach_ashokas_pillars: "Filary Aśoki (Ashoka's Pillars)"
  ACHIEVEMENT_DESC_ach_ashokas_pillars: "Jako Maurjowie, podbij całe Indie, zmień religię na buddyzm i miej co najmniej 80% jedności religijnej."
  ach_ashokas_pillars_tooltip: "Podbij regiony: Gandhara, Maru, Awanti, Madhjadeśa, Pracja, Vindyaprastha, Aparanta, Drawidia, i Karnata."
  ACHIEVEMENT_ach_mare_nostrum: "Mare Nostrum"

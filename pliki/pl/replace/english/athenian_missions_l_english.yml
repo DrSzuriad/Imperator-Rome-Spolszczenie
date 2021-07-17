@@ -207,7 +207,7 @@
  athenian_mission_04_delian_league_task_5_custom_loc_1: "#R [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_5_current')|0]#!"
  athenian_mission_04_delian_league_task_5_custom_loc_2: "#Y [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_5_current')|0]#!"
  athenian_mission_04_delian_league_task_6_effect_tt: "Kraj #Y [SCOPE.GetRootScope.GetCountry.GetName]#! będzie mógł wybrać jedną z dwóch następujących nagród:"
- athenian_mission_04_delian_league_task_6_effect_tt_2: "Kraj #Y [SCOPE.GetRootScope.GetCountry.GetName]#! wyzwoli #Y Delos#! jako lennika."
+ athenian_mission_04_delian_league_task_6_effect_tt_2: "Kraj #Y [SCOPE.GetRootScope.GetCountry.GetName]#! wyzwoli #Y Delos#! jako wasala."
  athenian_mission_04_delian_league_task_7_trigger_tt: "Kraj #Y [SCOPE.GetRootScope.GetCountry.GetName]#! posiada co najmniej #Y [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_7_total')|0]#! lekkich statków w #Y [GetProvince('(int32)416').GetName]#!. ([SCOPE.GetRootScope.GetCountry.Custom('athenian_mission_04_delian_league_task_7_custom_loc')]/#Y [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_7_total')|0]#!)"
  athenian_mission_04_delian_league_task_7_custom_loc_1: "#R [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_7_current')|0]#!"
  athenian_mission_04_delian_league_task_7_custom_loc_2: "#Y [SCOPE.ScriptValue('athenian_mission_04_delian_league_task_7_current')|0]#!"

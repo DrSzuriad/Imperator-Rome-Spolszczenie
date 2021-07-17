@@ -27,7 +27,7 @@
  PROVINCE_TOOLTIP_political:0 "Teren: [PROVINCE.GetTerrainName|V]"
  SEA_PROVINCE_TOOLTIP_political:0 "Teren: [PROVINCE.GetTerrainName|V]"
  RIVER_PROVINCE_TOOLTIP_political:0 "Teren: [PROVINCE.GetTerrainName|V]"
- PROVINCE_TOOLTIP_players:0 "[GetPlayerName(PROVINCE.GetOwner)]\n\nPozycja: [PROVINCE.GetOwner.GetDiplomaticStance.GetName]\nSkarbiec: [PROVINCE.GetOwner.GetTreasury|0Y] @gold!\nZasoby ludzkie: [PROVINCE.GetOwner.GetManpower|Y]\nKohorty: [PROVINCE.GetOwner.GetTotalNumOfCohorts|Y]\nStatki: [PROVINCE.GetOwner.GetTotalNumOfShips|Y]\n\nStabilność: [PROVINCE.GetOwner.GetStability|0Y]\nTerytoria: [PROVINCE.GetOwner.GetOwnedProvinceCount|Y]\nPopulacja: [PROVINCE.GetOwner.GetTotalPopulation|Y]"
+ PROVINCE_TOOLTIP_players:0 "[GetPlayerName(PROVINCE.GetOwner)]\n\nPostawa: [PROVINCE.GetOwner.GetDiplomaticStance.GetName]\nSkarbiec: [PROVINCE.GetOwner.GetTreasury|0Y] @gold!\nZasoby ludzkie: [PROVINCE.GetOwner.GetManpower|Y]\nKohorty: [PROVINCE.GetOwner.GetTotalNumOfCohorts|Y]\nStatki: [PROVINCE.GetOwner.GetTotalNumOfShips|Y]\n\nStabilność: [PROVINCE.GetOwner.GetStability|0Y]\nTerytoria: [PROVINCE.GetOwner.GetOwnedProvinceCount|Y]\nPopulacja: [PROVINCE.GetOwner.GetTotalPopulation|Y]"
  PROVINCE_TOOLTIP_religion:0 "[PROVINCE.GetReligionBreakdown]\nDominująca religia: [PROVINCE.GetReligion.GetName|Y]"
  PROVINCE_TOOLTIP_culture:0 "[PROVINCE.GetCultureBreakdown]\nDominująca kultura: [PROVINCE.GetCulture.GetName|Y]\nGrupa kulturowa: [PROVINCE.GetCulture.GetCultureGroup.GetName|Y]"
  PROVINCE_TOOLTIP_diplomacy:0 ""
