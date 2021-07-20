@@ -894,6 +894,7 @@
  get_ruler_ej:0 "ej"
  get_ruler_none:0 ""
  get_ruler_a:0 "a"
+ get_ruler_y:0 "y"
  
  #Typy miast
  get_city_type_loc_metropolis_Cap:0 "Metropolia"
