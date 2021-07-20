@@ -2,6 +2,7 @@
 #get_country_ruler_DOP
 #get_country_ruler_ego_ej
 #get_country_ruler_none_a
+#get_country_ruler_y_a
 
 
 
@@ -833,6 +834,24 @@ get_country_ruler_none_a = {
 
 	text = {
 		localization_key = get_ruler_none
+		trigger = {		
+			current_ruler = { is_female = no }
+		}
+	}	
+
+	text = {
+		localization_key = get_ruler_a
+		trigger = {
+			current_ruler = { is_female = yes }
+		}
+	}
+}
+
+get_country_ruler_y_a = {
+	type = country
+
+	text = {
+		localization_key = get_ruler_y
 		trigger = {		
 			current_ruler = { is_female = no }
 		}
