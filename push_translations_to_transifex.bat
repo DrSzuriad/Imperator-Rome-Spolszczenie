@@ -1,3 +1,3 @@
 Push translations
-tx.exe push -t -f --parallel
+tx.exe push -t -f
 pause
