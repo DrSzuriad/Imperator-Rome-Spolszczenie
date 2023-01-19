@@ -44,3 +44,20 @@
  #tyrannical_monarchy_consort:0 "Małżonka"
  #title_clan_chief_female:0 "Przywódczyni klanu"
  #  
+ #Brakujące stringi
+ CANCEL_subject_colony_NEWDESC: "Czy chcesz zakończyć status kolonii kraju [COUNTRY.GetName]?" #Do you wish end colony status of [COUNTRY.GetName]? (???)
+ LEGION_DISTINCTION_TEXT: "Modyfikator legionu:" #Legion Modifier:
+ price_found_metropolis_cost_modifier:0 "Modyfikator kosztu założenia metropolii" #Found Metropolis Cost Modifier
+ bribe_pi_cost_modifier:0 "Modyfikator kosztu przekupienia" #Bribe Cost Modifier
+ septuaginta_translation:0 "Przekład Septuaginta" #Septuaginta Translation
+ septuaginta_translation_desc:0 "(Brak opisu)" #(No description)
+ senate_objective_build_temple_gen_pulse_tt:0 "$traditionalist_party$ spróbują wymusić wzniesienie budowli typu $Temple$ w #Y [sen_obj_bui_tem_gen_target.GetName]#!."
+ #republic_button_empower_faction_loc_fallback
+ #republic_button_empower_faction_desc_loc_fallback 
+ #null_family 
+ #
+ #Poprawione stringi
+ SECONDARY_HEIR_CHAR:0 "[CHARACTER.GetIsWas][CHARACTER.Custom('GetIsWas_ANone')] to druga osoba w kolejce do objęcia rządów jako $TITLE|Yl$" #[CHARACTER.GetSheHe|U] [CHARACTER.GetIsWas] second in line for $TITLE|Y$
+ SECONDARY_HEIR_CHAR_ADD:0 " i druga osoba w kolejce do objęcia rządów jako $TITLE|Yl$" # and second in line for $TITLE|Y$
+ SECONDARY_HEIR_CHAR_ONCE:0 "Druga osoba w kolejce do objęcia rządów jako $TITLE|Yl$" #The second in line for $TITLE|Y$
+ #
