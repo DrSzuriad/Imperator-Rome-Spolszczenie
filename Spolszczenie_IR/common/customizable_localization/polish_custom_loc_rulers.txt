@@ -1,4 +1,4 @@
-## Tytuły władców ##
+﻿## Tytuły władców ##
 #get_country_ruler_DOP
 #get_country_ruler_ego_ej
 #get_country_ruler_none_a
