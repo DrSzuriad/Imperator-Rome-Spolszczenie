@@ -1,8 +1,10 @@
 ﻿## Tytuły władców ##
 #get_country_ruler_DOP
+#get_country_ruler_BIER
 #get_country_ruler_ego_ej
 #get_country_ruler_none_a
 #get_country_ruler_y_a
+#get_country_ruler_ego_a
 
 
 
@@ -797,14 +799,818 @@ get_country_ruler_DOP = {
 	}	
 
 	text = {
-		localization_key = get_country_ruler_fallback
+		localization_key = get_country_ruler_DOP_fallback
 		trigger = {
 			current_ruler = { is_female = no }	
 		}
 	}	
 
 	text = {
-		localization_key = get_country_ruler_female_fallback
+		localization_key = get_country_ruler_female_DOP_fallback
+		trigger = {
+			current_ruler = { is_female = yes }	
+		}
+	}	
+}
+
+get_country_ruler_BIER = {
+	type = country
+
+	text = {
+		localization_key = get_Tribal_Chief_female_BIER
+		trigger = {		
+			government = tribal_kingdom
+				OR = {
+					country_culture_group = gaelic
+					country_culture_group = britannic
+					country_culture_group = gallic
+					country_culture_group = germanic		
+				}				
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Rex_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = aristocratic_monarchy
+					government = despotic_monarchy
+					government = theocratic_monarchy
+					government = stratocratic_monarchy				
+				}
+			country_culture_group = latin
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Regina_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = aristocratic_monarchy
+					government = despotic_monarchy
+					government = theocratic_monarchy
+					government = stratocratic_monarchy	
+				}
+			country_culture_group = latin
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Imperator_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = latin				
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Imperatrix_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = latin				
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Consul_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic	
+					government = theocratic_republic
+					government = plutocratic_republic					
+				}
+			country_culture_group = latin					
+			current_ruler = { is_female = no }			
+		}
+	}
+
+	text = {
+		localization_key = get_Consul_female_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic	
+					government = theocratic_republic #missing in game
+					government = plutocratic_republic #missing in game					
+				}
+			country_culture_group = latin					
+			current_ruler = { is_female = yes }			
+		}
+	}
+
+	text = {
+		localization_key = get_Raja_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+				}
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan
+					country_culture_group = pracyan				
+				}
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Rani_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy				
+				}
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan
+					country_culture_group = pracyan			
+				}
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Raja_BIER
+		trigger = {
+			government = plutocratic_monarchy
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = pracyan			
+				}			
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Rani_BIER
+		trigger = {
+			government = plutocratic_monarchy				
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = pracyan			
+				}						
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Vaidyaraja_BIER
+		trigger = {
+			government = theocratic_monarchy
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan
+					country_culture_group = pracyan			
+				}
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Vaidyarani_BIER
+		trigger = {
+			government = theocratic_monarchy
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan
+					country_culture_group = pracyan	
+				}
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Chakravarti_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan			
+				}				
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Chakravarti_female_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan			
+				}			
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Rajan_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic
+				}
+				OR = {
+					country_culture_group = indian
+					country_culture_group = aryan
+					country_culture_group = tibetan
+					country_culture_group = pracyan				
+				}
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Rani_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic				
+				}
+				OR = {
+					country_culture_group = aryan
+					country_culture_group = indian
+					country_culture_group = tibetan
+					country_culture_group = pracyan			
+				}
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Rajan_BIER
+		trigger = {
+			government = theocratic_republic
+				OR = {
+					country_culture_group = indian
+					country_culture_group = aryan
+					country_culture_group = pracyan				
+				}
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Rani_BIER
+		trigger = {
+			government = theocratic_republic
+				OR = {
+					country_culture_group = indian
+					country_culture_group = aryan
+					country_culture_group = pracyan				
+				}
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Vaidyaraja_BIER
+		trigger = {
+			government = theocratic_republic
+			country_culture_group = tibetan
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Vaidyarani_BIER
+		trigger = {
+			government = theocratic_republic
+			country_culture_group = tibetan
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Xsayathiya_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+				}
+			country_culture_group = persia	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Banbisn_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy				
+				}
+			country_culture_group = persia	
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Xsayathiya_Xsayathiyanam_BIER
+		trigger = {
+				OR = {
+					government = theocratic_monarchy
+					government = aristocratic_monarchy
+				}
+			country_culture_group = persia	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Banbisnan_Banbisn_BIER
+		trigger = {
+				OR = {
+					government = theocratic_monarchy
+					government = imperium
+					government = imperial_cult				
+				}
+			country_culture_group = persia	
+			current_ruler = { is_female = yes }	
+		}
+	}	
+
+	text = {
+		localization_key = get_Sahe_Sahan_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = persia	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Basileus_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy				
+				}
+			country_culture_group = hellenic	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Basilissa_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+					government = theocratic_monarchy				
+				}
+			country_culture_group = hellenic
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Megas_Basileus_BIER
+		trigger = {
+				OR = {
+					government = theocratic_monarchy
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = hellenic	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Basilinna_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult					
+				}
+			country_culture_group = hellenic
+			current_ruler = { is_female = yes }	
+		}
+	}	
+
+	text = {
+		localization_key = get_Anax_BIER
+		trigger = {
+			government = tribal_kingdom
+			country_culture_group = hellenic	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Anassa_BIER
+		trigger = {
+				OR = {
+					government = tribal_kingdom
+					government = tribal_federation					
+				}
+			country_culture_group = hellenic
+			current_ruler = { is_female = yes }	
+		}
+	}	
+
+		text = {
+		localization_key = get_Megas_Anax_BIER
+		trigger = {
+			government = tribal_federation
+			country_culture_group = hellenic	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Suffete_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+					government = imperium
+					government = imperial_cult
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic					
+				}
+			country_culture_group = west_levantine	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Suffete_female_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+					government = imperium
+					government = imperial_cult
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic					
+				}
+			country_culture_group = west_levantine
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Adonis_BIER
+		trigger = {
+				OR = {		
+					government = theocratic_monarchy
+					government = theocratic_republic
+				}
+			country_culture_group = west_levantine	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Adonia_BIER
+		trigger = {
+				OR = {		
+					government = theocratic_monarchy
+					government = theocratic_republic
+				}	
+			country_culture_group = west_levantine
+			current_ruler = { is_female = yes }	
+		}
+	}	
+
+	text = {
+		localization_key = get_Ity_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = theocratic_monarchy
+					government = aristocratic_monarchy
+				}
+			country_culture_group = north_african
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Ity_female_BIER
+		trigger = {
+				OR = {
+					government = plutocratic_monarchy
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = theocratic_monarchy
+					government = aristocratic_monarchy
+				}
+			country_culture_group = north_african
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Pharaoh_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = north_african
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Khenemetneferhedjet_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			country_culture_group = north_african
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Ras_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = theocratic_republic				
+					government = plutocratic_republic
+				}
+			country_culture_group = south_levantine	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Ras_female_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = theocratic_republic				
+					government = plutocratic_republic					
+				}
+			country_culture_group = south_levantine
+			current_ruler = { is_female = yes }	
+		}
+	}
+
+	text = {
+		localization_key = get_Dictator_BIER
+		trigger = {
+			government = dictatorship
+			country_culture_group = latin	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Dictator_female_BIER
+		trigger = {
+			government = dictatorship
+			country_culture_group = latin
+			current_ruler = { is_female = yes }	
+		}
+	}		
+
+##Obsolete titles:
+#Suffet for tag CAR (aristocratic_republic, oligarchic_republic, democratic_republic)
+
+##Other titles
+#Titles for tyrannical_monarchy (Syracuse)?
+#Titles for egyptian culture (despotic_monarchy, aristocratic_monarchy)?
+#Titles for tribal_hegemony?
+#Titles for tribal_republic?
+
+#default
+	text = {
+		localization_key = get_King_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+					government = plutocratic_monarchy
+				}
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Queen_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = stratocratic_monarchy
+					government = aristocratic_monarchy
+					government = plutocratic_monarchy
+				}
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_High_King_BIER
+		trigger = {
+			government = theocratic_monarchy
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_High_Queen_BIER
+		trigger = {
+			government = theocratic_monarchy
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Emperor_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Empress_BIER
+		trigger = {
+				OR = {
+					government = imperium
+					government = imperial_cult
+				}
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Archon_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic
+					government = athenian_republic					
+				}
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Archon_female_BIER
+		trigger = {
+				OR = {
+					government = aristocratic_republic
+					government = oligarchic_republic
+					government = democratic_republic
+					government = plutocratic_republic
+					government = athenian_republic									
+				}
+			current_ruler = { is_female = yes }			
+		}
+	}
+
+	text = {
+		localization_key = get_Priest_Archon_BIER
+		trigger = {
+			government = theocratic_republic
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Priestess_Archon_BIER
+		trigger = {
+			government = theocratic_republic
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Tribal_Chief_BIER 
+		trigger = {
+				OR = {		
+					government = tribal_kingdom
+					government = tribal_chiefdom
+				}				
+			current_ruler = { is_female = no }				
+		}
+	}
+
+	text = {
+		localization_key = get_Tribal_Chief_female_BIER
+		trigger = {
+				OR = {
+					government = tribal_kingdom
+					government = tribal_chiefdom
+				}			
+			current_ruler = { is_female = yes }
+		}
+	}	
+
+	text = {
+		localization_key = get_Chief_Magistrate_BIER
+		trigger = {
+			government = tribal_federation
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Chief_Magistrate_female_BIER
+		trigger = {
+			government = tribal_federation
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = get_Tyrant_BIER
+		trigger = {
+			government = dictatorship	
+			current_ruler = { is_female = no }	
+		}
+	}
+
+	text = {
+		localization_key = get_Tyrant_female_BIER
+		trigger = {
+			government = dictatorship
+			current_ruler = { is_female = yes }	
+		}
+	}	
+
+	text = {
+		localization_key = get_country_ruler_BIER_fallback
+		trigger = {
+			current_ruler = { is_female = no }	
+		}
+	}	
+
+	text = {
+		localization_key = get_country_ruler_female_BIER_fallback
 		trigger = {
 			current_ruler = { is_female = yes }	
 		}
@@ -859,6 +1665,24 @@ get_country_ruler_y_a = {
 
 	text = {
 		localization_key = get_ruler_a
+		trigger = {
+			current_ruler = { is_female = yes }
+		}
+	}
+}
+
+get_country_ruler_ego_a = {
+	type = country
+
+	text = {
+		localization_key = get_ruler_ego
+		trigger = {		
+			current_ruler = { is_female = no }
+		}
+	}	
+
+	text = {
+		localization_key = get_ruler_a_diakr
 		trigger = {
 			current_ruler = { is_female = yes }
 		}
