@@ -525,6 +525,30 @@ get_country_ruler_DOP = {
 	}	
 
 	text = {
+		localization_key = get_Pharaoh_DOP
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = aristocratic_monarchy
+				}
+			primary_culture = egyptian
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Pharaoh_female_DOP
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = aristocratic_monarchy
+				}
+			primary_culture = egyptian
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
 		localization_key = get_Ity_DOP
 		trigger = {
 				OR = {
@@ -631,7 +655,6 @@ get_country_ruler_DOP = {
 
 ##Other titles
 #Titles for tyrannical_monarchy (Syracuse)?
-#Titles for egyptian culture (despotic_monarchy, aristocratic_monarchy)?
 #Titles for tribal_hegemony?
 #Titles for tribal_republic?
 
@@ -1344,6 +1367,30 @@ get_country_ruler_BIER = {
 	}
 
 	text = {
+		localization_key = get_Pharaoh_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = aristocratic_monarchy
+				}
+			primary_culture = egyptian
+			current_ruler = { is_female = no }
+		}
+	}
+
+	text = {
+		localization_key = get_Pharaoh_female_BIER
+		trigger = {
+				OR = {
+					government = despotic_monarchy
+					government = aristocratic_monarchy
+				}
+			primary_culture = egyptian
+			current_ruler = { is_female = yes }
+		}
+	}
+
+	text = {
 		localization_key = get_Ity_female_BIER
 		trigger = {
 				OR = {
@@ -1435,7 +1482,6 @@ get_country_ruler_BIER = {
 
 ##Other titles
 #Titles for tyrannical_monarchy (Syracuse)?
-#Titles for egyptian culture (despotic_monarchy, aristocratic_monarchy)?
 #Titles for tribal_hegemony?
 #Titles for tribal_republic?
 
