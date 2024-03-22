@@ -464,6 +464,32 @@
  mesopotamian_religion_dop_l_mn:0 "chaldejskich"
  jainism_dop_l_mn:0 "dźinijskich"
  
+ #Religie (postać)
+
+ #Religie mianownik rodz. nijaki 
+ roman_pantheon_mian_neut:0 "helleńskie"
+ egyptian_pantheon_mian_neut:0 "kemetyczne"
+ carthaginian_pantheon_mian_neut:0 "kananejskie"
+ shamanism_mian_neut:0 "zalmoksiańskie"
+ druidism_mian_neut:0 "druidzkie"
+ animism_mian_neut:0 "iberyjskie"
+ judaism_mian_neut:0 "żydowskie"
+ zoroaster_mian_neut:0 "zaratusztriańskie"
+ matrist_religion_mian_neut:0 "matrystyczne"
+ berber_religion_mian_neut:0 "megalityczne"
+ germanic_religion_mian_neut:0 "tuistoniczne"
+ arabian_pantheon_mian_neut:0 "arabskie"
+ eastern_animism_mian_neut:0 "rytualistyczne"
+ buddhism_mian_neut:0 "buddyjskie"
+ hindu_mian_neut:0 "hinduskie"
+ bon_mian_neut:0 "böńskie"
+ indo_iranian_religion_mian_neut:0 "heptadyczne"
+ anatolian_religion_mian_neut:0 "kybeleńskie"
+ armenian_religion_mian_neut:0 "chaldyjskie" 
+ caucasian_religion_mian_neut:0 "armazyjskie"
+ mesopotamian_religion_mian_neut:0 "chaldejskie"
+ jainism_mian_neut:0 "dźinijskie"
+ 
  #Panteony religii
  roman_pantheon_pl:0 "Panteon helleński"
  egyptian_pantheon_pl:0 "Panteon kemetyczny"
