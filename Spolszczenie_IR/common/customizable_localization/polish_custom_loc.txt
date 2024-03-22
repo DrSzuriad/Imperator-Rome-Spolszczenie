@@ -11,6 +11,11 @@
 #get_Rel_Mian_LMn
 #get_Rel_Dop_LMn
 
+## Religie (postać) ##
+#get_Rel_Char_Cel_masc
+#get_Rel_Char_Narz_fem
+#get_Rel_Char_Mian_neut
+
 ## Panteony ##
 #get_Pantheon_pl
 #get_Deity_DescriptiveName_pl
@@ -634,6 +639,286 @@ get_Rel_Dop_LMn = {
 	}
 	text = {
 		localization_key = jainism_dop_l_mn
+		trigger = { religion = jainism }
+	}
+}
+
+####################
+# Religie (postać) #
+####################
+
+get_Rel_Char_Cel_masc = {
+	type = character
+	text = {
+		localization_key = roman_pantheon_cel
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_cel
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_cel
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_cel
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_cel
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_cel
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_cel
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_cel
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_cel
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_cel
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_cel
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_cel
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_cel
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_cel
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_cel
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_cel
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_cel
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_cel
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_cel
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_cel
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_cel
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_cel
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Char_Narz_fem = {
+	type = character
+	text = {
+		localization_key = roman_pantheon_narz
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_narz
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_narz
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_narz
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_narz
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_narz
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_narz
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_narz
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_narz
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_narz
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_narz
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_narz
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_narz
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_narz
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_narz
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_narz
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_narz
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_narz
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_narz
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_narz
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_narz
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_narz
+		trigger = { religion = jainism }
+	}
+}
+
+get_Rel_Char_Mian_neut = {
+	type = character
+	text = {
+		localization_key = roman_pantheon_mian_neut
+		trigger = { religion = roman_pantheon }
+	}
+	text = {
+		localization_key = egyptian_pantheon_mian_neut
+		trigger = { religion = egyptian_pantheon }
+	}
+	text = {
+		localization_key = carthaginian_pantheon_mian_neut
+		trigger = { religion = carthaginian_pantheon }
+	}
+	text = {
+		localization_key = shamanism_mian_neut
+		trigger = { religion = shamanism }
+	}
+	text = {
+		localization_key = druidism_mian_neut
+		trigger = { religion = druidism }
+	}
+	text = {
+		localization_key = animism_mian_neut
+		trigger = { religion = animism }
+	}
+	text = {
+		localization_key = judaism_mian_neut
+		trigger = { religion = judaism }
+	}
+	text = {
+		localization_key = zoroaster_mian_neut
+		trigger = { religion = zoroaster }
+	}
+	text = {
+		localization_key = matrist_religion_mian_neut
+		trigger = { religion = matrist_religion }
+	}
+	text = {
+		localization_key = berber_religion_mian_neut
+		trigger = { religion = berber_religion }
+	}
+	text = {
+		localization_key = germanic_religion_mian_neut
+		trigger = { religion = germanic_religion }
+	}
+	text = {
+		localization_key = arabian_pantheon_mian_neut
+		trigger = { religion = arabian_pantheon }
+	}
+	text = {
+		localization_key = eastern_animism_mian_neut
+		trigger = { religion = eastern_animism }
+	}
+	text = {
+		localization_key = buddhism_mian_neut
+		trigger = { religion = buddhism }
+	}
+	text = {
+		localization_key = hindu_mian_neut
+		trigger = { religion = hindu }
+	}
+	text = {
+		localization_key = bon_religion_mian_neut
+		trigger = { religion = bon_religion }
+	}
+	text = {
+		localization_key = indo_iranian_religion_mian_neut
+		trigger = { religion = indo_iranian_religion }
+	}
+	text = {
+		localization_key = anatolian_religion_mian_neut
+		trigger = { religion = anatolian_religion }
+	}
+	text = {
+		localization_key = armenian_religion_mian_neut
+		trigger = { religion = armenian_religion }
+	}
+	text = {
+		localization_key = caucasian_religion_mian_neut
+		trigger = { religion = caucasian_religion }
+	}
+	text = {
+		localization_key = mesopotamian_religion_mian_neut
+		trigger = { religion = mesopotamian_religion }
+	}
+	text = {
+		localization_key = jainism_mian_neut
 		trigger = { religion = jainism }
 	}
 }
