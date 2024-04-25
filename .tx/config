@@ -43,13 +43,6 @@ source_file = pliki/en/replace/clausewitz/localization/cw_tools_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
-[o:Spolszczenia-gier:p:imperator-rome-spolszczenie:r:languages_cw]
-file_filter = pliki/<lang>/replace/clausewitz/localization/languages.yml
-minimum_perc = 0
-source_file = pliki/en/replace/clausewitz/localization/languages.yml
-source_lang = en
-type = YAML_GENERIC
-
 [o:Spolszczenia-gier:p:imperator-rome-spolszczenie:r:cw_text_utils_l_english]
 file_filter = pliki/<lang>/replace/clausewitz/localization/text_utils/cw_text_utils_l_english.yml
 minimum_perc = 0
