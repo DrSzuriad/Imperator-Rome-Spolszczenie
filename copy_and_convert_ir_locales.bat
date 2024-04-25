@@ -1,26 +1,46 @@
 @echo off
+setlocal enabledelayedexpansion
+
+rd /s /q translations_temp
+md translations_temp
+echo Ten skrypt kopiuje pliki jezykowe z ".../EUIV/localisation/" oraz konwertuje je na format YAML. Przekonwertowane pliki zostana przeniesione do "translations/en/".
+::set /p source="Podaj sciezke do folderu localisation z EUIV: "
+echo Konwertowanie plikow...
+
+set source=D:\Paradox\Imperator-Rome-Spolszczenie\source\
+
+xcopy "%source%\*" "translations_temp\" /s /y
+
+for %%A in ("%source%") do (
+    set "folder_length=%%~pA"
+)
+
+for /r "%source%" %%f in (*) do (
+    set "relative_path=%%~pf"
+    set "relative_path=!relative_path:%folder_length%=!"
+    set "path=!relative_path!%%~nxf"
+    ::echo %cd%\!path!
+    for %%F in (translations_temp\!path!) do (
+	echo %cd%\%%F
+	endlocal
+	SETLOCAL DisableDelayedExpansion
+::	call jrepl "#[a-zA-Z0-9_,:;.'()/ -\x24\x7C]*$"^
+::             "" /m /x /t "|" /f "%cd%\%%F" /o -
+    call jrepl "#[^\x22]*\n"^ "\n" /m /x /t "|" /f "%cd%\%%F" /o -
+	)
+	endlocal
+	setlocal enabledelayedexpansion
+)
+
+endlocal
+
+rd /s /q "pliki\\en\\"
+
 :: SCRIPT SETTINGS
 set charset="polish"
 set parser_version="0.1.16"
 
-rd /s /q translations_temp 2>nul
-md translations_temp
-
-echo Ten skrypt kopiuje pliki jezykowe oraz konwertuje je na format YAML. Przekonwertowane pliki zostana przeniesione do "translations/en/".
-set /p source="Podaj sciezke do folderu localisation z IR: "
-echo Konwertowanie plikow...
-
-set pattern=*_english.*
-for %%A in ("%source%\%pattern%") do copy "%%A" "translations_temp\\"
-for %%A in ("translations_temp\\*") do (
-	echo %%A
-	for %%F in (%%A) do (
-	call jrepl "#[a-zA-Z0-9_,:;.'() ?]*$"^
-             "" /m /x /t "|" /f "%%F" /o -
-	)
-)
-
-rd /s /q "pliki\\en\\"
+echo Parser...
 
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_yaml" "translations_temp\\" "pliki\\en\\" %charset%
 ::clausewitz

@@ -9,7 +9,7 @@
  OUTLINER_CATEGORY_DISLOYAL_ARMIES: "Disloyal Armies"
  OUTLINER_CATEGORY_FAVORITE_CHARACTERS: "Favorite Characters"
  OUTLINER_CATEGORY_PLAYER_NAVIES_TOOLTIP: "These are the navies that you have under direct control."
- OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP: "There are the armies that you have under direct control."
+ OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP: "These are the armies that you have under direct control."
  OUTLINER_CATEGORY_AUTOMATED_NAVIES_TOOLTIP: "These navies have been given AI objectives."
  OUTLINER_CATEGORY_AUTOMATED_ARMIES_TOOLTIP: "These armies have been given AI objectives."
  OUTLINER_CATEGORY_PROVINCIAL_ARMIES_TOOLTIP: "These armies are assigned to a province and can not leave that province."

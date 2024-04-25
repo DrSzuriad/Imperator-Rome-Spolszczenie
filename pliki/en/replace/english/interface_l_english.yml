@@ -1972,6 +1972,7 @@
  DIST_UI_TOOLTIP: "#T [Distinction.GetName]#!\n\n[Distinction.GetModifierTooltip]\n\n#TF [Distinction.GetDescription]#!"
  COMMANDER_DISTINCTION_TEXT: "Commander Modifier:"
  UNIT_DISTINCTION_TEXT: "Unit Modifier:"
+ LEGION_DISTINCTION_TEXT: "Legion Modifier:"
  DEEDS_NONE: "This Legion has not yet performed any deeds worthy of note."
  test_history_string: "Dirty deeds done by [CHARACTER.GetNameWithNoTooltip] in [PROVINCE.GetName] on $DATE$."
  GOVERNORSHIPS: "Governorships"

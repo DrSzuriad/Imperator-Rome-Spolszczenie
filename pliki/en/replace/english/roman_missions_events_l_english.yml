@@ -114,7 +114,7 @@
  me_roman_1_roman_italia.18.at: "Every adult Roman character will lose #R 10#! Loyalty @loyalty_icon!"
  me_roman_1_roman_italia.18.bt: "Every #Y Italic#! subject will gain #G +50.0#! opinion of #Y Rome#!"
  me_roman_1_roman_italia.19.t: "Roman Hegemony"
- me_roman_1_roman_italia.19.desc: "From now on the people of this peninsula will bow to Rome, serving in her armies and paying into the her treasury.\n\nThere may be strife in the short term, but the delusions of the conquered will be tempered by realization of the natural order in time. They may prattle on about citizenship - let them! With our new power on the stage of history, Rome has larger things to worry about."
+ me_roman_1_roman_italia.19.desc: "From now on the people of this peninsula will bow to Rome, serving in her armies and paying into her treasury.\n\nThere may be strife in the short term, but the delusions of the conquered will be tempered by realization of the natural order in time. They may prattle on about citizenship - let them! With our new power on the stage of history, Rome has larger things to worry about."
  me_roman_1_roman_italia.19.a: "Roma victa."
  me_roman_1_roman_italia.19.at: "Every adult Roman character will gain #G 10#! Loyalty @loyalty_icon!"
  me_roman_1_roman_italia.20.t: "Dialogue with Rome"
