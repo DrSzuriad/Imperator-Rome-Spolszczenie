@@ -199,7 +199,7 @@
  BASE_COLON_TO_PERC:1 "Base: $VALUE|Y%$"
  WRONG_CULTURE_GROUP_HAPPYNESS:2 "\nUnintegrated Foreign Culture: $VALUE|+0%$"
  WRONG_CULTURE_HAPPYNESS:2 "\nUnintegrated [CULTURE.GetCultureGroup.GetName] Culture: $VALUE|+0%$"
- WRONG_RELIGION_HAPPNESS:2 "\nNot State Religion: $VALUE|+0%$"
+ WRONG_RELIGION_HAPPINESS:2 "\nNot State Religion: $VALUE|+0%$"
  WRONG_GOVERNOR_RELIGION_HAPPNESS:1 "\nGovernor is $RELIGION$: $VALUE|+0%$"
  PRIMARY_CULTURE_HAPPINESS:1 "Integrated Culture: $VALUE|+0%$"
  DEITY_SAME_RELIGION_HAPPINESS:0 "\nPantheon Deity $DEITY|Y$: $VALUE|+1%$"
@@ -219,7 +219,8 @@
  POP_DETAILS:3 "The Population of [PROVINCE.GetName]"
  DESIRED_SPLIT_TT:0 "#T Optimal Ratio of $TYPE$ in [PROVINCE.GetName]#!\n"
  CURRENT_POP_RATIO:0 "#T Current Ratio#!\n"
- POP_RATIO_TT:0 "$LEFT|0Y$ out of $MAX|0y$ creates a final desired ratio of $RESULT|0y$%"
+ POP_RATIO_TT:0 "$LEFT|0Y$ out of $MAX|0y$ creates a final desired ratio of $RESULT|0y$%" #$LEFT$/$MAX$=$RESULT|0$
+ #POP_DETAILS:2 "The Population of the Territory of [PROVINCE.GetName] @citizen![PROVINCE.GetPopulation('citizen')|Y] @freemen![PROVINCE.GetPopulation('freemen')|Y] @tribesmen![PROVINCE.GetPopulation('tribesmen')|Y] @slaves![PROVINCE.GetPopulation('slaves')|Y]"
  NO_POP_CONVERSION:1 "#T No Current Conversion#!\nThere are no pops in this territory that can be converted at this time."
  NO_POP_ASSIMILATE:1 "#T No Current Assimilations#!\nThere are no pops in this territory that can be assimilated at this time."
  NO_POP_PROMOTION:1 "#T No Current Promotions#!\nThere are no pops in this territory that can be promoted at this time."

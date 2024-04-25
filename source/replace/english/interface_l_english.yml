@@ -2009,6 +2009,7 @@
  DIST_UI_TOOLTIP:0 "#T [Distinction.GetName]#!\n\n[Distinction.GetModifierTooltip]\n\n#TF [Distinction.GetDescription]#!"
  COMMANDER_DISTINCTION_TEXT:0 "Commander Modifier:"
  UNIT_DISTINCTION_TEXT:0 "Unit Modifier:"
+ LEGION_DISTINCTION_TEXT:0 "Legion Modifier:"
  DEEDS_NONE:0 "This Legion has not yet performed any deeds worthy of note."
  test_history_string:0 "Dirty deeds done by [CHARACTER.GetNameWithNoTooltip] in [PROVINCE.GetName] on $DATE$."
  GOVERNORSHIPS:0 "Governorships"
@@ -2147,3 +2148,4 @@
  POP_CULTURE_SLICE_TT:0 "[PopCultureItem.GetTooltip]\n\nThe inner percentage indicates how many of the [pops|E] in this [province|E] belong to an [integrated|E] [culture|E].\n\n#G Click to pin central information.#!"
  POP_RELIGION_SLICE_TT:1 "[PopReligionItem.GetName]\n\nThe inner percentage indicates how many of the [pops|E] in this [province|E] belong to our state [religion|E].\n\n#G Click to pin central information.#!"
  POP_TYPE_TOTAL_TT:0 "[PopTypeItem.GetName]\n\nThe inner value displays the total population in this [province|E].\n\n#G Click to pin central information.#!"
+

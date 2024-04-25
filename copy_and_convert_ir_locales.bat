@@ -1,51 +1,24 @@
 @echo off
-SETLOCAL DisableDelayedExpansion
 :: SCRIPT SETTINGS
 set charset="polish"
-set parser_version="0.1.11"
+set parser_version="0.1.16"
 
-rd /s /q translations_temp
+rd /s /q translations_temp 2>nul
 md translations_temp
-echo Ten skrypt kopiuje pliki jezykowe z ".../EUIV/localisation/" oraz konwertuje je na format YAML. Przekonwertowane pliki zostana przeniesione do "translations/en/".
-::set /p source="Podaj sciezke do folderu localisation z EUIV: "
+
+echo Ten skrypt kopiuje pliki jezykowe oraz konwertuje je na format YAML. Przekonwertowane pliki zostana przeniesione do "translations/en/".
+set /p source="Podaj sciezke do folderu localisation z IR: "
 echo Konwertowanie plikow...
 
-set source=E:\Paradox\Imperator-Rome-Spolszczenie\source
-
-::generowanie filelist.txt
-copy /y nul filelist.txt 
-copy /y nul filelistnew.txt 
-forfiles /s /p %source% /m *.yml /c "cmd /c echo @relpath" >>filelist.txt
-
-for /f %%F in (filelist.txt) do (
-    set "myVar=%%F"
-    call :processLine myVar
-)
-goto :dalej
-
-:processLine
-SETLOCAL EnableDelayedExpansion
-set "line=!%1!"
-set "line=!line:".\=!"
-set "line=!line:"=!"
-echo !line!>>filelistnew.txt
-ENDLOCAL
-goto :eof
-
-:dalej
-
-for /f %%F in (filelistnew.txt) do xcopy /n "source\%%F" "translations_temp\%%F"
-
-for /f %%A in (filelistnew.txt) do (
-	echo %cd%\%%A
-	for %%F in (translations_temp\%%A) do (
-	call jrepl "#[a-zA-Z0-9_,:;.'()/ -]*$"^
-             "" /m /x /t "|" /f "%cd%\translations_temp\%%A" /o -
+set pattern=*_english.*
+for %%A in ("%source%\%pattern%") do copy "%%A" "translations_temp\\"
+for %%A in ("translations_temp\\*") do (
+	echo %%A
+	for %%F in (%%A) do (
+	call jrepl "#[a-zA-Z0-9_,:;.'() ?]*$"^
+             "" /m /x /t "|" /f "%%F" /o -
 	)
 )
-
-del filelistnew.txt
-del filelist.txt
 
 rd /s /q "pliki\\en\\"
 

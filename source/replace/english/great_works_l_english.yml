@@ -13,7 +13,7 @@
  GW_PRESTIGE_LABEL:0 "Prestige: "
  GW_MAX_TIER_LEVEL_LABEL:0 "Max Tier: "
  GW_EFFECT_TIER_NAME:0 "Tier"
- GW_ALREADY_PRESENT_IN_PROVINCE:0 "There is already a great wonder here"
+ GW_ALREADY_PRESENT_IN_PROVINCE:0 "There is already a great wonder here."
  GW_EDIT_BUTTON:0 "Change"
  GW_EDIT_TOOLTIP:0 "#T Edit Wonder#!\n$CHANGES$"
  GW_EDIT_NO_CHANGE_TOOLTIP:0 "No Changes"
@@ -69,7 +69,7 @@
  CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_LABEL:0 "Cancel Construction"
  CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_LABEL:0 "Destroy Great Wonder"
  CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_TOOLTIP:0 "This project was a mistake"
- CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_TOOLTIP:0 "Tear it down"
+ CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_TOOLTIP:1 "Tear it down."
 
  GREAT_WORK_DETACH_LEADER_TITLE:0 "Construction leader "
  GREAT_WORK_NO_LEADER_TO_DETACH:0 "No leader assigned"
