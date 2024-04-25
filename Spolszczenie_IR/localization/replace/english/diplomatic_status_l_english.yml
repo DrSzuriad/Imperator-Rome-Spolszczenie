@@ -1,8 +1,8 @@
 ﻿l_english:
  diplomatic_status_war_tooltip:0 "#T Wojna#!\nTen kraj jest w stanie wojny z tymi krajami!"
  diplomatic_status_alliance_tooltip:0 "#T Sojusz\n#!Kraje sojusznicze często pomagają sobie w razie ataku."
- diplomatic_status_vassalizing_tooltip:0 "#T Poddani#!\nKraje te mogą przyjść z pomocą swojemu suzerenowi, jeśli go zaatakujesz."
- diplomatic_status_vassalized_tooltip:0 "#T Suzeren#!\nTen kraj może być chroniony przez ich suzerena, jeśli go zaatakujesz."
+ diplomatic_status_vassalizing_tooltip:0 "#T Poddani#!\nKraje te mogą przyjść z pomocą swojemu suwerenowi, jeśli go zaatakujesz."
+ diplomatic_status_vassalized_tooltip:0 "#T Suweren#!\nTen kraj może być chroniony przez swojego suwerena, jeśli zostanie zaatakowany."
  diplomatic_status_casus_belli_tooltip:0 "#T Casus belli wobec:#!\nTen kraj ma casus belli wobec tych państw. Może wypowiedzieć im wojnę bez ponoszenia kary stabilności."
  diplomatic_status_guaranteeing_tooltip:0 "#T Udziela gwarancji#!\nTen kraj automatycznie chroni kraj, któremu udziela gwarancji."
  diplomatic_status_guaranteed_tooltip:0 "#T Posiada gwarancje#!\nWszystkie kraje udzielające gwarancji temu krajowi dołączą do niego w każdej wojnie obronnej."

@@ -3,7 +3,7 @@
  terrain_MAPMODE_DESC: "#T Mapa terenu#!\nPrzedstawia estetyczny widok mapy z minimalnymi informacjami politycznymi"
  simple_terrain_MAPMODE: "Prosty teren"
  simple_terrain_MAPMODE_DESC: "#T Mapa prostego terenu#!\nZabarwia każde terytorium według jego #Y typu terenu#!."
- political_MAPMODE: "Polityczna"
+ political_MAPMODE: "Mapa polityczna"
  political_MAPMODE_DESC: "#T Mapa polityczna#!\nZabarwia każdy #Y kraj#! na jego unikalny kolor."
  culture_MAPMODE: "Kultura"
  culture_MAPMODE_DESC: "#T Mapa kulturowa#!\nZabarwia mapę zgodnie z dominującą #Y kulturą #! na danym terytorium."

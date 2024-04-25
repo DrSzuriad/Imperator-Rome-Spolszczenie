@@ -9,7 +9,7 @@
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_ALLIES: "Możliwe dołączenie obrońców @[COUNTRY.GetFlag]! [COUNTRY.GetName|Y]:"
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_NO_ALLIES: "Nie ma dodatkowych łączących się obrońców @[COUNTRY.GetFlag]! [COUNTRY.GetName|Y]."
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_ALLY: "@[COUNTRY.GetFlag]! [COUNTRY.GetName|Y] "
- DECLARE_WAR_OVERLORD_PROTECT: "@[COUNTRY.GetFlag]! [COUNTRY.GetName|Y] będzie chronić ich $SUBJECT_TYPE$ @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]."
+ DECLARE_WAR_OVERLORD_PROTECT: "@[COUNTRY.GetFlag]! [COUNTRY.GetName|Y] będzie chronić swojego poddanego ($SUBJECT_TYPE$) @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y]."
  DECLARE_WAR_OVERLORD_GUARANTEE: "@[COUNTRY.GetFlag]! [COUNTRY.GetName|Y] udziela gwarancji @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y] i będzie walczyć w ich imieniu."
  DECLARE_WAR_CONFIRMATION_WARGOAL: "Wypowiedz wojnę @[DEFENDER.GetFlag]! [DEFENDER.GetName|Y] używając celu wojennego $WARGOAL|Y$"
  DECLARE_WAR_CONFIRMATION_WARLEADER: "@[COUNTRY.GetFlag]! [COUNTRY.GetName|Y] stanie się wrogim liderem wojny"

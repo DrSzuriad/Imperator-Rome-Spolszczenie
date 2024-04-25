@@ -11,7 +11,7 @@
  UNIT_WILL_ARRIVE_CROSS_STRAIT:0 "Przekroczy cieśninę i dotrze do $NAME|Y$ dnia $DATE|Y$"
  UNIT_WILL_ARRIVE_CROSS_STRAIT_AND_COMBAT:0 "Bitwa będzie miała miejsce w $NAME|Y$ po przekroczeniu cieśniny dnia $DATE|Y$"
  UNIT_BLOCKADE_PERCENT:0 "$PERCENT|0%$"
- FORT_UNOCCUPIED_TOOLTIP:0 "[PROVINCE.GetFortLevel|Y] poziom fortu w [PROVINCE.GetName]."
+ FORT_UNOCCUPIED_TOOLTIP:0 "[PROVINCE.GetFortLevel|Y]. poziom fortu w [PROVINCE.GetName]."
  FORT_OCCUPIED_TOOLTIP:0 "Fort w $PROVINCE|H$, pod okupacją [CHARACTER.GetTitledFullName]."
  CHARACTER_TOOLTIP:0 "[CHARACTER.GetName|Y]"
  CHARACTER_COMMANDER_TOOLTIP:0 "[CHARACTER.GetTitledFullName] dowodzi tą armią"

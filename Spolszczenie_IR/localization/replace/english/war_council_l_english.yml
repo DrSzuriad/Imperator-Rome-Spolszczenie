@@ -71,7 +71,7 @@
  war_council_two_and_three_republic:0 "[SCOPE.sChar('guard').GetPraenomen] zgadza się z [SCOPE.sChar('third_party').GetPraenomen]. Ufamy im bezwzględnie."
  war_council_one_republic:0 "[SCOPE.sChar('marshal').GetPraenomen] z [SCOPE.sChar('marshal').GetParty.GetName] ma rację. Musimy rozpocząć wojnę z krajem [SCOPE.sC('target_country_1').GetName]."
  war_council_two_republic:0 "[SCOPE.sChar('guard').GetPraenomen] i [SCOPE.sChar('guard').GetParty.GetName] mają nasze poparcie. Ku państwu [SCOPE.sC('target_country_2').GetName]!"
- war_council_three_republic:0 "Podbijemy [SCOPE.sP('target_province_3').GetOwner.GetName], tak jak pragnie [SCOPE.sChar('third_party').GetParty.GetName]."
+ war_council_three_republic:0 "Podbijemy [SCOPE.sP('target_province_3').GetOwner.GetName], tak jak pragną [SCOPE.sChar('third_party').GetParty.GetName]."
  war_council_all_3_agree_republic:0 "Porozumienie? Jak niezwykłe."
  war_council_nope_republic:0 "Senat może być dość denerwujący..."
  get_council_1_descriptor_7:0 "uczciwa osoba, władająca sercami swoich poddanych,"

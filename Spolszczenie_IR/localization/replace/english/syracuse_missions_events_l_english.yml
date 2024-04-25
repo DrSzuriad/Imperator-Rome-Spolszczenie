@@ -1,5 +1,5 @@
 ﻿l_english:
- mission_task_completed_tt_1:0 "Zadanie misji '#Y "
+ mission_task_completed_tt_1:0 "Zadanie '#Y "
  mission_task_completed_tt_2:0 "#!' zostało #G ukończone#!!"
  me_syr_task_start_tt_1:0 "[me_syracuse_scope.GetRulerTitle] [me_syracuse_scope.GetRuler.GetPraenomen] will commence"
  me_syr_task_start_tt_2:0 "[democracy_leader.GetPraenomen] will commence"

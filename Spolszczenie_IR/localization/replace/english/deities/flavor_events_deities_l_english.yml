@@ -12,7 +12,7 @@
  deity_flavor.2.a.tt:0 "This option is available because the territory produces #Y Fish#!."
  deity_flavor.2.b:0 "A chance to fill the local storehouses then."
  deity_flavor.2.c:0 "If this port is that safe, maybe it can be our new military harbor."
- deity_flavor.3.t:0 "The Empty Waters"
+ deity_flavor.3.t:0 "Puste wody"
  deity_flavor.3.desc:0 "Messengers arrive from [port_province.GetName], bringing news that the fishermen have been unable to catch anything recently. It seems the local fish stocks have been completely ruined after we proclaimed these waters blessed by [sea_deity.GetName] and the local fishermen zealously caught as much as they could."
  deity_flavor.3.a:0 "But... we were so sure we had been blessed."
  deity_flavor.4.t:0 "A Memorable Spring"

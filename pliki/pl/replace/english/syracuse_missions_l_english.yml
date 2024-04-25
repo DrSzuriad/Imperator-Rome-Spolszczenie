@@ -129,7 +129,7 @@
  syracuse_3_6_reward_tt_1: "#Y [me_syr_selinous.GetName]#! i #Y [me_syr_minoa.GetName]#! otrzymają"
  syracuse_3_6_reward_tt_2: "$syracuse_3_6_reward_tt_1$ $syracuse_3_settlers_tooltip$"
  syracuse_3_8: "Odbudowa Himery"
- syracuse_3_8_DESC: "Ponad sto lat temu Himera została całkowicie zniszczona przez Hannibala Mago, który bezbożnie pomścił klęskę swojego dziadka Hamilkasa poza miastem niewinną krwią. Za jednym zamachem możemy naprawić przeszłość i zranić punicką dumę."
+ syracuse_3_8_DESC: "Ponad sto lat temu Himera została doszczętnie zniszczona przez Hannibala Magonidę, który bezbożnie pomścił klęskę swojego dziadka Hamilkara podczas oblężenia miasta, przelewając niewinną krew. Za jednym zamachem możemy naprawić przeszłość i zranić punicką dumę."
  syracuse_3_8_allow_tt: "Na terytorium #Y [me_syr_3_8_himera_scope.GetName]#! można założyć miasto."
  syracuse_3_9: "Odzyskanie Sykanii"
  syracuse_3_9_DESC: "Będziemy naprawdę bezpieczni tylko wtedy, gdy dawne greckie miasta Segesta i Panormos ponownie znajdą się w naszych rękach, a punickie centra władzy w Lilibajonie i Motji zostaną unieszkodliwione. W ten sposób sprawa zostanie rozstrzygnięta."

@@ -2,7 +2,7 @@
 set language="pl"
 set charset="empty"
 set project_folder="Spolszczenie_IR\\localization"
-set parser_version="0.1.11"
+set parser_version="0.1.16"
 
 
 echo "Starting conversion of translated files from Transifex into the IR format for workshop delivery and automated mod building."
@@ -69,7 +69,7 @@ java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar"
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\replace\\english\\missions\\" "temp\\ir\\replace\\english\\missions\\" %charset%
 
 echo "Copy polish localisation file"
-xcopy /s CL_files temp\\ir
+xcopy CL_files temp\\ir /s /y
 
 echo "Delete space from empty key"
 for %%F in (temp\ir\replace\english\core_l_english.yml) do (
@@ -99,7 +99,7 @@ mkdir replace
 del /s /f /q languages.yml
 cd ../../
 echo "Copying new localisation"
-xcopy /s temp\\ir "%project_folder%"
+xcopy temp\\ir "%project_folder%" /s /y
 echo "Cleaning up temp directory."
 rd /s /q temp
 echo "Temp directory cleaned up, goodbye, have a nice day! :smile:
