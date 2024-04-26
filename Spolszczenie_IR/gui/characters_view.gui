@@ -520,7 +520,7 @@ base_window = {
 						layoutpolicy_horizontal = expanding
 						flowcontainer = {
 							spacing = 20
-							position = { 23 -0 }
+							position = { 23 -10 }
 							#parentanchor = vcenter
 							check_cross_filter = {
 								blockoverride "On_click" { onclick = "[CharactersView.Filter('imprison')]" }
@@ -557,7 +557,6 @@ base_window = {
 								}
 								tooltip = "CHARACTER_VIEW_FILTER_BY_GENDER_TOOLTIP"
 							}
-							
 							check_cross_filter = {
 								blockoverride "On_click" { onclick = "[CharactersView.Filter('employed')]" }
 								blockoverride "FilterYes" { visible = "[CharactersView.IsFilterYes('employed')]" }
@@ -570,7 +569,6 @@ base_window = {
 								}
 								tooltip = "CHARACTER_VIEW_FILTER_BY_EMPLOYMENT_TOOLTIP"
 							}
-							
 							check_cross_filter = {
 								blockoverride "On_click" { onclick = "[CharactersView.Filter('ruler')]" }
 								blockoverride "FilterYes" { visible = "[CharactersView.IsFilterYes('ruler')]" }
@@ -585,7 +583,6 @@ base_window = {
 								}
 								tooltip = "CHARACTER_VIEW_FILTER_BY_RULER_TOOLTIP"
 							}
-							
 							check_cross_filter = {
 								blockoverride "On_click" { onclick = "[CharactersView.Filter('major')]" }
 								blockoverride "FilterYes" { visible = "[CharactersView.IsFilterYes('major')]" }
@@ -593,13 +590,18 @@ base_window = {
 								blockoverride "TagText" 
 								{ 
 									text = "CHARACTER_VIEW_FILTER_BY_MAJOR"
-									fontsize = @filterfontsize
-									##ZMIANA##									
+									fontsize = @filterfontsize 
+									##ZMIANA##
 									max_width = 90 #88
-									##		##									
+									##		##
 								}
 								tooltip = "CHARACTER_VIEW_FILTER_BY_MAJOR_TOOLTIP"
 							}
+						}
+						flowcontainer = {
+							spacing = 20
+							position = { 23 23 }
+							#parentanchor = vcenter
 							
 							check_cross_filter = {
 								blockoverride "On_click" { onclick = "[CharactersView.Filter('commander')]" }
@@ -651,6 +653,20 @@ base_window = {
 								}
 								tooltip = "CHARACTER_VIEW_FILTER_BY_OWN_NATION_TOOLTIP"
 							}
+							check_cross_filter = {
+								blockoverride "On_click" { onclick = "[CharactersView.Filter('can_marry')]" }
+								blockoverride "FilterYes" { visible = "[CharactersView.IsFilterYes('can_marry')]" }
+								blockoverride "FilterNo" { visible = "[CharactersView.IsFilterNo('can_marry')]" }
+								blockoverride "TagText" 
+								{ 
+									text = "CHARACTER_VIEW_FILTER_BY_CAN_MARRY" 
+									fontsize = @filterfontsize
+									##ZMIANA##
+									max_width = 100 #@filtertagmaxwidth
+									##		##
+								}
+								tooltip = "CHARACTER_VIEW_FILTER_BY_CAN_MARRY_TOOLTIP"
+							}
 						}
 					}
 				}
@@ -663,7 +679,7 @@ base_window = {
 						visible = "[Not(CharactersView.IsShowFamily)]"
 						
 						scrollarea = {
-							position = { -2 20 }
+							position = { -2 40 }
 							size = { 1154 680 }
 							scrollbarpolicy_horizontal = always_off
 							using = VerticalScrollAreaCutOff
