@@ -328,7 +328,7 @@ base_window = {
 
 			margin_widget = {
 				name = "Filters_and_Sorting"
-				size { 0 52 }
+				size = { 0 52 }
 		        layoutpolicy_horizontal = expanding
 		        layoutpolicy_vertical = fixed
 				allow_outside = yes
@@ -356,9 +356,9 @@ base_window = {
 					}
 
 					widget = {
-					##ZMIANA##
+						##ZMIANA##
 						size = { 140 28 } #180 28
-					##		##
+						##      ##					
 						name = "culture_group"
 						tooltip = SHOW_CULTURE_GROUPS_TT
 						
@@ -393,9 +393,9 @@ base_window = {
 						tooltip = SHOW_INTEGRATED_TT
 						
 						checkbox_entry = {
-						##ZMIANA##
+							##ZMIANA##
 							size = { 174 34 } #214 34
-						##		##
+							##      ##
 							position = { 0 -3 }
 							blockoverride "Frame"
 							{
@@ -681,346 +681,346 @@ base_window = {
 						}
 					
 					scrollwidget = {
-
-					dynamicgridbox = {
-						name = "cultures_grid"
-						position = { 8 0 }	
-						datamodel = "[CultureView.GetAllCultures]"
-						
-						##########################
-						######### List Button Item
-						##########################						
-						item = {
-							widget = {
-								size = { @listbuttonwidth @listbuttontall }
-								
-								state = {
-									name = ensmallen
-									duration = 0.05
+						dynamicgridbox = {
+							name = "cultures_grid"
+							position = { 8 0 }	
+							datamodel = "[CultureView.GetAllCultures]"
+							
+							##########################
+							######### List Button Item
+							##########################						
+							item = {
+								widget = {
+									size = { @listbuttonwidth @listbuttontall }
 									
-									animation = {
-										size = {  @listbuttonwidth @listbuttonshort }
-										bezier = { 1 0 0 1 }
-									}
-									
-									trigger_when = "[Not(CountryCultureItem.IsExpanded)]" 
-									on_finish = "[PdxGuiWidget.FindChild('culture_item_details').Hide]"
-									
-								}
-								
-								state = {
-									name = embiggen
-									duration = 0.05
-									
-									animation = {
-										size = {  @listbuttonwidth @listbuttontall }
-										bezier = { 1 0 0 1 }
-									}
-									
-									trigger_when = "[CountryCultureItem.IsExpanded]" 
-									on_start = "[PdxGuiWidget.FindChild('culture_item_details').Show]"
-									
-								}
-								
-								### culture_item_details
-								margin_widget = {
-									margin_top = 0
-									margin_left = 10
-									margin_right = 10
-									size = { 100% 100% }
-									name = "culture_item_details"
-									visible = "[CountryCultureItem.IsExpanded]"
-				
-									list_entry = {
-										name = "background"
-										size = { 558 80 }
-										parentanchor = bottom|hcenter
-										visible = yes
-									}
-									
-									margin_widget = {
-										size = { 168 42 }
-										position = { 6 -8 }
-										parentanchor = bottom
+									state = {
+										name = ensmallen
+										duration = 0.05
 										
-										using = NoninteractableBG
-										blockoverride "Margins"
-										{
-											margin = { 0 0 }
-											margin_top = 3
+										animation = {
+											size = {  @listbuttonwidth @listbuttonshort }
+											bezier = { 1 0 0 1 }
 										}
 										
-										overlappingitembox = {
-											datamodel = "[CountryCultureItem.GetTemporaryModifiers]"
-											size = { 146 34 }
-											spacing = 1
-											position = { 0 2 }
+										trigger_when = "[Not(CountryCultureItem.IsExpanded)]" 
+										on_finish = "[PdxGuiWidget.FindChild('culture_item_details').Hide]"
+										
+									}
+									
+									state = {
+										name = embiggen
+										duration = 0.05
+										
+										animation = {
+											size = {  @listbuttonwidth @listbuttontall }
+											bezier = { 1 0 0 1 }
+										}
+										
+										trigger_when = "[CountryCultureItem.IsExpanded]" 
+										on_start = "[PdxGuiWidget.FindChild('culture_item_details').Show]"
+										
+									}
+									
+									### culture_item_details
+									margin_widget = {
+										margin_top = 0
+										margin_left = 10
+										margin_right = 10
+										size = { 100% 100% }
+										name = "culture_item_details"
+										visible = "[CountryCultureItem.IsExpanded]"
+					
+										list_entry = {
+											name = "background"
+											size = { 558 80 }
+											parentanchor = bottom|hcenter
+											visible = yes
+										}
+										
+										margin_widget = {
+											size = { 168 42 }
+											position = { 6 -8 }
+											parentanchor = bottom
 											
-											item = {
-												container = {
-													#datacontext = "[CultureItemModifierItem.GetModifier]"
-													icon = {
-														texture = "[TimedModifier.GetModifier.GetIcon]"  
-														size = { 32 32 }
+											using = NoninteractableBG
+											blockoverride "Margins"
+											{
+												margin = { 0 0 }
+												margin_top = 3
+											}
+											
+											overlappingitembox = {
+												datamodel = "[CountryCultureItem.GetTemporaryModifiers]"
+												size = { 146 34 }
+												spacing = 1
+												position = { 0 2 }
+												
+												item = {
+													container = {
+														#datacontext = "[CultureItemModifierItem.GetModifier]"
+														icon = {
+															texture = "[TimedModifier.GetModifier.GetIcon]"  
+															size = { 32 32 }
+														}
+														
+														tooltip = "[TimedModifier.GetTooltip]"
 													}
-													
-													tooltip = "[TimedModifier.GetTooltip]"
 												}
 											}
-										}
-									}
-									
-									text_button_square_highlighted = {
-										parentanchor = bottom
-										position = { 186 -17 }
-										size = { 156 28 }
-										blockoverride "Center_text" 
-										{
-											text = "DECISIONS"
-										}
-										blockoverride "On_click"
-										{
-											onclick = "[CountryCultureItem.OnOpenCultureDecisionsView]"
-										}
-										tooltip = "OPEN_CULTURE_DECISIONS_VIEW_TT"
-
-									}
-									
-									icon_button_square = {
-										name = "Civic Rights Change"
-										size = { 36 36 }
-										parentanchor = bottom
-										position = { 381 -14 }
-										enabled ="[CountryCultureItem.CanChangeCivicRights]"
-										tooltip = "[CountryCultureItem.CanChangeCivicRightsTooltip]"
-										blockoverride "On_click"
-										{
-										onclick = "[CountryCultureItem.OnChangeCivicRight]"
-										}
-
-										blockoverride "Icon"
-										{
-											texture = "gfx/interface/icons/shared_icons/change.dds"
-											size = { 32 32 }
-										}
-									}
-									
-									icon_card = {
-										size = { 38 38 }
-										parentanchor = bottom
-										position = { 444 -13 }
-										blockoverride "Icon" { 
-											texture = "gfx/interface/icons/modifiers/levy.dds"
-											size = { 32 32 }
-										}
-										#tooltip = "[CountryCultureItem.GetCountryCulture.GetCulture.GetName]"
-										datacontext = "[CountryCultureItem.GetCountryCulture.GetCulture]" 
-										tooltipwidget = {  
-											using = culture_tooltip 
-										}
-									}
-									
-									icon_button_square = {
-										name = "select_on_map_button"
-										size = { 36 36 }
-										position = { -12 -14 }
-										parentanchor = bottom|right
-										tooltip = "TOGGLE_CULTURE_MAPMODE_TT"
-										blockoverride "On_click"
-										{
-											onclick = "[CountryCultureItem.SelectCultureForMapMode('culture')]"
-										}
-										blockoverride "Icon"
-										{
-											
-											icon = {
-												parentanchor = center
-												using = button_tiled_texture
-												framesize = { 200 200 }
-												frame = 2
-												#alpha = 0.8
-												size = { 40 32 }
-												modify_texture = {
-													texture = "gfx/interface/icons/minimap/culture.dds"
-													blend_mode = alphamultiply
-												}
-											}
-											### When active	
-											icon = {
-												name = "select_on_map_toggle_active"
-												visible = "[CountryCultureItem.IsSelectedCultureForMapMode]"
-												parentanchor = center
-												texture = "gfx/interface/base_parts/button_allframes.dds"
-												framesize = { 100 100 }
-												frame = 10
-												size = { 39 32 }
-												modify_texture = {
-													texture = "gfx/interface/icons/minimap/culture.dds"
-													blend_mode = alphamultiply
-												}
-											}
-										}
-									}	
-								}
-
-								category_drop = {
-									name = "collapse_culture_item_button"
-									size = { 100% 44 }
-								
-									#visible = 
-									onclick = "[CountryCultureItem.OnClick]"	
-									blockoverride "Down" { visible = "[CountryCultureItem.IsExpanded]" }
-									blockoverride "Right" { visible = "[Not( CountryCultureItem.IsExpanded )]" }
-									#glow = {
-									#	name = "normal_glow" #TODO
-									#	glow_radius = 8
-									#	color = {1.0 0.85 0.45 1.0}
-									#	visible = "[EqualTo_string( CountryCultureItem.GetCountryCulture.GetName, CultureView.GetPlayer.GetPrimaryCulture.GetName )]"
-									#}
-									
-									icon = {
-										parentanchor = vcenter
-										color = "[CountryCultureItem.GetCultureGroup.GetColor]"
-										texture = "gfx/interface/base_parts/pattern_square.dds"
-										size = { 18 18 }
-										position = { 8 0 }
-									}
-									
-									tag = {
-										text = "[CountryCultureItem.GetCountryCulture.GetName]"	
-										datacontext = "[CountryCultureItem.GetCountryCulture]"
-										tooltipwidget = country_culture_tooltip
-										position = { 36 7 }
-										max_width = 130
-										fontsize_min = 10
-									}
-									
-									flowcontainer = {
-										name = "Integration"
-										ignoreinvisible = yes
-										position = { 180 18 }
-										fixed_size_progressbar = {
-											size = { 120 9 }
-											blockoverride "Value" { value = "[CountryCultureItem.GetProgress]" }
-											tooltip = "[CountryCultureItem.GetIntegrationProgressTooltip]"
-											visible = "[CountryCultureItem.IsIntegrating]"
-											parentanchor = vcenter
-										}
-									}
-									margin_widget = {
-										name = "Integration icon"
-										size = { 40 30 }
-										position = { 240 0 }
-										parentanchor = vcenter
-										visible = "[Or(CountryCultureItem.IsIntegrated, EqualTo_string( CountryCultureItem.GetCountryCulture.GetName, CultureView.GetPlayer.GetPrimaryCulture.GetName ))]"
-										
-										tooltip = "INTEGRATED_TT"
-										icon = {
-											parentanchor = vcenter
-											size = { 26 26 }
-											texture = "gfx/interface/icons/integrated.dds"
-										}											
-									}
-									
-									margin_widget = {
-										name = "Cultural_Happiness"
-										size = { 60 30 }
-										parentanchor = vcenter
-										position = { 304 1 }
-										tooltip = "[CountryCultureItem.GetCultureHappinessTooltip]"
-										icon = {
-											parentanchor = vcenter
-											framesize = { 50 50 }
-											size = { 22 22 }
-											texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
-											frame = 1
 										}
 										
-										textbox = {
-											name = "culture_happiness"
-											autoresize = yes
-											position = { 24 1 }
-											multiline = no
-											using = BaseFontM
-											using = Black_FontColor
-											text = "[CountryCultureItem.GetCultureHappiness|%0]"
-											tooltip = "[CountryCultureItem.GetCultureHappinessTooltip]"
-											widgetanchor = top|left
-											align = left
-										}
-									}
-									
-									margin_widget = {
-										name = "Civic Rights"
-										size = { 76 30 }
-										parentanchor = vcenter
-										position = { 374 -5 }
-										icon = {
-											name = "pop_choice_icon"
-											parentanchor = vcenter
-											position = { 0 0 }
-											size = { 70 70 }
-											tooltip = "[CountryCultureItem.GetCivicRightsTooltip]"
-											texture = "gfx/interface/icons/pop_types/pop_type_selection.dds"
-											frame = "[CountryCultureItem.GetCivicRightsFrame]"
-											framesize = { 98 100 }
-										}
-									}
-									
-									margin_widget = {
-										position = { 464 0 }
-										size = { 46 30 }
-										parentanchor = vcenter
+										text_button_square_highlighted = {
+											parentanchor = bottom
+											position = { 186 -17 }
+											size = { 156 28 }
+											blockoverride "Center_text" 
+											{
+												text = "DECISIONS"
+											}
+											blockoverride "On_click"
+											{
+												onclick = "[CountryCultureItem.OnOpenCultureDecisionsView]"
+											}
+											tooltip = "OPEN_CULTURE_DECISIONS_VIEW_TT"
 
+										}
+										
+										icon_button_square = {
+											name = "Civic Rights Change"
+											size = { 36 36 }
+											parentanchor = bottom
+											position = { 381 -14 }
+											enabled ="[CountryCultureItem.CanChangeCivicRights]"
+											tooltip = "[CountryCultureItem.CanChangeCivicRightsTooltip]"
+											blockoverride "On_click"
+											{
+											onclick = "[CountryCultureItem.OnChangeCivicRight]"
+											}
+
+											blockoverride "Icon"
+											{
+												texture = "gfx/interface/icons/shared_icons/change.dds"
+												size = { 32 32 }
+											}
+										}
+										
+										icon_card = {
+											size = { 38 38 }
+											parentanchor = bottom
+											position = { 444 -13 }
+											blockoverride "Icon" { 
+												texture = "gfx/interface/icons/modifiers/levy.dds"
+												size = { 32 32 }
+											}
+											#tooltip = "[CountryCultureItem.GetCountryCulture.GetCulture.GetName]"
+											datacontext = "[CountryCultureItem.GetCountryCulture.GetCulture]" 
+											tooltipwidget = {  
+												using = culture_tooltip 
+											}
+										}
+										
+										icon_button_square = {
+											name = "select_on_map_button"
+											size = { 36 36 }
+											position = { -12 -14 }
+											parentanchor = bottom|right
+											tooltip = "TOGGLE_CULTURE_MAPMODE_TT"
+											blockoverride "On_click"
+											{
+												onclick = "[CountryCultureItem.SelectCultureForMapMode('culture')]"
+											}
+											blockoverride "Icon"
+											{
+												
+												icon = {
+													parentanchor = center
+													using = button_tiled_texture
+													framesize = { 200 200 }
+													frame = 2
+													#alpha = 0.8
+													size = { 40 32 }
+													modify_texture = {
+														texture = "gfx/interface/icons/minimap/culture.dds"
+														blend_mode = alphamultiply
+													}
+												}
+												### When active	
+												icon = {
+													name = "select_on_map_toggle_active"
+													visible = "[CountryCultureItem.IsSelectedCultureForMapMode]"
+													parentanchor = center
+													texture = "gfx/interface/base_parts/button_allframes.dds"
+													framesize = { 100 100 }
+													frame = 10
+													size = { 39 32 }
+													modify_texture = {
+														texture = "gfx/interface/icons/minimap/culture.dds"
+														blend_mode = alphamultiply
+													}
+												}
+											}
+										}	
+									}
+
+									category_drop = {
+										name = "collapse_culture_item_button"
+										size = { 100% 44 }
+									
+										#visible = 
+										onclick = "[CountryCultureItem.OnClick]"	
+										blockoverride "Down" { visible = "[CountryCultureItem.IsExpanded]" }
+										blockoverride "Right" { visible = "[Not( CountryCultureItem.IsExpanded )]" }
+										#glow = {
+										#	name = "normal_glow" #TODO
+										#	glow_radius = 8
+										#	color = {1.0 0.85 0.45 1.0}
+										#	visible = "[EqualTo_string( CountryCultureItem.GetCountryCulture.GetName, CultureView.GetPlayer.GetPrimaryCulture.GetName )]"
+										#}
+										
+										icon = {
+											parentanchor = vcenter
+											color = "[CountryCultureItem.GetCultureGroup.GetColor]"
+											texture = "gfx/interface/base_parts/pattern_square.dds"
+											size = { 18 18 }
+											position = { 8 0 }
+										}
+										
 										tag = {
-											text = "[CountryCultureItem.GetNumberOfPops]"
-											size = { 46 30 }
-											maximumsize = { 46 30 }  
-											parentanchor = hcenter
+											text = "[CountryCultureItem.GetCountryCulture.GetName]"	
+											datacontext = "[CountryCultureItem.GetCountryCulture]"
+											tooltipwidget = country_culture_tooltip
+											position = { 36 7 }
+											max_width = 130
+											fontsize_min = 10
 										}
-									}
-									
-									widget = {
-										size = { 34 34 }
-										parentanchor = right|vcenter
-										position = { -26 0 }
-										piechart = {
-											size = { 32 32 }
-											position = { 0 0 }
-											parentanchor = vcenter
-											datamodel = "[CountryCultureItem.AccessPopTypeBreakdown]"
-											#alwaystransparent = no
-											item = {
-												pieslice = {
-													#texture = "gfx/interface/piechart.dds"
-													texture = "gfx/interface/pie_charts/pie_chart_alpha_44_thick.dds"
-													tooltip = "[PopTypeItem.GetName]"
-													value = "[PopTypeItem.GetSize]"
-													color = "[PopTypeItem.GetColor]"
-													alpha = 0.9
-												}
-											}
-										}			
-									}
-									
-									state = {
-										trigger_on_create = yes
-							 
-										name = squeeze
-										next = expand
-										 
-										duration = 0.8
-										glow_radius = 6
-									}
-							 
-									state = {
-										name = expand
-										next = squeeze
 										
-										duration = 0.8
-										glow_radius = 16
+										flowcontainer = {
+											name = "Integration"
+											ignoreinvisible = yes
+											position = { 180 18 }
+											fixed_size_progressbar = {
+												size = { 120 9 }
+												blockoverride "Value" { value = "[CountryCultureItem.GetProgress]" }
+												tooltip = "[CountryCultureItem.GetIntegrationProgressTooltip]"
+												visible = "[CountryCultureItem.IsIntegrating]"
+												parentanchor = vcenter
+											}
+										}
+										margin_widget = {
+											name = "Integration icon"
+											size = { 40 30 }
+											position = { 240 0 }
+											parentanchor = vcenter
+											visible = "[Or(CountryCultureItem.IsIntegrated, EqualTo_string( CountryCultureItem.GetCountryCulture.GetName, CultureView.GetPlayer.GetPrimaryCulture.GetName ))]"
+											
+											tooltip = "INTEGRATED_TT"
+											icon = {
+												parentanchor = vcenter
+												size = { 26 26 }
+												texture = "gfx/interface/icons/integrated.dds"
+											}											
+										}
+										
+										margin_widget = {
+											name = "Cultural_Happiness"
+											size = { 60 30 }
+											parentanchor = vcenter
+											position = { 304 1 }
+											tooltip = "[CountryCultureItem.GetCultureHappinessTooltip]"
+											icon = {
+												parentanchor = vcenter
+												framesize = { 50 50 }
+												size = { 22 22 }
+												texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
+												frame = 1
+											}
+											
+											textbox = {
+												name = "culture_happiness"
+												autoresize = yes
+												position = { 24 1 }
+												multiline = no
+												using = BaseFontM
+												using = Black_FontColor
+												text = "[CountryCultureItem.GetCultureHappiness|%0]"
+												tooltip = "[CountryCultureItem.GetCultureHappinessTooltip]"
+												widgetanchor = top|left
+												align = left
+											}
+										}
+										
+										margin_widget = {
+											name = "Civic Rights"
+											size = { 76 30 }
+											parentanchor = vcenter
+											position = { 374 -5 }
+											icon = {
+												name = "pop_choice_icon"
+												parentanchor = vcenter
+												position = { 0 0 }
+												size = { 70 70 }
+												tooltip = "[CountryCultureItem.GetCivicRightsTooltip]"
+												texture = "gfx/interface/icons/pop_types/pop_type_selection.dds"
+												frame = "[CountryCultureItem.GetCivicRightsFrame]"
+												framesize = { 98 100 }
+											}
+										}
+										
+										margin_widget = {
+											position = { 464 0 }
+											size = { 46 30 }
+											parentanchor = vcenter
+
+											tag = {
+												text = "[CountryCultureItem.GetNumberOfPops]"
+												size = { 46 30 }
+												maximumsize = { 46 30 }  
+												parentanchor = hcenter
+											}
+										}
+										
+										widget = {
+											size = { 34 34 }
+											parentanchor = right|vcenter
+											position = { -26 0 }
+											piechart = {
+												size = { 32 32 }
+												position = { 0 0 }
+												parentanchor = vcenter
+												datamodel = "[CountryCultureItem.AccessPopTypeBreakdown]"
+												#alwaystransparent = no
+												item = {
+													pieslice = {
+														#texture = "gfx/interface/piechart.dds"
+														texture = "gfx/interface/pie_charts/pie_chart_alpha_44_thick.dds"
+														tooltip = "[PopTypeItem.GetName]"
+														value = "[PopTypeItem.GetSize]"
+														color = "[PopTypeItem.GetColor]"
+														alpha = 0.9
+													}
+												}
+											}			
+										}
+										
+										state = {
+											trigger_on_create = yes
+								 
+											name = squeeze
+											next = expand
+											 
+											duration = 0.8
+											glow_radius = 6
+										}
+								 
+										state = {
+											name = expand
+											next = squeeze
+											
+											duration = 0.8
+											glow_radius = 16
+										}
+										
 									}
-									
 								}
 							}
 						}
