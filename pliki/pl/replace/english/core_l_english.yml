@@ -193,7 +193,7 @@
  BASE_COLON_TO_PERC: "Podstawa: $VALUE|Y%$"
  WRONG_CULTURE_GROUP_HAPPYNESS: "\nNiezintegrowana obca kultura: $VALUE|+0%$"
  WRONG_CULTURE_HAPPYNESS: "\nNiezintegrowana kultura [CULTURE.GetCultureGroup.GetName|l]: $VALUE|+0%$"
- WRONG_RELIGION_HAPPINESS: ""
+ WRONG_RELIGION_HAPPINESS: "\nReligia inna niż państwowa: $VALUE|+0%$"
  WRONG_GOVERNOR_RELIGION_HAPPNESS: "\nGubernator wyznaje religię $RELIGION$: $VALUE|+0%$"
  PRIMARY_CULTURE_HAPPINESS: "Zintegrowana kultura: $VALUE|+0%$"
  DEITY_SAME_RELIGION_HAPPINESS: "\nBóstwo panteonu $DEITY|Y$: $VALUE|+1%$"

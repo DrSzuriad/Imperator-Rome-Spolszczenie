@@ -176,7 +176,7 @@
  BUY_INVENTION_NO:0 "#T $NAME$#!\n$CRITERIA$\nNie można przyjąć $NAME|Y$ z powodu:\n$WHY$\n\n$NAME|Y$ miałoby następujący efekt:\n$EFFECT$\n#TF $DESC$#!\n\n$ACTIVATE_EFFECT$"
  INVENTION_LEVEL_TOOLTIP:0 "#T Poziom wynalazku#!\nTen wynalazek jest dostępny po zbadaniu $VAL|Y$ poziomu $NAME|Y$."
  INVENTION_SPECIAL:0 "#T Specjalny wynalazek#!\n$SPECIAL$"
- CAN_ONLY_BUILD_IN_OWNED:0 "@trigger_no!Możesz wznosić budowle tylko w prowincjach, które posiadasz."
+ CAN_ONLY_BUILD_IN_OWNED:0 "@trigger_no!You can only build more buildings in provinces that you own or in certain subjects"
  CAN_ONLY_BUILD_IN_CONTROLLED:0 "@trigger_no!Możesz wznosić budowle tylko w prowincjach, które kontrolujesz."
  CAN_ONLY_BUILD_IF_ENOUGH_PPL:0 "@trigger_no!W $NAME$ jest za mało ludzi, aby wznieść kolejną budowlę."
  CAN_ONLY_BUILD_IF_MONEY:0 "\n@trigger_no!Potrzebujesz przynajmniej $COST|Y$ @gold!, aby zbudować $NAME$."

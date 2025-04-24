@@ -9,7 +9,7 @@
  OUTLINER_CATEGORY_DISLOYAL_ARMIES: "Nielojalne armie"
  OUTLINER_CATEGORY_FAVORITE_CHARACTERS: "Ulubione postacie"
  OUTLINER_CATEGORY_PLAYER_NAVIES_TOOLTIP: "To są floty, które masz pod bezpośrednią kontrolą."
- OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP: ""
+ OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP: "To są armie, nad którymi masz bezpośrednią kontrolę."
  OUTLINER_CATEGORY_AUTOMATED_NAVIES_TOOLTIP: "Te floty otrzymują rozkazy wydawane przez SI."
  OUTLINER_CATEGORY_AUTOMATED_ARMIES_TOOLTIP: "Te armie otrzymują rozkazy wydawane przez SI."
  OUTLINER_CATEGORY_PROVINCIAL_ARMIES_TOOLTIP: "Armie te są przypisane do prowincji i nie mogą jej opuścić."

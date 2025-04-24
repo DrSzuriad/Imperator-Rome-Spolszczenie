@@ -514,7 +514,7 @@
  got_fine_clothes: "ładne ubrania"
  got_wondrous_garments: "cudowne ubrania"
  got_offers_of_friendship: "obietnice wiecznej wierności"
- disloyalty_exclusive_marriage: "Ta opcja jest dostępna #Y tylko#! dlatego, ponieważ strona negocjująca jest nielojalna."
+ disloyalty_exclusive_marriage: "Ta opcja jest dostępna #Y tylko#! dlatego, że strona negocjująca jest nielojalna."
  unable_to_propose_to_for_5_years: "Nie będzie można zaoferować mariażu postaci #Y [SCOPE.sChar('love_target').GetPraenomen]#! przez następne #Y 5#! lat."
  royal_marriage.6.a: "Wspaniale! Zorganizujmy uroczystości!"
  royal_marriage.6.b: "Sprytnie. Mamy trochę złota do wydania."

@@ -17,7 +17,7 @@
  newline_tt: "\n"
  trial_monarchy_c_tt: "Ta opcja jest dostępna dzięki posiadaniu #Y monarchicznej#! formy rządu."
  trial.1.d: "Zdrada stanu!"
- trial_monarchy_target_is_pretender_tt: "Ta opcja jest #Y wyłączona#!, ponieważ #Y [SCOPE.sChar('target').GetName]#! jest pretendent[Select_CString( target.IsFemale, 'ką', 'em' )]."
+ trial_monarchy_target_is_pretender_tt: "Ta opcja jest dostępna #Y tylko#! dlatego, że #Y [SCOPE.sChar('target').GetName]#! jest pretendent[Select_CString( SCOPE.sChar('target').IsFemale, 'ką', 'em' )]."
  trial.1.e: "Nagle zmieniliśmy zdanie..."
  trial_ended_no_progress: "Obecny proces zostanie zakończony bez rozstrzygnięcia."
  trial.2.t: ""

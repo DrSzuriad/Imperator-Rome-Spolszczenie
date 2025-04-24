@@ -124,7 +124,7 @@
  roman_conquest_2.3.a: "Wyspa obronna na morzu wrogości."
  roman_conquest_2.3.b: "Wyślij naszych szkutników."
  roman_conquest_2.4.t: "Porządki na północy"
- roman_conquest_2.4.desc: "Dardańczycy od dawna są cierniem w boku wszystkich swoich sąsiadów, bez względu na to, kim byli. Chociaż zostali zniewoleni i poddani rządom [ROOT.GetCountry.GetAdjective], powinniśmy założyć lokalną kolonię, aby ucywilizować region i zapoznać lokalne plemiona z kulturą i tradycjami [ROOT.GetCountry.GetAdjective]."
+ roman_conquest_2.4.desc: "Dardanowie od dawna są cierniem w boku wszystkich swoich sąsiadów, bez względu na to, kim byli. Chociaż zostali zniewoleni i poddani rządom [ROOT.GetCountry.GetAdjective], powinniśmy założyć lokalną kolonię, aby ucywilizować region i zapoznać lokalne plemiona z kulturą i tradycjami [ROOT.GetCountry.GetAdjective]."
  roman_conquest_2.4.a: "[SCOPE.sP('province_one').GetName] znajduje się w idealnej lokacji między dziką północą a greckim południem."
  roman_conquest_2.4.b: "Przy granicy z macedońskimi ziemiami leży [SCOPE.sP('province_two').GetName]."
  roman_conquest_2.5.t: "Wybrzeże etolskie"
