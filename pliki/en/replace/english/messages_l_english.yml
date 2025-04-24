@@ -649,6 +649,7 @@
  DECLWAROTHER_BTN1: "OK"
  DECLWAROTHER_BTN2: "OK"
  DECLWAROTHER_BTN3: "Go to"
+ DECLWAROTHER_MAP: "WAR!"
  WEDECLWAR_SETUP: "When we declare war upon another nation"
  WEDECLWAR_HEADER: "$MESSENGER$"
  WEDECLWAR_1: "We declared war on"

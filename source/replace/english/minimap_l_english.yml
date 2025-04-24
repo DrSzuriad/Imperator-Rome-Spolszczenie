@@ -1,4 +1,6 @@
 ﻿l_english:
+ climate_MAPMODE:0 "Climate"
+ climate_MAPMODE_DESC:0 "#T Climate Mapmode#!\nThis will color each territory according to its #Y Climate Type#!."
  terrain_MAPMODE:0 "Terrain"
  terrain_MAPMODE_DESC:1 "#T Terrain Mapmode#!\nThis will present an aesthetic view of the map, with minimal political information."
  simple_terrain_MAPMODE:0 "Simple Terrain"

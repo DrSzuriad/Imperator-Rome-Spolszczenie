@@ -176,7 +176,7 @@
  BUY_INVENTION_NO:3 "#T $NAME$#!\n$CRITERIA$\nIt is not possible to adopt $NAME|Y$ due to:\n$WHY$\n\n$NAME|Y$ would have the following effect:\n$EFFECT$\n#TF $DESC$#!\n\n$ACTIVATE_EFFECT$"
  INVENTION_LEVEL_TOOLTIP:0 "#T Invention Level#!\nThis invention is enabled from researching $VAL|Y$ level of $NAME|Y$."
  INVENTION_SPECIAL:0 "#T Special Invention#!\n$SPECIAL$"
- CAN_ONLY_BUILD_IN_OWNED:2 "@trigger_no!You can only build more buildings in provinces that you own."
+ CAN_ONLY_BUILD_IN_OWNED:3 "@trigger_no!You can only build more buildings in provinces that you own or in certain subjects"
  CAN_ONLY_BUILD_IN_CONTROLLED:2 "@trigger_no!You can only build more buildings in provinces that you control."
  CAN_ONLY_BUILD_IF_ENOUGH_PPL:2 "@trigger_no!There are too few people in $NAME$ for another building."
  CAN_ONLY_BUILD_IF_MONEY:3 "\n@trigger_no!You need at least $COST|Y$ @gold! to build a $NAME$."
